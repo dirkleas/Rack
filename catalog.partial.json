@@ -78,12 +78,7 @@
           "author": "Core",
           "tags": [
             "External"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 8,
-          "outputCount": 8
+          ]
         },
         {
           "slug": "MIDIToCVInterface",
@@ -92,12 +87,7 @@
           "tags": [
             "MIDI",
             "External"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 12
+          ]
         },
         {
           "slug": "QuadMIDIToCVInterface",
@@ -107,12 +97,7 @@
             "MIDI",
             "External",
             "Quad"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 16
+          ]
         },
         {
           "slug": "MIDICCToCVInterface",
@@ -121,12 +106,7 @@
           "tags": [
             "MIDI",
             "External"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 16
+          ]
         },
         {
           "slug": "MIDITriggerToCVInterface",
@@ -135,12 +115,7 @@
           "tags": [
             "MIDI",
             "External"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 16
+          ]
         },
         {
           "slug": "Blank",
@@ -148,12 +123,7 @@
           "author": "Core",
           "tags": [
             "Blank"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "Notes",
@@ -161,12 +131,7 @@
           "author": "Core",
           "tags": [
             "Blank"
-          ],
-          "width": 240,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         }
       ]
     },
@@ -182,12 +147,7 @@
           "author": "Bogaudio",
           "tags": [
             "Oscillator/VCO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 6,
-          "inputCount": 4,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Bogaudio-XCO",
@@ -195,12 +155,7 @@
           "author": "Bogaudio",
           "tags": [
             "Oscillator/VCO"
-          ],
-          "width": 300,
-          "height": 380,
-          "paramCount": 17,
-          "inputCount": 16,
-          "outputCount": 5
+          ]
         },
         {
           "slug": "Bogaudio-Additator",
@@ -208,12 +163,7 @@
           "author": "Bogaudio",
           "tags": [
             "Oscillator/VCO"
-          ],
-          "width": 225,
-          "height": 380,
-          "paramCount": 11,
-          "inputCount": 10,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Bogaudio-FMOp",
@@ -222,12 +172,7 @@
           "tags": [
             "Oscillator/VCO",
             "Synth Voice"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 12,
-          "inputCount": 7,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Bogaudio-LFO",
@@ -235,12 +180,7 @@
           "author": "Bogaudio",
           "tags": [
             "LFO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 6,
-          "inputCount": 6,
-          "outputCount": 5
+          ]
         },
         {
           "slug": "Bogaudio-EightFO",
@@ -248,12 +188,7 @@
           "author": "Bogaudio",
           "tags": [
             "LFO"
-          ],
-          "width": 255,
-          "height": 380,
-          "paramCount": 14,
-          "inputCount": 13,
-          "outputCount": 8
+          ]
         },
         {
           "slug": "Bogaudio-DADSRH",
@@ -261,12 +196,7 @@
           "author": "Bogaudio",
           "tags": [
             "Envelope Generator"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 14,
-          "inputCount": 1,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "Bogaudio-DADSRHPlus",
@@ -274,23 +204,13 @@
           "author": "Bogaudio",
           "tags": [
             "Envelope Generator"
-          ],
-          "width": 225,
-          "height": 380,
-          "paramCount": 14,
-          "inputCount": 7,
-          "outputCount": 8
+          ]
         },
         {
           "slug": "Bogaudio-DGate",
           "name": "DGATE - trigger-to-gate with delay - 3HP",
           "author": "Bogaudio",
-          "tags": [],
-          "width": 45,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 1,
-          "outputCount": 2
+          "tags": []
         },
         {
           "slug": "Bogaudio-Shaper",
@@ -299,12 +219,7 @@
           "tags": [
             "Envelope Generator",
             "Amplifier/VCA"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 9,
-          "inputCount": 2,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Bogaudio-ShaperPlus",
@@ -313,12 +228,7 @@
           "tags": [
             "Envelope Generator",
             "Amplifier/VCA"
-          ],
-          "width": 225,
-          "height": 380,
-          "paramCount": 9,
-          "inputCount": 8,
-          "outputCount": 8
+          ]
         },
         {
           "slug": "Bogaudio-ADSR",
@@ -326,12 +236,7 @@
           "author": "Bogaudio",
           "tags": [
             "Envelope Generator"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 1,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Bogaudio-Follow",
@@ -339,12 +244,7 @@
           "author": "Bogaudio",
           "tags": [
             "Envelope Follower"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 3,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Bogaudio-Mix4",
@@ -353,12 +253,7 @@
           "tags": [
             "Mixer",
             "Panning"
-          ],
-          "width": 225,
-          "height": 380,
-          "paramCount": 13,
-          "inputCount": 13,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Bogaudio-Mix8",
@@ -367,12 +262,7 @@
           "tags": [
             "Mixer",
             "Panning"
-          ],
-          "width": 405,
-          "height": 380,
-          "paramCount": 25,
-          "inputCount": 25,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Bogaudio-VCM",
@@ -380,12 +270,7 @@
           "author": "Bogaudio",
           "tags": [
             "Mixer"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 6,
-          "inputCount": 9,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Bogaudio-Pan",
@@ -394,12 +279,7 @@
           "tags": [
             "Panning",
             "Dual/Stereo"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 4,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Bogaudio-XFade",
@@ -407,12 +287,7 @@
           "author": "Bogaudio",
           "tags": [
             "Mixer"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 3,
-          "inputCount": 3,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Bogaudio-VCA",
@@ -421,12 +296,7 @@
           "tags": [
             "Attenuator",
             "Dual/Stereo"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 3,
-          "inputCount": 4,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Bogaudio-VCAmp",
@@ -434,12 +304,7 @@
           "author": "Bogaudio",
           "tags": [
             "Amplifier/VCA"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 2,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Bogaudio-Analyzer",
@@ -447,12 +312,7 @@
           "author": "Bogaudio",
           "tags": [
             "Visual"
-          ],
-          "width": 300,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 4,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Bogaudio-VU",
@@ -461,12 +321,7 @@
           "tags": [
             "Visual",
             "Dual/Stereo"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 2,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Bogaudio-Detune",
@@ -474,12 +329,7 @@
           "author": "Bogaudio",
           "tags": [
             "Tuner"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 2,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "Bogaudio-Stack",
@@ -487,12 +337,7 @@
           "author": "Bogaudio",
           "tags": [
             "Tuner"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 2,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Bogaudio-Reftone",
@@ -500,12 +345,7 @@
           "author": "Bogaudio",
           "tags": [
             "Tuner"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 3,
-          "inputCount": 0,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Bogaudio-Bool",
@@ -513,12 +353,7 @@
           "author": "Bogaudio",
           "tags": [
             "Logic"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 3,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Bogaudio-CVD",
@@ -526,12 +361,7 @@
           "author": "Bogaudio",
           "tags": [
             "Delay"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 3,
-          "inputCount": 3,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Bogaudio-FlipFlop",
@@ -540,23 +370,13 @@
           "tags": [
             "Logic",
             "Dual/Stereo"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 4,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Bogaudio-Manual",
           "name": "MANUAL - manual gates/triggers - 3HP",
           "author": "Bogaudio",
-          "tags": [],
-          "width": 45,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 0,
-          "outputCount": 8
+          "tags": []
         },
         {
           "slug": "Bogaudio-Mult",
@@ -564,12 +384,7 @@
           "author": "Bogaudio",
           "tags": [
             "Multiple"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 2,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "Bogaudio-Noise",
@@ -578,12 +393,7 @@
           "tags": [
             "Noise",
             "Random"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 1,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "Bogaudio-Offset",
@@ -591,12 +401,7 @@
           "author": "Bogaudio",
           "tags": [
             "Attenuator"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 3,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Bogaudio-SampleHold",
@@ -605,12 +410,7 @@
           "tags": [
             "Sample and Hold",
             "Dual/Stereo"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 4,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Bogaudio-Sums",
@@ -618,12 +418,7 @@
           "author": "Bogaudio",
           "tags": [
             "Logic"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 3,
-          "outputCount": 5
+          ]
         },
         {
           "slug": "Bogaudio-Switch",
@@ -631,12 +426,7 @@
           "author": "Bogaudio",
           "tags": [
             "Switch"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 5,
-          "outputCount": 2
+          ]
         }
       ]
     },
@@ -653,12 +443,7 @@
           "tags": [
             "Effect",
             "Ring Modulator"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 2,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "squinkylabs-vocalanimator",
@@ -669,12 +454,7 @@
             "Filter/VCF",
             "LFO",
             "Random"
-          ],
-          "width": 210,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 5,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "squinkylabs-vocalfilter",
@@ -683,12 +463,7 @@
           "tags": [
             "Effect",
             "Filter/VCF"
-          ],
-          "width": 180,
-          "height": 380,
-          "paramCount": 9,
-          "inputCount": 5,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "squinkylabs-coloredNoise",
@@ -696,12 +471,7 @@
           "author": "Squinky Labs",
           "tags": [
             "Noise"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 1,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "squinkylabs-tremolo",
@@ -710,12 +480,7 @@
           "tags": [
             "Effect",
             "LFO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 6,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "squinkylabs-booster",
@@ -723,12 +488,7 @@
           "author": "Squinky Labs",
           "tags": [
             "Utility"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         }
       ]
     },
@@ -744,12 +504,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "LFO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 4,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "BPMLFO2",
@@ -757,12 +512,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "LFO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 5,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "DamianLillard",
@@ -770,12 +520,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "Filter/VCF"
-          ],
-          "width": 165,
-          "height": 380,
-          "paramCount": 6,
-          "inputCount": 8,
-          "outputCount": 5
+          ]
         },
         {
           "slug": "EverlastingGlottalStopper",
@@ -783,12 +528,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "Filter/VCF"
-          ],
-          "width": 165,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 5,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "HairPick",
@@ -796,12 +536,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "Filter/VCF"
-          ],
-          "width": 210,
-          "height": 380,
-          "paramCount": 9,
-          "inputCount": 13,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "LissajousLFO",
@@ -809,12 +544,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "LFO"
-          ],
-          "width": 195,
-          "height": 380,
-          "paramCount": 6,
-          "inputCount": 6,
-          "outputCount": 5
+          ]
         },
         {
           "slug": "MrBlueSky",
@@ -822,12 +552,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "Effect"
-          ],
-          "width": 585,
-          "height": 380,
-          "paramCount": 29,
-          "inputCount": 25,
-          "outputCount": 17
+          ]
         },
         {
           "slug": "TheOneRingModulator",
@@ -835,12 +560,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "Ring Modulator"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 7,
-          "inputCount": 5,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "PhasedLockedLoop",
@@ -848,12 +568,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "Oscillator/VCO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 5,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "PortlandWeather",
@@ -861,12 +576,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "Delay"
-          ],
-          "width": 855,
-          "height": 760,
-          "paramCount": 163,
-          "inputCount": 150,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "QuadEuclideanRhythm",
@@ -874,12 +584,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "Sequencer"
-          ],
-          "width": 390,
-          "height": 380,
-          "paramCount": 26,
-          "inputCount": 31,
-          "outputCount": 12
+          ]
         },
         {
           "slug": "QuadGolombRulerRhythm",
@@ -887,12 +592,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "Sequencer"
-          ],
-          "width": 435,
-          "height": 380,
-          "paramCount": 26,
-          "inputCount": 31,
-          "outputCount": 12
+          ]
         },
         {
           "slug": "QuantussyCell",
@@ -900,12 +600,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "Logic"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 3,
-          "outputCount": 5
+          ]
         },
         {
           "slug": "RouletteLFO",
@@ -913,12 +608,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "LFO"
-          ],
-          "width": 195,
-          "height": 380,
-          "paramCount": 6,
-          "inputCount": 4,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "SeriouslySlowLFO",
@@ -926,12 +616,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "LFO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 3,
-          "inputCount": 2,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "VoxInhumana",
@@ -939,12 +624,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "Filter/VCF"
-          ],
-          "width": 210,
-          "height": 380,
-          "paramCount": 30,
-          "inputCount": 16,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "CDCSeriouslySlowLFO",
@@ -952,12 +632,7 @@
           "author": "Frozen Wasteland",
           "tags": [
             "LFO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 3,
-          "inputCount": 2,
-          "outputCount": 4
+          ]
         }
       ]
     },
@@ -973,12 +648,7 @@
           "author": "Impromptu Modular",
           "tags": [
             "Controller"
-          ],
-          "width": 255,
-          "height": 380,
-          "paramCount": 11,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Twelve-Key",
@@ -986,12 +656,7 @@
           "author": "Impromptu Modular",
           "tags": [
             "Controller"
-          ],
-          "width": 300,
-          "height": 380,
-          "paramCount": 14,
-          "inputCount": 3,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "Clocked",
@@ -999,12 +664,7 @@
           "author": "Impromptu Modular",
           "tags": [
             "Clock"
-          ],
-          "width": 300,
-          "height": 380,
-          "paramCount": 17,
-          "inputCount": 9,
-          "outputCount": 7
+          ]
         },
         {
           "slug": "Phrase-Seq-16",
@@ -1012,12 +672,7 @@
           "author": "Impromptu Modular",
           "tags": [
             "Sequencer"
-          ],
-          "width": 450,
-          "height": 380,
-          "paramCount": 40,
-          "inputCount": 13,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "Phrase-Seq-32",
@@ -1025,12 +680,7 @@
           "author": "Impromptu Modular",
           "tags": [
             "Sequencer"
-          ],
-          "width": 480,
-          "height": 380,
-          "paramCount": 70,
-          "inputCount": 13,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "Gate-Seq-64",
@@ -1038,12 +688,7 @@
           "author": "Impromptu Modular",
           "tags": [
             "Sequencer"
-          ],
-          "width": 360,
-          "height": 380,
-          "paramCount": 73,
-          "inputCount": 9,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Write-Seq-32",
@@ -1051,12 +696,7 @@
           "author": "Impromptu Modular",
           "tags": [
             "Sequencer"
-          ],
-          "width": 405,
-          "height": 380,
-          "paramCount": 25,
-          "inputCount": 8,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "Write-Seq-64",
@@ -1064,12 +704,7 @@
           "author": "Impromptu Modular",
           "tags": [
             "Sequencer"
-          ],
-          "width": 405,
-          "height": 380,
-          "paramCount": 16,
-          "inputCount": 9,
-          "outputCount": 8
+          ]
         },
         {
           "slug": "Semi-Modular Synth",
@@ -1078,12 +713,7 @@
           "tags": [
             "Sequencer",
             "Oscillator/VCO"
-          ],
-          "width": 840,
-          "height": 380,
-          "paramCount": 61,
-          "inputCount": 20,
-          "outputCount": 14
+          ]
         },
         {
           "slug": "Blank-Panel",
@@ -1091,12 +721,7 @@
           "author": "Impromptu Modular",
           "tags": [
             "Blank"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         }
       ]
     },
@@ -1112,12 +737,7 @@
           "author": "Valley",
           "tags": [
             "Sequencer"
-          ],
-          "width": 240,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 10,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "uGraph",
@@ -1125,12 +745,7 @@
           "author": "Valley",
           "tags": [
             "Sequencer"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 10,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "Dexter",
@@ -1138,12 +753,7 @@
           "author": "Valley",
           "tags": [
             "Oscillator/VCO"
-          ],
-          "width": 690,
-          "height": 380,
-          "paramCount": 135,
-          "inputCount": 57,
-          "outputCount": 7
+          ]
         },
         {
           "slug": "Plateau",
@@ -1151,12 +761,7 @@
           "author": "Valley",
           "tags": [
             "Reverb"
-          ],
-          "width": 180,
-          "height": 380,
-          "paramCount": 30,
-          "inputCount": 16,
-          "outputCount": 2
+          ]
         }
       ]
     },
@@ -1173,12 +778,7 @@
           "tags": [
             "Clock",
             "Quad"
-          ],
-          "width": 270,
-          "height": 380,
-          "paramCount": 6,
-          "inputCount": 5,
-          "outputCount": 33
+          ]
         },
         {
           "slug": "Seq_3ch_16step",
@@ -1187,12 +787,7 @@
           "tags": [
             "Sequencer",
             "Multiple"
-          ],
-          "width": 345,
-          "height": 380,
-          "paramCount": 184,
-          "inputCount": 6,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "Seq_6ch_32step",
@@ -1201,12 +796,7 @@
           "tags": [
             "Sequencer",
             "Multiple"
-          ],
-          "width": 615,
-          "height": 380,
-          "paramCount": 30,
-          "inputCount": 14,
-          "outputCount": 18
+          ]
         },
         {
           "slug": "TriadSeq2",
@@ -1215,12 +805,7 @@
           "tags": [
             "Sequencer",
             "Multiple"
-          ],
-          "width": 375,
-          "height": 380,
-          "paramCount": 3,
-          "inputCount": 11,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "SEQ_Envelope_8",
@@ -1229,12 +814,7 @@
           "tags": [
             "Envelope Generator",
             "Multiple"
-          ],
-          "width": 540,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 21,
-          "outputCount": 9
+          ]
         },
         {
           "slug": "Maude221",
@@ -1244,12 +824,7 @@
             "Waveshaper",
             "Utility",
             "Multiple"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 7,
-          "inputCount": 4,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "ARP700",
@@ -1257,12 +832,7 @@
           "author": "mscHack",
           "tags": [
             "Sequencer"
-          ],
-          "width": 405,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 4,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "SynthDrums",
@@ -1271,12 +841,7 @@
           "tags": [
             "Drum",
             "Multiple"
-          ],
-          "width": 165,
-          "height": 380,
-          "paramCount": 9,
-          "inputCount": 9,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "XFade",
@@ -1285,12 +850,7 @@
           "tags": [
             "Mixer",
             "Multiple"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 13,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "Mix_1x4_Stereo",
@@ -1302,12 +862,7 @@
             "Panning",
             "Amplifier/VCA",
             "Multiple"
-          ],
-          "width": 240,
-          "height": 380,
-          "paramCount": 30,
-          "inputCount": 16,
-          "outputCount": 10
+          ]
         },
         {
           "slug": "Mix_2x4_Stereo",
@@ -1320,12 +875,7 @@
             "Panning",
             "Amplifier/VCA",
             "Multiple"
-          ],
-          "width": 405,
-          "height": 380,
-          "paramCount": 57,
-          "inputCount": 32,
-          "outputCount": 10
+          ]
         },
         {
           "slug": "Mix_4x4_Stereo(2)",
@@ -1338,12 +888,7 @@
             "Panning",
             "Amplifier/VCA",
             "Multiple"
-          ],
-          "width": 705,
-          "height": 380,
-          "paramCount": 109,
-          "inputCount": 64,
-          "outputCount": 10
+          ]
         },
         {
           "slug": "Mix_9_3_4",
@@ -1355,12 +900,7 @@
             "Panning",
             "Amplifier/VCA",
             "Multiple"
-          ],
-          "width": 495,
-          "height": 380,
-          "paramCount": 133,
-          "inputCount": 52,
-          "outputCount": 16
+          ]
         },
         {
           "slug": "Mix_16_4_4",
@@ -1372,12 +912,7 @@
             "Panning",
             "Amplifier/VCA",
             "Multiple"
-          ],
-          "width": 675,
-          "height": 380,
-          "paramCount": 205,
-          "inputCount": 82,
-          "outputCount": 18
+          ]
         },
         {
           "slug": "Mix_24_4_4",
@@ -1389,12 +924,7 @@
             "Panning",
             "Amplifier/VCA",
             "Multiple"
-          ],
-          "width": 855,
-          "height": 380,
-          "paramCount": 277,
-          "inputCount": 114,
-          "outputCount": 18
+          ]
         },
         {
           "slug": "StepDelay",
@@ -1403,12 +933,7 @@
           "tags": [
             "Delay",
             "Panning"
-          ],
-          "width": 210,
-          "height": 380,
-          "paramCount": 20,
-          "inputCount": 4,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "PingPong_Widget",
@@ -1417,12 +942,7 @@
           "tags": [
             "Delay",
             "Panning"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 4,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Osc_3Ch_Widget",
@@ -1432,12 +952,7 @@
             "Synth Voice",
             "Oscillator/VCO",
             "Multiple"
-          ],
-          "width": 315,
-          "height": 380,
-          "paramCount": 30,
-          "inputCount": 15,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "OSC_WaveMorph_3",
@@ -1446,12 +961,7 @@
           "tags": [
             "Oscillator/VCO",
             "Multiple"
-          ],
-          "width": 240,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 6,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Dronez",
@@ -1460,12 +970,7 @@
           "tags": [
             "Oscillator/VCO",
             "Multiple"
-          ],
-          "width": 75,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 2,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Morze",
@@ -1474,12 +979,7 @@
           "tags": [
             "Sequencer",
             "Utility"
-          ],
-          "width": 75,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 1,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Alienz",
@@ -1488,12 +988,7 @@
           "tags": [
             "Oscillator/VCO",
             "Multiple"
-          ],
-          "width": 75,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 2,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Compressor1",
@@ -1501,12 +996,7 @@
           "author": "mscHack",
           "tags": [
             "Dynamics"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 7,
-          "inputCount": 3,
-          "outputCount": 2
+          ]
         }
       ]
     },
@@ -1522,12 +1012,7 @@
           "author": "cf",
           "tags": [
             "Sequencer"
-          ],
-          "width": 330,
-          "height": 380,
-          "paramCount": 22,
-          "inputCount": 22,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "LEDSEQ",
@@ -1535,12 +1020,7 @@
           "author": "cf",
           "tags": [
             "Sequencer"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 81,
-          "inputCount": 2,
-          "outputCount": 5
+          ]
         },
         {
           "slug": "L3DS3Q",
@@ -1548,12 +1028,7 @@
           "author": "cf",
           "tags": [
             "Sequencer"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 81,
-          "inputCount": 2,
-          "outputCount": 5
+          ]
         },
         {
           "slug": "SLIDERSEQ",
@@ -1561,12 +1036,7 @@
           "author": "cf",
           "tags": [
             "Sequencer"
-          ],
-          "width": 135,
-          "height": 380,
-          "paramCount": 17,
-          "inputCount": 2,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "PLAYER",
@@ -1574,12 +1044,7 @@
           "author": "cf",
           "tags": [
             "Sampler"
-          ],
-          "width": 135,
-          "height": 380,
-          "paramCount": 7,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "STEPS",
@@ -1587,12 +1052,7 @@
           "author": "cf",
           "tags": [
             "Utility"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 2,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "METRO",
@@ -1600,12 +1060,7 @@
           "author": "cf",
           "tags": [
             "Clock"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 2,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "EACH",
@@ -1613,12 +1068,7 @@
           "author": "cf",
           "tags": [
             "Clock"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 3,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "FOUR",
@@ -1626,12 +1076,7 @@
           "author": "cf",
           "tags": [
             "Utility"
-          ],
-          "width": 135,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 12,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "PEAK",
@@ -1639,12 +1084,7 @@
           "author": "cf",
           "tags": [
             "Limiter"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 1,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "MONO",
@@ -1652,12 +1092,7 @@
           "author": "cf",
           "tags": [
             "Mixer"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 8,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "STEREO",
@@ -1665,12 +1100,7 @@
           "author": "cf",
           "tags": [
             "Mixer"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 9,
-          "outputCount": 5
+          ]
         },
         {
           "slug": "MASTER",
@@ -1678,12 +1108,7 @@
           "author": "cf",
           "tags": [
             "Mixer"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 2,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "SUB",
@@ -1691,12 +1116,7 @@
           "author": "cf",
           "tags": [
             "Mixer"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 3,
-          "inputCount": 6,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "CUBE",
@@ -1704,12 +1124,7 @@
           "author": "cf",
           "tags": [
             "LFO"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 2,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "PATCH",
@@ -1717,12 +1132,7 @@
           "author": "cf",
           "tags": [
             "Utility"
-          ],
-          "width": 135,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 13,
-          "outputCount": 13
+          ]
         },
         {
           "slug": "LEDS",
@@ -1730,12 +1140,7 @@
           "author": "cf",
           "tags": [
             "Visual"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 100,
-          "inputCount": 2,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "DAVE",
@@ -1743,12 +1148,7 @@
           "author": "cf",
           "tags": [
             "Blank"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         }
       ]
     },
@@ -1766,12 +1166,7 @@
             "Distortion",
             "Waveshaper",
             "Effect"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Caudal",
@@ -1781,12 +1176,7 @@
             "Random",
             "LFO",
             "Noise"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 6,
-          "outputCount": 12
+          ]
         },
         {
           "slug": "Flame",
@@ -1796,12 +1186,7 @@
             "Distortion",
             "Waveshaper",
             "Effect"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 9,
-          "inputCount": 5,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Ferox",
@@ -1809,12 +1194,7 @@
           "author": "Vult",
           "tags": [
             "Filter/VCF"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 5,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Flux",
@@ -1827,12 +1207,7 @@
             "Sample and Hold",
             "Slew Limiter",
             "Utility"
-          ],
-          "width": 300,
-          "height": 380,
-          "paramCount": 32,
-          "inputCount": 15,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "HyperPower",
@@ -1840,12 +1215,7 @@
           "author": "Vult",
           "tags": [
             "Utility"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 0,
-          "outputCount": 5
+          ]
         },
         {
           "slug": "Julste",
@@ -1854,12 +1224,7 @@
           "tags": [
             "Low Pass Gate",
             "Amplifier/VCA"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 9,
-          "inputCount": 6,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Lateralus",
@@ -1868,12 +1233,7 @@
           "tags": [
             "Filter/VCF",
             "Oscillator/VCO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 7,
-          "inputCount": 4,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Nopskate",
@@ -1882,12 +1242,7 @@
           "tags": [
             "Waveshaper",
             "Effect"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Noxious",
@@ -1895,12 +1250,7 @@
           "author": "Vult",
           "tags": [
             "Oscillator/VCO"
-          ],
-          "width": 300,
-          "height": 380,
-          "paramCount": 33,
-          "inputCount": 9,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Noxious-Poly",
@@ -1909,12 +1259,7 @@
           "tags": [
             "Oscillator/VCO",
             "Quad"
-          ],
-          "width": 360,
-          "height": 380,
-          "paramCount": 39,
-          "inputCount": 15,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Rescomb",
@@ -1923,12 +1268,7 @@
           "tags": [
             "Filter/VCF",
             "Effect"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 4,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Slap",
@@ -1937,12 +1277,7 @@
           "tags": [
             "Envelope Generator",
             "Amplifier/VCA"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 9,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Spank",
@@ -1951,12 +1286,7 @@
           "tags": [
             "Envelope Generator",
             "Amplifier/VCA"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 7,
-          "inputCount": 5,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Splie",
@@ -1965,12 +1295,7 @@
           "tags": [
             "Multiple",
             "Utility"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 2,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "Stabile",
@@ -1978,12 +1303,7 @@
           "author": "Vult",
           "tags": [
             "Filter/VCF"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 6,
-          "inputCount": 4,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Tangents",
@@ -1992,12 +1312,7 @@
           "tags": [
             "Filter/VCF",
             "Oscillator/VCO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 7,
-          "inputCount": 6,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Tohe",
@@ -2006,12 +1321,7 @@
           "tags": [
             "Filter/VCF",
             "Equalizer"
-          ],
-          "width": 60,
-          "height": 380,
-          "paramCount": 3,
-          "inputCount": 3,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Trummor",
@@ -2021,12 +1331,7 @@
             "Drum",
             "Envelope Generator",
             "Noise"
-          ],
-          "width": 300,
-          "height": 380,
-          "paramCount": 21,
-          "inputCount": 5,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Trummor2",
@@ -2036,12 +1341,7 @@
             "Drum",
             "Envelope Generator",
             "Noise"
-          ],
-          "width": 300,
-          "height": 380,
-          "paramCount": 32,
-          "inputCount": 9,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "Unstabile",
@@ -2049,12 +1349,7 @@
           "author": "Vult",
           "tags": [
             "Filter/VCF"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 5,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Vessek",
@@ -2062,12 +1357,7 @@
           "author": "Vult",
           "tags": [
             "Oscillator/VCO"
-          ],
-          "width": 300,
-          "height": 380,
-          "paramCount": 32,
-          "inputCount": 9,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "Vortex",
@@ -2075,12 +1365,7 @@
           "author": "Vult",
           "tags": [
             "Filter/VCF"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 7,
-          "inputCount": 4,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "UtilKnobs",
@@ -2091,12 +1376,7 @@
             "Attenuator",
             "Mixer",
             "Dual/Stereo"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 12,
-          "inputCount": 8,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "UtilSend",
@@ -2104,12 +1384,7 @@
           "author": "Vult",
           "tags": [
             "Utility"
-          ],
-          "width": 60,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 5,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "UtilBypass",
@@ -2117,12 +1392,7 @@
           "author": "Vult",
           "tags": [
             "Utility"
-          ],
-          "width": 60,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 5,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "BlackPanelSmall",
@@ -2130,12 +1400,7 @@
           "author": "Vult",
           "tags": [
             "Blank"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "BlackPanel",
@@ -2143,12 +1408,7 @@
           "author": "Vult",
           "tags": [
             "Blank"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "BlackPanelBig",
@@ -2156,12 +1416,7 @@
           "author": "Vult",
           "tags": [
             "Blank"
-          ],
-          "width": 180,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "Version",
@@ -2169,12 +1424,7 @@
           "author": "Vult",
           "tags": [
             "Blank"
-          ],
-          "width": 180,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         }
       ]
     },
@@ -2191,12 +1441,7 @@
           "tags": [
             "Filter/VCF",
             "Visual"
-          ],
-          "width": 570,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 28,
-          "outputCount": 2
+          ]
         }
       ]
     },
@@ -2212,12 +1457,7 @@
           "author": "VCV",
           "tags": [
             "Utility"
-          ],
-          "width": 615,
-          "height": 380,
-          "paramCount": 13,
-          "inputCount": 43,
-          "outputCount": 16
+          ]
         },
         {
           "slug": "Router1_4",
@@ -2225,12 +1465,7 @@
           "author": "VCV",
           "tags": [
             "Utility"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 11,
-          "outputCount": 8
+          ]
         },
         {
           "slug": "Router4_1",
@@ -2238,12 +1473,7 @@
           "author": "VCV",
           "tags": [
             "Utility"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 14,
-          "outputCount": 5
+          ]
         }
       ]
     },
@@ -2259,12 +1489,7 @@
           "author": "Fundamental",
           "tags": [
             "Oscillator/VCO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 7,
-          "inputCount": 4,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "VCO2",
@@ -2272,12 +1497,7 @@
           "author": "Fundamental",
           "tags": [
             "Oscillator/VCO"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 3,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "VCF",
@@ -2285,12 +1505,7 @@
           "author": "Fundamental",
           "tags": [
             "Filter/VCF"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 4,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "VCA",
@@ -2299,12 +1514,7 @@
           "tags": [
             "Amplifier/VCA",
             "Dual/Stereo"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "LFO",
@@ -2312,12 +1522,7 @@
           "author": "Fundamental",
           "tags": [
             "LFO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 7,
-          "inputCount": 4,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "LFO2",
@@ -2325,12 +1530,7 @@
           "author": "Fundamental",
           "tags": [
             "LFO"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 3,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Delay",
@@ -2338,12 +1538,7 @@
           "author": "Fundamental",
           "tags": [
             "Delay"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 5,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "ADSR",
@@ -2351,12 +1546,7 @@
           "author": "Fundamental",
           "tags": [
             "Envelope Generator"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 6,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "VCMixer",
@@ -2365,12 +1555,7 @@
           "tags": [
             "Mixer",
             "Amplifier/VCA"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 9,
-          "outputCount": 5
+          ]
         },
         {
           "slug": "8vert",
@@ -2378,12 +1563,7 @@
           "author": "Fundamental",
           "tags": [
             "Attenuator"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 8,
-          "outputCount": 8
+          ]
         },
         {
           "slug": "Unity",
@@ -2393,12 +1573,7 @@
             "Mixer",
             "Utility",
             "Dual/Stereo"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 12,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Mutes",
@@ -2406,12 +1581,7 @@
           "author": "Fundamental",
           "tags": [
             "Switch"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 10,
-          "outputCount": 10
+          ]
         },
         {
           "slug": "Scope",
@@ -2419,12 +1589,7 @@
           "author": "Fundamental",
           "tags": [
             "Visual"
-          ],
-          "width": 195,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 3,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "SEQ3",
@@ -2432,12 +1597,7 @@
           "author": "Fundamental",
           "tags": [
             "Sequencer"
-          ],
-          "width": 330,
-          "height": 380,
-          "paramCount": 36,
-          "inputCount": 4,
-          "outputCount": 12
+          ]
         },
         {
           "slug": "SequentialSwitch1",
@@ -2445,12 +1605,7 @@
           "author": "Fundamental",
           "tags": [
             "Utility"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 3,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "SequentialSwitch2",
@@ -2458,12 +1613,7 @@
           "author": "Fundamental",
           "tags": [
             "Utility"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 6,
-          "outputCount": 1
+          ]
         }
       ]
     },
@@ -2480,12 +1630,7 @@
           "tags": [
             "Switch",
             "Utility"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 5,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "MomentaryOnButtons",
@@ -2493,12 +1638,7 @@
           "author": "Alikins",
           "tags": [
             "Utility"
-          ],
-          "width": 60,
-          "height": 380,
-          "paramCount": 13,
-          "inputCount": 0,
-          "outputCount": 13
+          ]
         },
         {
           "slug": "BigMuteButton",
@@ -2506,12 +1646,7 @@
           "author": "Alikins",
           "tags": [
             "Utility"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 2,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "ColorPanel",
@@ -2519,12 +1654,7 @@
           "author": "Alikins",
           "tags": [
             "Visual"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 3,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "GateLength",
@@ -2532,12 +1662,7 @@
           "author": "Alikins",
           "tags": [
             "Utility"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 10,
-          "outputCount": 5
+          ]
         },
         {
           "slug": "SpecificValue",
@@ -2545,12 +1670,7 @@
           "author": "Alikins",
           "tags": [
             "Utility"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 1,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "Reference",
@@ -2558,12 +1678,7 @@
           "author": "Alikins",
           "tags": [
             "Utility"
-          ],
-          "width": 30,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 7
+          ]
         }
       ]
     },
@@ -2579,12 +1694,7 @@
           "author": "VCV",
           "tags": [
             "Sequencer"
-          ],
-          "width": 690,
-          "height": 380,
-          "paramCount": 139,
-          "inputCount": 59,
-          "outputCount": 24
+          ]
         },
         {
           "slug": "PulseMatrix8",
@@ -2592,12 +1702,7 @@
           "author": "VCV",
           "tags": [
             "Sequencer"
-          ],
-          "width": 450,
-          "height": 380,
-          "paramCount": 75,
-          "inputCount": 51,
-          "outputCount": 16
+          ]
         }
       ]
     },
@@ -2613,12 +1718,7 @@
           "author": "AS",
           "tags": [
             "Oscillator/VCO"
-          ],
-          "width": 60,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 1,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "SawOSC",
@@ -2626,12 +1726,7 @@
           "author": "AS",
           "tags": [
             "Oscillator/VCO"
-          ],
-          "width": 60,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 2,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "ADSR",
@@ -2639,12 +1734,7 @@
           "author": "AS",
           "tags": [
             "Envelope Generator"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 6,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "VCA",
@@ -2652,12 +1742,7 @@
           "author": "AS",
           "tags": [
             "Amplifier/VCA"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 4,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "QuadVCA",
@@ -2666,12 +1751,7 @@
           "tags": [
             "Amplifier/VCA",
             "Mixer"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 8,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "TriLFO",
@@ -2679,12 +1759,7 @@
           "author": "AS",
           "tags": [
             "LFO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 9,
-          "inputCount": 3,
-          "outputCount": 12
+          ]
         },
         {
           "slug": "AtNuVrTr",
@@ -2693,12 +1768,7 @@
           "tags": [
             "Attenuator",
             "Dual/Stereo"
-          ],
-          "width": 75,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "BPMClock",
@@ -2706,12 +1776,7 @@
           "author": "AS",
           "tags": [
             "Clock"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 6,
-          "inputCount": 2,
-          "outputCount": 6
+          ]
         },
         {
           "slug": "SEQ16",
@@ -2719,12 +1784,7 @@
           "author": "AS",
           "tags": [
             "Sequencer"
-          ],
-          "width": 660,
-          "height": 380,
-          "paramCount": 72,
-          "inputCount": 4,
-          "outputCount": 20
+          ]
         },
         {
           "slug": "Mixer8ch",
@@ -2733,12 +1793,7 @@
           "tags": [
             "Mixer",
             "Amplifier/VCA"
-          ],
-          "width": 390,
-          "height": 380,
-          "paramCount": 26,
-          "inputCount": 27,
-          "outputCount": 10
+          ]
         },
         {
           "slug": "MonoVUmeter",
@@ -2747,12 +1802,7 @@
           "tags": [
             "Visual",
             "Utility"
-          ],
-          "width": 30,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 1,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "StereoVUmeter",
@@ -2761,12 +1811,7 @@
           "tags": [
             "Visual",
             "Utility"
-          ],
-          "width": 60,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 2,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Steps",
@@ -2776,12 +1821,7 @@
             "Switch",
             "Sequencer",
             "Utility"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 6,
-          "inputCount": 6,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "LaunchGate",
@@ -2792,12 +1832,7 @@
             "Sequencer",
             "Utility",
             "Delay"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "KillGate",
@@ -2808,12 +1843,7 @@
             "Sequencer",
             "Utility",
             "Delay"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Flow",
@@ -2822,12 +1852,7 @@
           "tags": [
             "Switch",
             "Utility"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "SignalDelay",
@@ -2836,12 +1861,7 @@
           "tags": [
             "Utility",
             "Delay"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 4,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Multiple2_5",
@@ -2850,12 +1870,7 @@
           "tags": [
             "Multiple",
             "Utility"
-          ],
-          "width": 75,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 2,
-          "outputCount": 10
+          ]
         },
         {
           "slug": "Merge2_5",
@@ -2864,12 +1879,7 @@
           "tags": [
             "Multiple",
             "Utility"
-          ],
-          "width": 75,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 10,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "TriggersMKI",
@@ -2878,12 +1888,7 @@
           "tags": [
             "Switch",
             "Utility"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 3,
-          "inputCount": 1,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "TriggersMKII",
@@ -2892,12 +1897,7 @@
           "tags": [
             "Switch",
             "Utility"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 2,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "BPMCalc",
@@ -2905,12 +1905,7 @@
           "author": "AS",
           "tags": [
             "Utility"
-          ],
-          "width": 300,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 1,
-          "outputCount": 16
+          ]
         },
         {
           "slug": "Cv2T",
@@ -2918,12 +1913,7 @@
           "author": "AS",
           "tags": [
             "Switch"
-          ],
-          "width": 60,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 4,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "DelayPlusFx",
@@ -2932,12 +1922,7 @@
           "tags": [
             "Delay",
             "Effect"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 7,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "DelayPlusStereoFx",
@@ -2947,12 +1932,7 @@
             "Dual/Stereo",
             "Delay",
             "Effect"
-          ],
-          "width": 180,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 12,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "PhaserFx",
@@ -2960,12 +1940,7 @@
           "author": "AS",
           "tags": [
             "Effect"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 5,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "ReverbFx",
@@ -2974,12 +1949,7 @@
           "tags": [
             "Reverb",
             "Effect"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 5,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "ReverbStereoFx",
@@ -2988,12 +1958,7 @@
           "tags": [
             "Reverb",
             "Effect"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "SuperDriveFx",
@@ -3002,12 +1967,7 @@
           "tags": [
             "Amplifier/VCA",
             "Effect"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 5,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "TremoloFx",
@@ -3015,12 +1975,7 @@
           "author": "AS",
           "tags": [
             "Effect"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 5,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "TremoloStereoFx",
@@ -3028,12 +1983,7 @@
           "author": "AS",
           "tags": [
             "Effect"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 7,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "WaveShaper",
@@ -3041,12 +1991,7 @@
           "author": "AS",
           "tags": [
             "Waveshaper"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 3,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "BlankPanel4",
@@ -3054,12 +1999,7 @@
           "author": "AS",
           "tags": [
             "Blank"
-          ],
-          "width": 60,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "BlankPanel6",
@@ -3067,12 +2007,7 @@
           "author": "AS",
           "tags": [
             "Blank"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "BlankPanel8",
@@ -3080,23 +2015,13 @@
           "author": "AS",
           "tags": [
             "Blank"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "BlankPanelSpecial",
           "name": "Blank Panel Special",
           "author": "AS",
-          "tags": [],
-          "width": 120,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          "tags": []
         }
       ]
     },
@@ -3112,12 +2037,7 @@
           "author": "VCV",
           "tags": [
             "Mixer"
-          ],
-          "width": 900,
-          "height": 380,
-          "paramCount": 65,
-          "inputCount": 70,
-          "outputCount": 16
+          ]
         }
       ]
     },
@@ -3134,12 +2054,7 @@
           "tags": [
             "Filter/VCF",
             "Oscillator/VCO"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 13,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         }
       ]
     },
@@ -3155,12 +2070,7 @@
           "author": "Frank Buss",
           "tags": [
             "Utility"
-          ],
-          "width": 270,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 3,
-          "outputCount": 1
+          ]
         }
       ]
     },
@@ -3176,12 +2086,7 @@
           "author": "NYSTHI",
           "tags": [
             "Filter/VCF"
-          ],
-          "width": 450,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "MasterRecorder2",
@@ -3189,12 +2094,7 @@
           "author": "NYSTHI",
           "tags": [
             "Recording"
-          ],
-          "width": 135,
-          "height": 380,
-          "paramCount": 17,
-          "inputCount": 5,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "DeepNote",
@@ -3202,12 +2102,7 @@
           "author": "NYSTHI",
           "tags": [
             "Oscillator/VCO"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 5,
-          "inputCount": 1,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "EqualDivisionQuantizer",
@@ -3215,12 +2110,7 @@
           "author": "NYSTHI",
           "tags": [
             "Quantizer"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 6,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Spectre",
@@ -3228,12 +2118,7 @@
           "author": "NYSTHI",
           "tags": [
             "Visual"
-          ],
-          "width": 270,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 1,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "QuadSimplerSlicerQuantizer",
@@ -3243,12 +2128,7 @@
             "Utility",
             "Quad",
             "Quantizer"
-          ],
-          "width": 60,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 4,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "8AttackDecay",
@@ -3259,12 +2139,7 @@
             "Quad",
             "Envelope Generator",
             "Function Generator"
-          ],
-          "width": 270,
-          "height": 380,
-          "paramCount": 61,
-          "inputCount": 20,
-          "outputCount": 34
+          ]
         },
         {
           "slug": "ClockMultiplier",
@@ -3272,12 +2147,7 @@
           "author": "NYSTHI",
           "tags": [
             "Clock Modulator"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 2,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "ConstAddMult",
@@ -3287,12 +2157,7 @@
             "Utility",
             "Quad",
             "Attenuator"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 8,
-          "outputCount": 16
+          ]
         },
         {
           "slug": "XattoTime",
@@ -3301,12 +2166,7 @@
           "tags": [
             "Delay",
             "Effect"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 12,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "ScalaQuantizer",
@@ -3314,12 +2174,7 @@
           "author": "NYSTHI",
           "tags": [
             "Quantizer"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 13,
-          "outputCount": 12
+          ]
         },
         {
           "slug": "DissonantVerb",
@@ -3328,12 +2183,7 @@
           "tags": [
             "Reverb",
             "Effect"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 13,
-          "inputCount": 12,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "PlateVerb",
@@ -3342,12 +2192,7 @@
           "tags": [
             "Reverb",
             "Effect"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 9,
-          "inputCount": 8,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "4DCBlock",
@@ -3355,12 +2200,7 @@
           "author": "NYSTHI",
           "tags": [
             "Filter/VCF"
-          ],
-          "width": 30,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 4,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "TIMEX",
@@ -3368,12 +2208,7 @@
           "author": "NYSTHI",
           "tags": [
             "Clock"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 2,
-          "outputCount": 18
+          ]
         },
         {
           "slug": "SingleVUMeter",
@@ -3381,12 +2216,7 @@
           "author": "NYSTHI",
           "tags": [
             "Visual"
-          ],
-          "width": 30,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 1,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "DualFeedbackEcho",
@@ -3395,12 +2225,7 @@
           "tags": [
             "Delay",
             "Effect"
-          ],
-          "width": 30,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 6,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "NYECHOEcoeco",
@@ -3409,12 +2234,7 @@
           "tags": [
             "Delay",
             "Effect"
-          ],
-          "width": 270,
-          "height": 380,
-          "paramCount": 29,
-          "inputCount": 16,
-          "outputCount": 8
+          ]
         },
         {
           "slug": "DX7Envelope",
@@ -3422,12 +2242,7 @@
           "author": "NYSTHI",
           "tags": [
             "Envelope Generator"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 12,
-          "inputCount": 3,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "QuadPanner",
@@ -3436,12 +2251,7 @@
           "tags": [
             "Mixer",
             "Panning"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 14,
-          "inputCount": 9,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "NYSTHIOMETER",
@@ -3450,12 +2260,7 @@
           "tags": [
             "Blank",
             "Visual"
-          ],
-          "width": 15,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "VectorMixer",
@@ -3463,12 +2268,7 @@
           "author": "NYSTHI",
           "tags": [
             "Mixer"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 12,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "SOU UTILS",
@@ -3479,12 +2279,7 @@
             "Amplifier/VCA",
             "Random",
             "Utility"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 12,
-          "outputCount": 14
+          ]
         },
         {
           "slug": "SoyModelSOU",
@@ -3494,12 +2289,7 @@
             "Noise",
             "Sample and Hold",
             "Utility"
-          ],
-          "width": 180,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 14,
-          "outputCount": 15
+          ]
         },
         {
           "slug": "SQUONK",
@@ -3508,12 +2298,7 @@
           "tags": [
             "Sequencer",
             "Oscillator/VCO"
-          ],
-          "width": 270,
-          "height": 380,
-          "paramCount": 116,
-          "inputCount": 25,
-          "outputCount": 20
+          ]
         },
         {
           "slug": "HotTuna",
@@ -3521,12 +2306,7 @@
           "author": "NYSTHI",
           "tags": [
             "Tuner"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 2,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "Dica33",
@@ -3534,12 +2314,7 @@
           "author": "NYSTHI",
           "tags": [
             "Filter/VCF"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 3,
-          "outputCount": 1
+          ]
         },
         {
           "slug": "QuadSimpler",
@@ -3550,12 +2325,7 @@
             "Sampler",
             "Drum",
             "Oscillator/VCO"
-          ],
-          "width": 120,
-          "height": 380,
-          "paramCount": 33,
-          "inputCount": 18,
-          "outputCount": 10
+          ]
         },
         {
           "slug": "complexSimpler",
@@ -3565,12 +2335,7 @@
             "Recording",
             "Sampler",
             "Granular"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 16,
-          "inputCount": 8,
-          "outputCount": 3
+          ]
         },
         {
           "slug": "DelayAttackHoldDecay",
@@ -3579,12 +2344,7 @@
           "tags": [
             "Envelope Generator",
             "Function Generator"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 11,
-          "inputCount": 11,
-          "outputCount": 8
+          ]
         },
         {
           "slug": "AttackDecay",
@@ -3593,12 +2353,7 @@
           "tags": [
             "Envelope Generator",
             "Function Generator"
-          ],
-          "width": 30,
-          "height": 380,
-          "paramCount": 6,
-          "inputCount": 3,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "DualMeter",
@@ -3606,12 +2361,7 @@
           "author": "NYSTHI",
           "tags": [
             "Visual"
-          ],
-          "width": 30,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 2,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "MultiTrack",
@@ -3619,12 +2369,7 @@
           "author": "NYSTHI",
           "tags": [
             "Recording"
-          ],
-          "width": 75,
-          "height": 380,
-          "paramCount": 4,
-          "inputCount": 10,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "MasterRecorder",
@@ -3632,12 +2377,7 @@
           "author": "NYSTHI",
           "tags": [
             "Recording"
-          ],
-          "width": 75,
-          "height": 380,
-          "paramCount": 3,
-          "inputCount": 4,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "LFOMultiPhase",
@@ -3647,12 +2387,7 @@
             "LFO",
             "Oscillator/VCO",
             "Quad"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 12,
-          "inputCount": 6,
-          "outputCount": 9
+          ]
         },
         {
           "slug": "NYEnvFollower",
@@ -3661,12 +2396,7 @@
           "tags": [
             "Envelope Follower",
             "Dynamics"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 11,
-          "inputCount": 1,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "DualSignalDelayer",
@@ -3675,12 +2405,7 @@
           "tags": [
             "Delay",
             "Effect"
-          ],
-          "width": 30,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 4,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "NYStereoChorus",
@@ -3689,12 +2414,7 @@
           "tags": [
             "Effect",
             "Chorus"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 8,
-          "inputCount": 9,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Surveillance",
@@ -3705,12 +2425,7 @@
             "Controller",
             "Attenuator",
             "Amplifier/VCA"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 12,
-          "inputCount": 1,
-          "outputCount": 10
+          ]
         },
         {
           "slug": "NYStereoPhaser",
@@ -3719,12 +2434,7 @@
           "tags": [
             "Effect",
             "Phaser"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 10,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Model277",
@@ -3733,12 +2443,7 @@
           "tags": [
             "Delay",
             "Reverb"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 7,
-          "inputCount": 9,
-          "outputCount": 4
+          ]
         },
         {
           "slug": "TwistedMVerb",
@@ -3747,12 +2452,7 @@
           "tags": [
             "Reverb",
             "Effect"
-          ],
-          "width": 105,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 9,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "HiVerb",
@@ -3761,12 +2461,7 @@
           "tags": [
             "Reverb",
             "Effect"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 3,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "MVerb",
@@ -3775,12 +2470,7 @@
           "tags": [
             "Reverb",
             "Effect"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 3,
-          "outputCount": 2
+          ]
         },
         {
           "slug": "Logic",
@@ -3788,12 +2478,7 @@
           "author": "NYSTHI",
           "tags": [
             "Logic"
-          ],
-          "width": 75,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 14,
-          "outputCount": 8
+          ]
         }
       ]
     },
@@ -3809,12 +2494,7 @@
           "author": "DLwigglz",
           "tags": [
             "Utility"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 2,
-          "inputCount": 1,
-          "outputCount": 0
+          ]
         },
         {
           "slug": "DLwigglz-gl0bz",
@@ -3822,12 +2502,7 @@
           "author": "DLwigglz",
           "tags": [
             "Utility"
-          ],
-          "width": 45,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 3,
-          "outputCount": 0
+          ]
         }
       ]
     }

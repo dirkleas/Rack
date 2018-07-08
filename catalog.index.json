@@ -1,0 +1,2479 @@
+{
+  "sep": " <>+0+<> ",
+  "rackdir": "/Users/dirkleas/Desktop/h4x/_queue_/vcv/Rack",
+  "catalog": "catalog.partial.json",
+  "timestamp": "20180708182929",
+  "plugins": {
+    "Core": [
+      0,
+      null
+    ],
+    "Bogaudio": [
+      1,
+      "e9c9f72d099e52f6ae1fd4736ca5f39376674c2108bd5a20ef8446ce35db9616"
+    ],
+    "squinkylabs-plug1": [
+      2,
+      "19cdf913d4c7868bc70406eab551cdfac326b4a4f71a187501136dae9f7d48f3"
+    ],
+    "FrozenWasteland": [
+      3,
+      "ae13485f8823b88ce9d91cdce71cdea7a0f365149c67e9a110919b53bf5b5933"
+    ],
+    "ImpromptuModular": [
+      4,
+      "bd1333014bd9cf61a7873560eefd832728bdb1c62ebd826315a66ab96dfec06f"
+    ],
+    "Valley": [
+      5,
+      null
+    ],
+    "mscHack": [
+      6,
+      null
+    ],
+    "cf": [
+      7,
+      "560ea70e285162d17ce5aaf10ae6591d0b1d1456ae0e9abb5931b1fa1b258983"
+    ],
+    "VultModules": [
+      8,
+      "0b4550ee7a367fb6ecf7a0f3ea29ae77b3c94d7530f5cf9291b3a2ea6f8e8925"
+    ],
+    "VCV-Parametra": [
+      9,
+      "3b7328e94a36977943bee140ed3d03ac6539072b9d0998f344a59484f501a16f"
+    ],
+    "VCV-Router": [
+      10,
+      "f2767fe56108c9bbf9457e7ab4f156e0e8f29a0fcd0068230b8f36e488752b23"
+    ],
+    "Fundamental": [
+      11,
+      "3ccd933c53841ac51daa9e67d9ab398e81987ff4e2d4d1bcc56f2ff281b461f1"
+    ],
+    "Alikins": [
+      12,
+      null
+    ],
+    "VCV-PulseMatrix": [
+      13,
+      "9ec07339759a160f6be71ec83d958450d8c2902c3acce4ea030b5773267af59b"
+    ],
+    "AS": [
+      14,
+      "f96f91c877b691ad6e30dd31004ee4824aed5928e4acef9e70bd663ab380bf48"
+    ],
+    "VCV-Console": [
+      15,
+      "26ff1735f9ca0620c9278e32c25ad2e7fba145e7aaae820ea4e44cd1cd3f70d0"
+    ],
+    "VultCompacts": [
+      16,
+      "d19467cb6bdad68ad3b1b68cd5be0e6602c1ec1aa5a051c04a62823289012383"
+    ],
+    "FrankBussFormula": [
+      17,
+      "2d762ba0fd5fe9b83c308a6fb8f10b871fdd1c9cadb60b7f6e1b750a4911f101"
+    ],
+    "NYSTHI": [
+      18,
+      "be8104e8d0f85beb5bca0136e491f9c2fc046f04d0e9a92e9ddd1abbbe2d1c05"
+    ],
+    "DLwigglz": [
+      19,
+      "fe883950c57fb85fad7973b9b8ab2a33007089c3c38d9155b98ca945765d02b3"
+    ]
+  },
+  "modules": {
+    "Core <>+0+<> AudioInterface": [
+      0,
+      "32a91f6ea264d25a717561d54fe57a799463a09563350fd55b0831d0044a5c9e"
+    ],
+    "Core <>+0+<> MIDIToCVInterface": [
+      1,
+      "8d163506bd77dad6bac154c710c6f8ce37940296c96b45f43e8afcc159554f04"
+    ],
+    "Core <>+0+<> QuadMIDIToCVInterface": [
+      2,
+      "09f2180750babe73db387dbad32b436a47d07a0a52162cd9eb545a2465fe70e6"
+    ],
+    "Core <>+0+<> MIDICCToCVInterface": [
+      3,
+      "a392d1fadb27b27a78427403e947975b92acc30ce0f9bc349b542cad1f7612e2"
+    ],
+    "Core <>+0+<> MIDITriggerToCVInterface": [
+      4,
+      "9fe368647d02e7de49f7fb955dba2a810eafc1eeef4008ba04d26e4159b6e356"
+    ],
+    "Core <>+0+<> Blank": [
+      5,
+      "39f086584edc5b1dba0d72860f84ca9d143285e41e3b3de5bd77ed66a09a4511"
+    ],
+    "Core <>+0+<> Notes": [
+      6,
+      "3583816807214f6708cefbf4ba67ab05982e837b02e06b7f31b76f54fab04571"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-VCO": [
+      0,
+      "d83fee79270cb0e76305b7249addad3c497332764b1829ebb9dc40a5cfa598e5"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-XCO": [
+      1,
+      "17b63700977e391d549f676e1cd4cbc0e12e1828002fce928333c25fffd71f95"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Additator": [
+      2,
+      "ca75ef3abfcd667999af8c8ad888b1b52dd5f6ac8524ee694a9a5ff174c33597"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-FMOp": [
+      3,
+      "c5c1a7d0c33458cc6c773ba89a5f954211a32ebb767c6230855c87234faef0e0"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-LFO": [
+      4,
+      "0fbfbfbe24968d8272b9e0fb1800c34c39191a8104ae80fae36e048f0d714b5f"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-EightFO": [
+      5,
+      "74dcc058f182143212f74c7c86c1d9f485fc2b7fcc706fa7cb234f62d7e495f1"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-DADSRH": [
+      6,
+      "8627c4e0d7aff644fbdbbdd021836c6054800391c835d61be24a6a56406e3dda"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-DADSRHPlus": [
+      7,
+      "f7d74110b313c11590a6944bc41184a20b5537de997355811b2c3327913f8764"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-DGate": [
+      8,
+      "c95d93253ccb227e6e0917ac07511cce08b39b6bd8061124d928b2d3e362860f"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Shaper": [
+      9,
+      "5728fef24a119de33438963ea0dcc625a94789e1d3fff9db63741c52d116712b"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-ShaperPlus": [
+      10,
+      "8697014c8674a45491f5170dbab6f152f17fec0a88910aba7a3a18ffe29863bd"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-ADSR": [
+      11,
+      "66bfa04ba411ae2a7354095538fa56d51669623cb70317ea7850236cb5955bca"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Follow": [
+      12,
+      "204206ec6f619cc2438a9c0af9191e64fc400055f9cac2d05b02535bebaee11a"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Mix4": [
+      13,
+      "10f8a9b37bdf22c1b6d2965d15ab219f770780c47136d5210727f3dcbd70e75e"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Mix8": [
+      14,
+      "ea57483c76434bcac541cf0e173e1cffd1fbdcd286ea9ea24d680f63da2dbe3d"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-VCM": [
+      15,
+      "867712b87a4e3b0dd8ae45a5364b073620c2fe21a18a3634ebfb7e5c95c978d5"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Pan": [
+      16,
+      "2011aa4d6cc690b71ecd094e24027625f196bdd1952c2ee5cb466a094f914cc3"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-XFade": [
+      17,
+      "1f6c3039789073068ceb1f64c2c6c66f1315170b466fdec78b3f2e80a1d0ee91"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-VCA": [
+      18,
+      "0be9956ace006f9a8d2de0740b4f8e69619a05dedd9c4afeafaf963aaf3e4cc1"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-VCAmp": [
+      19,
+      "e28517eae0f2b6a94278e8c906f8a9baacb0ba035b08b21e24fd6c0d6b6aec93"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Analyzer": [
+      20,
+      "99aa75bf1bf1bfcbd3b0b89137cd9520fc0e5ed834517644e807d194cfa31980"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-VU": [
+      21,
+      "2d9b87e878ab35aa200342b56ab84c3a6a0d610378cf551996c0855c2901bd1f"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Detune": [
+      22,
+      "e77afb8a34fe0c4954dac54a010b44e268633a68cf61f742a192cb69d3b3ca43"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Stack": [
+      23,
+      "b6ab549331fd82a947642ab648880d6a2f1247745d2cd2af8bee62595d301e5a"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Reftone": [
+      24,
+      "a9bba2280c69e130c82a111624d7ebaac6384fc9b45710ea5c4f8929fca92504"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Bool": [
+      25,
+      "2e39250ee102d073814b8dc6fd8519243658ca8dd294f18399ce4ed3abb07813"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-CVD": [
+      26,
+      "0885b7b8a6e9df18120bafedfb1773b90fa43f6dd8453fc262c2c4244f83acd5"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-FlipFlop": [
+      27,
+      "cbb7beaf0f5b1b12715ed227c1486c14413c252604e721735bb9a1202ce46354"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Manual": [
+      28,
+      "7ed007d4e56df050334b97a35282a958b2cb0ad419c36ff4c81684b2773e697c"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Mult": [
+      29,
+      "b5af9a7b35a1204b496ec758b6d35c108a695bf2b0c457761b36fa080c312f82"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Noise": [
+      30,
+      "743bd2585a423035c973bc4522da7f1a8943b477faa79812fa21f56cfc4e9a7b"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Offset": [
+      31,
+      "f18caf310dc832dfd788dbfd7badc33b4dc3c730f67c6acecbe4893d93cd144a"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-SampleHold": [
+      32,
+      "e46a18580b1f3ae0c91ddf6459166773965051900f0e9b746f86c19d022d25e7"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Sums": [
+      33,
+      "4c0566331b7c097fa4d7266a79248a6dabb26eab2d4d0f6d7cca806dd063332d"
+    ],
+    "Bogaudio <>+0+<> Bogaudio-Switch": [
+      34,
+      "1fa53853ecc90720074beed3e865460ec4b06c36c5bb13a1f4e98df6c51b01f2"
+    ],
+    "squinkylabs-plug1 <>+0+<> squinkylabs-freqshifter": [
+      0,
+      "a0fe16853dea199c2d51e8e1e6b7b5a6ec249ee06ed7dea45074055d550a09be"
+    ],
+    "squinkylabs-plug1 <>+0+<> squinkylabs-vocalanimator": [
+      1,
+      "e53b5373ae200a1515bd2888fc5ccc17026f859a53b630576a64a44cf5a988be"
+    ],
+    "squinkylabs-plug1 <>+0+<> squinkylabs-vocalfilter": [
+      2,
+      "a7d88a6707943643e4493704cff9c6265731f14fd800bda521da3feb20a73636"
+    ],
+    "squinkylabs-plug1 <>+0+<> squinkylabs-coloredNoise": [
+      3,
+      "ec5ea46406c5351783c867f6d894a6f77fc49668a9f1bfd0ca35d89821db6ef4"
+    ],
+    "squinkylabs-plug1 <>+0+<> squinkylabs-tremolo": [
+      4,
+      "86360119337aecf36d4740af6fa90aa34157ac4d3c60cd556554b9e356da16fb"
+    ],
+    "squinkylabs-plug1 <>+0+<> squinkylabs-booster": [
+      5,
+      "3e292f2ed7c546885e3271f4972839084516a1734ada5bfba5950ff4d2336f66"
+    ],
+    "FrozenWasteland <>+0+<> BPMLFO": [
+      0,
+      "3d7b416753659d07c908dd4ea5d84e0b8b36d403fb3b092feaf727181daeaf7e"
+    ],
+    "FrozenWasteland <>+0+<> BPMLFO2": [
+      1,
+      "15a054953164f7aea3a0ea791f53388ec908ce9ec7813490e018109545eb2653"
+    ],
+    "FrozenWasteland <>+0+<> DamianLillard": [
+      2,
+      "1c1d966082b294ce5587471a8739e423e7f51cc3d7d824d7fe29883d0e272512"
+    ],
+    "FrozenWasteland <>+0+<> EverlastingGlottalStopper": [
+      3,
+      "40fb1657f969754cf97497155b9e1bff2f75b842dcfaff1b82cb62356869dad2"
+    ],
+    "FrozenWasteland <>+0+<> HairPick": [
+      4,
+      "6937d4450a77c7a2e7ac0339619612ede1553447c2e0075e2e1b200c108f2ed2"
+    ],
+    "FrozenWasteland <>+0+<> LissajousLFO": [
+      5,
+      "e1702f6e7212440038838f89dbbfafa36fa4dc21177feb0d4b5ae55e4864911d"
+    ],
+    "FrozenWasteland <>+0+<> MrBlueSky": [
+      6,
+      "c66866ca20e5b0998e1900a5d7cdf37cf8852bca02473c4a9dbe5223b852b45b"
+    ],
+    "FrozenWasteland <>+0+<> TheOneRingModulator": [
+      7,
+      "dc1e9e1ec5771cd445893ec893b060a52c624fd1ea2f4ce482134dab81074bf0"
+    ],
+    "FrozenWasteland <>+0+<> PhasedLockedLoop": [
+      8,
+      "7025aae83a980141e766fd41ea08f96bbd630868c01b3f64bc2ad48d11f8d7f2"
+    ],
+    "FrozenWasteland <>+0+<> PortlandWeather": [
+      9,
+      "6b143c2ae629edddea8d2de4185db0c413a67261be324874a6bcda58d5acbd21"
+    ],
+    "FrozenWasteland <>+0+<> QuadEuclideanRhythm": [
+      10,
+      "45e6f17f2061cce95c87447195d6175e8949e47a68111d36addc989a1e6ea72a"
+    ],
+    "FrozenWasteland <>+0+<> QuadGolombRulerRhythm": [
+      11,
+      "67db8e9616100c05e4f9d875b8ce7f05c298119030cdd17b25b67169c32fd563"
+    ],
+    "FrozenWasteland <>+0+<> QuantussyCell": [
+      12,
+      "d71df40d84d343377a89bf8e432753d80f2463e9106d564d3e18a5da7c833824"
+    ],
+    "FrozenWasteland <>+0+<> RouletteLFO": [
+      13,
+      "5fbc54b855fb2a68826f1e0ac197a833925bced4ff43a28f17e6982f7d3363cc"
+    ],
+    "FrozenWasteland <>+0+<> SeriouslySlowLFO": [
+      14,
+      "81cb65c663d9e8348df800b207e6c34441892cb8f575f338969bba0b0ca8595a"
+    ],
+    "FrozenWasteland <>+0+<> VoxInhumana": [
+      15,
+      "c31c9ba740f9d57426bd2aa83e6a4055fdce88a52726c67d7a06680423bb850c"
+    ],
+    "FrozenWasteland <>+0+<> CDCSeriouslySlowLFO": [
+      16,
+      "63805afefb902aba92d4d865a21389c8cd47fda3129991ec9402ef7b99c65a56"
+    ],
+    "ImpromptuModular <>+0+<> Tact": [
+      0,
+      "e9eb737b97c5c9142c5693bccbce88e2c8d240508e2db0c39245e944f2e46d22"
+    ],
+    "ImpromptuModular <>+0+<> Twelve-Key": [
+      1,
+      "944cc723b747c71325ec3fbd82208c1b30020093684c0c7359d4c8c7c3e42695"
+    ],
+    "ImpromptuModular <>+0+<> Clocked": [
+      2,
+      "182f6ff6463822c3c7f6f5da4649005159b3198a1ba13223475f392c3077ef04"
+    ],
+    "ImpromptuModular <>+0+<> Phrase-Seq-16": [
+      3,
+      "87b183197c326564509adef4a7f3b5e8979afe7eba69f0e175ff201a31651974"
+    ],
+    "ImpromptuModular <>+0+<> Phrase-Seq-32": [
+      4,
+      "839213b0587a2f7cbb6dc8807b33bd42250d4f54c3d2b89626b750d09dae7c21"
+    ],
+    "ImpromptuModular <>+0+<> Gate-Seq-64": [
+      5,
+      "fc813bd8e9b5890033aa3fef0bcc2806f2f41213a5313b36d8019c4b34823654"
+    ],
+    "ImpromptuModular <>+0+<> Write-Seq-32": [
+      6,
+      "307fc92e66108cb5fec85e9e6b7a44ca7d69cb13096aaca720fa828a1c34a4d1"
+    ],
+    "ImpromptuModular <>+0+<> Write-Seq-64": [
+      7,
+      "c43257b0f9478ea7f85a44c30605a648469f33563d8479ebbf49082a479ce35e"
+    ],
+    "ImpromptuModular <>+0+<> Semi-Modular Synth": [
+      8,
+      "84ecdaf676f1108dbfe154f90bf53a5b70fbb5aeb7f8e7c307818dccdbb8545b"
+    ],
+    "ImpromptuModular <>+0+<> Blank-Panel": [
+      9,
+      "8f970d7040570d6a81f06ed9cd4b4e19bc291d05012de7fbf9d4ecc41ca9abae"
+    ],
+    "Valley <>+0+<> Topograph": [
+      0,
+      "2c603e8bdcf9a2d1ef6d8ac360c5de426bbcff1836d770c413592e505898db1b"
+    ],
+    "Valley <>+0+<> uGraph": [
+      1,
+      "73b6b37a9d003ff53dbb120445e6f0de69ddc2f8c1ed2e9324069aa98671f4f8"
+    ],
+    "Valley <>+0+<> Dexter": [
+      2,
+      "f388a8ff6f47fe0cfab47cc5464746c92cb74702383bd9bac9c2e0c6b7f84a5c"
+    ],
+    "Valley <>+0+<> Plateau": [
+      3,
+      "dfbab921edb406290e925428e76a543bf70fd82514137006e2dbd7d39796189b"
+    ],
+    "mscHack <>+0+<> MasterClockx4": [
+      0,
+      "c937a330aef640298f1bd171065438b61f3bb33caf60bc64b74aa379890b8f54"
+    ],
+    "mscHack <>+0+<> Seq_3ch_16step": [
+      1,
+      "46fc64656c9efc67f5ea39f87d7d91c8fe0650228610eb5375b3a155a5475969"
+    ],
+    "mscHack <>+0+<> Seq_6ch_32step": [
+      2,
+      "34f1f41ee467eac3eaab7ef890df95d17c6bee74021bcfcf48dd618abfc00143"
+    ],
+    "mscHack <>+0+<> TriadSeq2": [
+      3,
+      "389c476ca03bbbe29981f9cccb064f0773f831241224a970e8821659c7caf1e8"
+    ],
+    "mscHack <>+0+<> SEQ_Envelope_8": [
+      4,
+      "4107035ef82e76d27adbea5dd733f0f1da40bb7a7c2259f3dc042bbe714a4045"
+    ],
+    "mscHack <>+0+<> Maude221": [
+      5,
+      "6f2b1a8d24d1b0d0239efb4a0339ea70385bd140f4d4c080fd062e775a7c1001"
+    ],
+    "mscHack <>+0+<> ARP700": [
+      6,
+      "9cf32c1997a7fad5bcd70e3165bb7f70731e6fe8484e6a7b6c7022e20134b9d6"
+    ],
+    "mscHack <>+0+<> SynthDrums": [
+      7,
+      "7035d00e91618669dbfada16d82c5dd9f4cf463b907223e92a284bb25e9229fd"
+    ],
+    "mscHack <>+0+<> XFade": [
+      8,
+      "c8751c1d16f9e55663e41c86c81242539286445f3d591a307f5b248694401769"
+    ],
+    "mscHack <>+0+<> Mix_1x4_Stereo": [
+      9,
+      "4a0e1370c2578b2d589eb136b9055fe36771461a7cfa911def303f6675ad87cd"
+    ],
+    "mscHack <>+0+<> Mix_2x4_Stereo": [
+      10,
+      "a5ba12ec7192b6069b4aae17cb31545baccc71cf398882eca3121dbfdb5a2e69"
+    ],
+    "mscHack <>+0+<> Mix_4x4_Stereo(2)": [
+      11,
+      "3bbd476f7d68c3494fe84fb0d0d966223f323b93fb999d24f2e51f1bb792eecc"
+    ],
+    "mscHack <>+0+<> Mix_9_3_4": [
+      12,
+      "47e54341557c005741bba8abdcb9a3c0dad451255e3b4726bbde652e05f5bac0"
+    ],
+    "mscHack <>+0+<> Mix_16_4_4": [
+      13,
+      "e6626f3c13b462d5dc93b6e5c0e13523c32c65a32dcc9c924dcdd73a29486a4c"
+    ],
+    "mscHack <>+0+<> Mix_24_4_4": [
+      14,
+      "11df1d940321c073aec84f3c02b47bf3239beae7b53bd93f6a4e9151fb3097c6"
+    ],
+    "mscHack <>+0+<> StepDelay": [
+      15,
+      "ea42e378063d9327f1a4e7d3b1002bf7129fd80b0c8b7a9c7de96b8a1b9c48b3"
+    ],
+    "mscHack <>+0+<> PingPong_Widget": [
+      16,
+      "e9369c68c4a89f54a3a2459b462ad49a29e42c2a311dcf685594c39607907cea"
+    ],
+    "mscHack <>+0+<> Osc_3Ch_Widget": [
+      17,
+      "035ff495188a7a49597f2b1c72e7150f381e490ed28597f73cd71e0702505958"
+    ],
+    "mscHack <>+0+<> OSC_WaveMorph_3": [
+      18,
+      "186f7b362d6d5092338449beb02bdf25034af9ad745a4c533375736c2c9cb89d"
+    ],
+    "mscHack <>+0+<> Dronez": [
+      19,
+      "430cf7504c4f9837835b99ee9d5b06f4e0e0ce7afc0a6bb8cb2a3773a9b32f8d"
+    ],
+    "mscHack <>+0+<> Morze": [
+      20,
+      "8ab3c65f264c8e1ce6a6c1db26caa9be32a0cf95e87033d02fa4a8b2007a3fc5"
+    ],
+    "mscHack <>+0+<> Alienz": [
+      21,
+      "64648a58c6b8afbdea0e3499e2f378bc4de2004f1d58d01620f954cdb6153f29"
+    ],
+    "mscHack <>+0+<> Compressor1": [
+      22,
+      "45323d830e4f103dcc4dd29449a2dec4631ab1c7a4ce28823b05e5fdcbe3e5de"
+    ],
+    "cf <>+0+<> trSEQ": [
+      0,
+      "bfd8ad6536a38eeba2ce34feb96f223324855e13cadf619fa7330b2c2b07a9fa"
+    ],
+    "cf <>+0+<> LEDSEQ": [
+      1,
+      "8c5ea0add12a9c09ef51ddbec871e82b1ae9baf408a27203ed8a33de71a85da9"
+    ],
+    "cf <>+0+<> L3DS3Q": [
+      2,
+      "8874887066451eceaa3cb2950c8d243f752251f29c0f53aa0b40a11e4d4f98dc"
+    ],
+    "cf <>+0+<> SLIDERSEQ": [
+      3,
+      "faf7035961f4c655d5d19a650f752620d907989707495eca317e8745ab822612"
+    ],
+    "cf <>+0+<> PLAYER": [
+      4,
+      "b65013ad24653cec1ca94de58970f6a123beb00850c20761c4e648a33bca45ad"
+    ],
+    "cf <>+0+<> STEPS": [
+      5,
+      "13a7c3af0de100aad6598245596a4bfba1de1930ba9b9ccee136247b1c39fa91"
+    ],
+    "cf <>+0+<> METRO": [
+      6,
+      "3809560aa308a76535c13887deef45267cbf16d08857c8e5c9c71fb27d4361b3"
+    ],
+    "cf <>+0+<> EACH": [
+      7,
+      "338a21da42d898c5247624b090e783eed37659f3425e727bfe66e0396eb25e51"
+    ],
+    "cf <>+0+<> FOUR": [
+      8,
+      "07e1e6ff6cff0f98e4b1e8cd0a3243f87af4598ab9278b66d4fc67eb06472835"
+    ],
+    "cf <>+0+<> PEAK": [
+      9,
+      "0e92527d0032f0865a9a74dc690cc1d8130dc607454c49d23b2c06e2f807e4c5"
+    ],
+    "cf <>+0+<> MONO": [
+      10,
+      "348fb5be19005ebf806f90916c78f8ef883430e47553437435ca9f25374972cf"
+    ],
+    "cf <>+0+<> STEREO": [
+      11,
+      "85116ef74767eec1c9f30c6052816be3d9129677ec9c0b1d579af26554deebf8"
+    ],
+    "cf <>+0+<> MASTER": [
+      12,
+      "a2c916eb98221c48ddd12232fc48977ea9be2aa88ba41393e58841b1a7930333"
+    ],
+    "cf <>+0+<> SUB": [
+      13,
+      "c7c8eed922eb684b5405410d4e3784ad8f6d76edfe161e4157a3f50eaef6e93e"
+    ],
+    "cf <>+0+<> CUBE": [
+      14,
+      "433f4b80fe5de43ff5c92a154f9c65cb792a22b0f5c2f05f985d0334987adbf8"
+    ],
+    "cf <>+0+<> PATCH": [
+      15,
+      "b4cb7cc6a2e2c82de5781cff7b287f35d34ea1dcecb9512d693548043070fb01"
+    ],
+    "cf <>+0+<> LEDS": [
+      16,
+      "5b9534bf3700366479564f1b6889cdba702af23b5cfb243944a8a149f6948259"
+    ],
+    "cf <>+0+<> DAVE": [
+      17,
+      "d2df114418e4b2c349469fa3fd3a2b8a2d2414d0b91f457c858a4953fe7adf21"
+    ],
+    "VultModules <>+0+<> Debriatus": [
+      0,
+      "110583787c55fc9d7ed90a0b759c036fbc2adaf5b59175cd7fdee1da6b355da6"
+    ],
+    "VultModules <>+0+<> Caudal": [
+      1,
+      "a6bb71895a24a7d2593baad3063599b75b61e46c01fb26cf8e876003ff0c1cd4"
+    ],
+    "VultModules <>+0+<> Flame": [
+      2,
+      "3d035c1119d5f6c2073fbbc722945ec587706eb5383f34b3ef302da848d955e2"
+    ],
+    "VultModules <>+0+<> Ferox": [
+      3,
+      "28f3f97d482b867dc3c756038c93e421ab95754bdf5af177236d31f5ac613a14"
+    ],
+    "VultModules <>+0+<> Flux": [
+      4,
+      "dd0ae6097c526e9d278e37b40643cdc31d70b012754aa305f8f9bb2fe2e42050"
+    ],
+    "VultModules <>+0+<> HyperPower": [
+      5,
+      "dc6aa5fd42814abbf97ee465e668c6569b805793f4f74a09842c15f8dc6465b9"
+    ],
+    "VultModules <>+0+<> Julste": [
+      6,
+      "254d48230fb7f0906166f2aadc649b805d98aaafa86b28d0193fee14b96c91ab"
+    ],
+    "VultModules <>+0+<> Lateralus": [
+      7,
+      "2a73322865373c72b2fb07b7cc5e58d49cafb4f4841914b3e35b62189dcf7b9b"
+    ],
+    "VultModules <>+0+<> Nopskate": [
+      8,
+      "cd30aba1b8242542908f8d7dcc24f4637d9e5c392893684e902366b5204f98da"
+    ],
+    "VultModules <>+0+<> Noxious": [
+      9,
+      "250d708bffa049ced29e76e7e020da70ef33ebf1292cde3b3e663b88cc461cf8"
+    ],
+    "VultModules <>+0+<> Noxious-Poly": [
+      10,
+      "cb82ca51187184b17f305ed9e61ff7d7b3eafb7190e3ed368166210e15ff608c"
+    ],
+    "VultModules <>+0+<> Rescomb": [
+      11,
+      "b07d848953defbb285c097232f8c1968c6268e90b6009e41b6b397eba544f5a3"
+    ],
+    "VultModules <>+0+<> Slap": [
+      12,
+      "40223178f855c5fc9599db15df37ce88c1cf622403dea3bdab2431ca33180eae"
+    ],
+    "VultModules <>+0+<> Spank": [
+      13,
+      "16b10baaaa693b267be745f94cc67138a6986576c5b81ca0f63551675f39f5d9"
+    ],
+    "VultModules <>+0+<> Splie": [
+      14,
+      "efcc9c150358dd506d5ab326b31f41fad28c40a30d4210d79fc9526264a0a442"
+    ],
+    "VultModules <>+0+<> Stabile": [
+      15,
+      "62883309a97d7ee6c18d1fbfe58554b1ed89d22ef55bf3970df52e60473757ff"
+    ],
+    "VultModules <>+0+<> Tangents": [
+      16,
+      "66349a024e8b64b63ea2dc105ae3049085025cba7f286a36527b8cd465bd366f"
+    ],
+    "VultModules <>+0+<> Tohe": [
+      17,
+      "ffb2d695f6b30554d564fb2341cb89a62416b44cb94fd9a8ff3b6bcd00103524"
+    ],
+    "VultModules <>+0+<> Trummor": [
+      18,
+      "965a0162109c7af79f84c8f74354af53c92b64e28fcbaef0626187e89cdb257c"
+    ],
+    "VultModules <>+0+<> Trummor2": [
+      19,
+      "f2d98c08005b4cf16230bce364bfc13be3e68e5e5c1e3c864f35f2c044b1e7b8"
+    ],
+    "VultModules <>+0+<> Unstabile": [
+      20,
+      "71fa2e9e6081c350eac38567f86316307e4950d1e926e58f08cd4a0c51cb3ce6"
+    ],
+    "VultModules <>+0+<> Vessek": [
+      21,
+      "5fe0d942928b973fd161dc0accfd5b3de4e3908e42fe0f3c8325cd7d14f46a2e"
+    ],
+    "VultModules <>+0+<> Vortex": [
+      22,
+      "a37af5a13afcadd51c6789aace676cffbcaf41f56c5d8bbefb0a5be66c4540d7"
+    ],
+    "VultModules <>+0+<> UtilKnobs": [
+      23,
+      "7a1fb91babb31ed33e867a7661c0f190cf9b53c04b2c975f65511f1d026d5301"
+    ],
+    "VultModules <>+0+<> UtilSend": [
+      24,
+      "c0ea3f963b208d98d80c55c4444d34c4a673139213c3429ef4178b318601ef42"
+    ],
+    "VultModules <>+0+<> UtilBypass": [
+      25,
+      "5601afa804579f9ea1fdb5f2d6ec5c3840bab359b947b5318146ee2fa81ec73d"
+    ],
+    "VultModules <>+0+<> BlackPanelSmall": [
+      26,
+      "f2f10a6939ba0d445948cd3db386e7f2980b3441a48848f56fda751df66fe1e1"
+    ],
+    "VultModules <>+0+<> BlackPanel": [
+      27,
+      "d78754e49ecbd99716d3e802ef9d9c53cf6fa70ecbf8444074eab34959b6cb08"
+    ],
+    "VultModules <>+0+<> BlackPanelBig": [
+      28,
+      "e8660eb87d144be5b28f3c3eb2351e42302cf2cc6a68126ac844903ca1b8b272"
+    ],
+    "VultModules <>+0+<> Version": [
+      29,
+      "ae5683d62c7e9aa3bbb5c4008c3f38cc8444c11f64704b01b306d36000d01288"
+    ],
+    "VCV-Parametra <>+0+<> Parametra": [
+      0,
+      "aff0c800749973c341ed2678ce60f0548362493bd86216b9636afab5d4356485"
+    ],
+    "VCV-Router <>+0+<> OctalRouter": [
+      0,
+      "17444cd5bee54d592ebe2e6450a7c7df68018c83c13cdf5e313cbe5f259433a6"
+    ],
+    "VCV-Router <>+0+<> Router1_4": [
+      1,
+      "5febce008b937831e41c7d64cb8bf5b711d7921c94095d93ddc6d1d5cea77afd"
+    ],
+    "VCV-Router <>+0+<> Router4_1": [
+      2,
+      "5cb50af75c6aeb0354b2cf2773b1b9a29315494e5451c6e79f256695d2c5b225"
+    ],
+    "Fundamental <>+0+<> VCO": [
+      0,
+      "80e7a3bf75b623af4644845428bb18c9916f35fc0d68373e3739162db0ddc267"
+    ],
+    "Fundamental <>+0+<> VCO2": [
+      1,
+      "a2cf30195e99c5e86647e349588e7817643b94385f3eee5024628df36179ce2b"
+    ],
+    "Fundamental <>+0+<> VCF": [
+      2,
+      "b2e8f5720efbd2c50fbf383a4925dc6c534ecf648a0aa9a2456ba77f71925e59"
+    ],
+    "Fundamental <>+0+<> VCA": [
+      3,
+      "ac10e8c51a2f827f799657344d49652362b3c5a3735cb23b0f16ab44920b8dd0"
+    ],
+    "Fundamental <>+0+<> LFO": [
+      4,
+      "b30a9975638be031ca94682d6c4573a6dff21891c10c47a7b12c778ed3ef7620"
+    ],
+    "Fundamental <>+0+<> LFO2": [
+      5,
+      "f5b582cc805a0c9479029a44337350e6f9907564d57c2173d806f3d70efc70a2"
+    ],
+    "Fundamental <>+0+<> Delay": [
+      6,
+      "08db77419e95841088f811bf4928a067beae10d7119b1c45c8bfbd4f3a0b8f9e"
+    ],
+    "Fundamental <>+0+<> ADSR": [
+      7,
+      "9cca9349ab9d59ac4d1d903530b862a9171c15d6e06fdf6f35a71565dd0f2623"
+    ],
+    "Fundamental <>+0+<> VCMixer": [
+      8,
+      "c168fa8898328c17d1dbd9262d94b339763995778d8555e8c4198b1034eb0e48"
+    ],
+    "Fundamental <>+0+<> 8vert": [
+      9,
+      "280a3218e8205bb480c9951c333b7347b511536a9c1f8ee305029bf873586036"
+    ],
+    "Fundamental <>+0+<> Unity": [
+      10,
+      "d9bc40eeb2f52e9a6b6f2fc73a99d0b110fed0f448409721c80b04a44d2809a9"
+    ],
+    "Fundamental <>+0+<> Mutes": [
+      11,
+      "16c55df772a1d84e0c99d7da399d0f1530c59d78a947b4911533d25a18eecb14"
+    ],
+    "Fundamental <>+0+<> Scope": [
+      12,
+      "dce2390d6333b7600ab95fe96554ba8f3b420dc5410756f8c621920819ebdd6c"
+    ],
+    "Fundamental <>+0+<> SEQ3": [
+      13,
+      "67d09e4df3277739d3fbc8a46005b0977d689f4462b30cb073e20b60dba45886"
+    ],
+    "Fundamental <>+0+<> SequentialSwitch1": [
+      14,
+      "0b2dcb965acbb050186b21f25bda3b54ec85fa5c7768656380397a17f3bbaf4d"
+    ],
+    "Fundamental <>+0+<> SequentialSwitch2": [
+      15,
+      "004a758c6cf1bbdc5cbda2bfeaace5f56dc6c0101f0d2c63ebecd5a3ded7e2e9"
+    ],
+    "Alikins <>+0+<> IdleSwitch": [
+      0,
+      "6d50a8ce735f1650caf23e3f37a0f0d0096fffd9cb04a3ae43b6787852dedc65"
+    ],
+    "Alikins <>+0+<> MomentaryOnButtons": [
+      1,
+      "df27f9c23d20b10c11dc5fdcabc7a8553eb2cb9a76208d23c92c27d3befc1425"
+    ],
+    "Alikins <>+0+<> BigMuteButton": [
+      2,
+      "93f18b2f590b73409ba92672d9e40db111c46a06889fe2f27a3bfbd9246b1535"
+    ],
+    "Alikins <>+0+<> ColorPanel": [
+      3,
+      "ce9179ec04c8ffd4d1c3b79405affe6267de2471588e1653940238c1ade2109b"
+    ],
+    "Alikins <>+0+<> GateLength": [
+      4,
+      "1f462c3f276343e38f73ff3f0781f2f36d72baf249f7ec6621f53030bd26627f"
+    ],
+    "Alikins <>+0+<> SpecificValue": [
+      5,
+      "fdf685f34becce50747514c956315c1e803610701d54ca3408f846718c62bc03"
+    ],
+    "Alikins <>+0+<> Reference": [
+      6,
+      "c8a546e1888e32bf8e657dc5f70888bb48e9bb82e31464a05a73c43a0939054a"
+    ],
+    "VCV-PulseMatrix <>+0+<> PulseMatrix16": [
+      0,
+      "ecc00cc1b122a965e7501797664f8532af88d4d6535b6ee8cb1427b631f31482"
+    ],
+    "VCV-PulseMatrix <>+0+<> PulseMatrix8": [
+      1,
+      "b944a88c33391e86eb6ad3d173d668a6716b892033daa6c96c3b1e1289688378"
+    ],
+    "AS <>+0+<> SineOSC": [
+      0,
+      "ada5fb9a87360abb86335325863bada08766af059881224cd972c6b022f62510"
+    ],
+    "AS <>+0+<> SawOSC": [
+      1,
+      "d8ab6ad0641951a5be9a634aeff317c41da2ab9efd79a7eacf65b30701ca119b"
+    ],
+    "AS <>+0+<> ADSR": [
+      2,
+      "30d10bd72ee11c8733ed6d8ec710cb0d2f8ae5419e80b69b14290568561f8c5c"
+    ],
+    "AS <>+0+<> VCA": [
+      3,
+      "2192d8b7701eca758a7a30149a669e1b3c2f3751e3dfda38c46d4ac1ef31da55"
+    ],
+    "AS <>+0+<> QuadVCA": [
+      4,
+      "7b89aaaf58c3ea313a08afe58be7268c5b97b04741933ee6844795ac7f88fd59"
+    ],
+    "AS <>+0+<> TriLFO": [
+      5,
+      "dc505ebc5a2ec49f208e9dac8d4e311424292d992cbee1e232cba0453361e825"
+    ],
+    "AS <>+0+<> AtNuVrTr": [
+      6,
+      "cfa961f3c0c501fde50a29f94df262376b96997ed66e84c192b052083d335efc"
+    ],
+    "AS <>+0+<> BPMClock": [
+      7,
+      "fab3e075018f3f6927c5bbfd0888a156a703233704f872b85ed23586024d3daf"
+    ],
+    "AS <>+0+<> SEQ16": [
+      8,
+      "a91cbefd110f58a3a3e07a5c0e9e5874471b275ef9c4c5107fe22017fd7cc53d"
+    ],
+    "AS <>+0+<> Mixer8ch": [
+      9,
+      "b08b315e7d191dc2978623e9950bfd61e887a853442628ce5fca6b31cda445a2"
+    ],
+    "AS <>+0+<> MonoVUmeter": [
+      10,
+      "97fcb72b805ff5c469d578311cb69965f7396b26d37e37e49f03d41774495c2f"
+    ],
+    "AS <>+0+<> StereoVUmeter": [
+      11,
+      "bfbdf2ef79805cc3fc9d7c450e3799d470a9752f871ca4b8cee1d48f2c402124"
+    ],
+    "AS <>+0+<> Steps": [
+      12,
+      "6d57dd6138ed50f392b955635933966ce8fda5c7ff5f2cef683ac4fd82ac9907"
+    ],
+    "AS <>+0+<> LaunchGate": [
+      13,
+      "86fa4ff891952468574422e4d583f187b49a56e5030baa396b75afe6756850b3"
+    ],
+    "AS <>+0+<> KillGate": [
+      14,
+      "639eaba03f8cd4c50a5979ae488b47057bdffef9d0f83fb61d232d871d43c553"
+    ],
+    "AS <>+0+<> Flow": [
+      15,
+      "217c6f679cc9cc27faee24a87d99a6e7e91566a6d0d05935f22ed093335f7a7f"
+    ],
+    "AS <>+0+<> SignalDelay": [
+      16,
+      "a65ff70a62014e66fac3031e73c96bb988030f29bb3c5fbd1343844d084579f3"
+    ],
+    "AS <>+0+<> Multiple2_5": [
+      17,
+      "502de1c8b37e7d7b006cd4f42a4c68a065a170f4f80176796d138bcb397329ea"
+    ],
+    "AS <>+0+<> Merge2_5": [
+      18,
+      "1ea143784382fa3cb194dfb99489bfb7ac2eccd239854a0949804a6c9d3a77be"
+    ],
+    "AS <>+0+<> TriggersMKI": [
+      19,
+      "969b9e8cb08665370c61aec96b92f34f102516afb4576d269a3ef5dc7303007d"
+    ],
+    "AS <>+0+<> TriggersMKII": [
+      20,
+      "fdf294813a88ede8be8c6003b1d7e965df78dcfe4799d7949b6733645a0f9770"
+    ],
+    "AS <>+0+<> BPMCalc": [
+      21,
+      "cdc9fd7e6cad1049c2c5faa880ffcacf59dfc77ffdcf0f1c7bc5cc1426094fe6"
+    ],
+    "AS <>+0+<> Cv2T": [
+      22,
+      "0527cba95db304b99cc2acea6f2f1e1402b0a3bed5cdee2b97e04f0f32c2ecf3"
+    ],
+    "AS <>+0+<> DelayPlusFx": [
+      23,
+      "1ed61b67564d01b5f916916b438e67b4966002a1f0b6f0d23345cd8b3abd0656"
+    ],
+    "AS <>+0+<> DelayPlusStereoFx": [
+      24,
+      "4e039d9f7af0b838b660b7ece090dc92cf0f0886dd4683e95a6f900ede6541fa"
+    ],
+    "AS <>+0+<> PhaserFx": [
+      25,
+      "3d623af7434b151c1180aafa883bba7d7f318266ea2ed7bfb5383630a371908d"
+    ],
+    "AS <>+0+<> ReverbFx": [
+      26,
+      "d4ab438ded437eba7de6048da20b78d29f74a9027ba6687ae87b184e5e7438db"
+    ],
+    "AS <>+0+<> ReverbStereoFx": [
+      27,
+      "37c406e1ea268eecdbd9ec04decb8a1fa069040f6a39418b57a54e093d7014a7"
+    ],
+    "AS <>+0+<> SuperDriveFx": [
+      28,
+      "eb1ae435c69bb70195fc5429b111efe264dec8f87bfac48df28f82b37779363d"
+    ],
+    "AS <>+0+<> TremoloFx": [
+      29,
+      "bf54ead6394027cae59f24d9bcf6760c5ef51c0392e1124aab8a79585fc5b6f2"
+    ],
+    "AS <>+0+<> TremoloStereoFx": [
+      30,
+      "c056ef0b9928915693d9cc950c6bbd402c892353a99273206218a8371746d718"
+    ],
+    "AS <>+0+<> WaveShaper": [
+      31,
+      "c76f50872645ae78fae074662fc42125f5b2b21e1c4e8da97c5b0bd9d8ef7157"
+    ],
+    "AS <>+0+<> BlankPanel4": [
+      32,
+      "3677b4c63f63c5dcfb4fb4d0259da49d2fc8c5b6356c13bb1bba8e78d8f3990e"
+    ],
+    "AS <>+0+<> BlankPanel6": [
+      33,
+      "cb4a71845bdab8e346dcd0a497a5797fe2221aa882b4d80be5134793bf76bcac"
+    ],
+    "AS <>+0+<> BlankPanel8": [
+      34,
+      "4d1cdc6e2df17d5196fb94657ca67b3de039089d66c2fd94144f961d8ac1f905"
+    ],
+    "AS <>+0+<> BlankPanelSpecial": [
+      35,
+      "b6577f1884279a3539aff4fd9f1515c59fa803ab319a8054261c6bae05f1b456"
+    ],
+    "VCV-Console <>+0+<> Console8_3": [
+      0,
+      "e4db135a7cd3678129bf081961f9571b44a70617325f7a4266e2afff88fdb3d7"
+    ],
+    "VultCompacts <>+0+<> Freak": [
+      0,
+      "e4313254a2146722e113e4c49c65e991f67dd4720e11a1a2e5402905718702d8"
+    ],
+    "FrankBussFormula <>+0+<> FrankBussFormula": [
+      0,
+      "4ba734c0c8847b4a79429d311043ec307745a9a59b40fb411b1c11ffc5ebf880"
+    ],
+    "NYSTHI <>+0+<> DOPPLAB": [
+      0,
+      "b43bc3a1db5269a4dc74fedfe6b465c64ffc3c15a5f77f150cefa5d770b19b13"
+    ],
+    "NYSTHI <>+0+<> MasterRecorder2": [
+      1,
+      "bb19754a59e9f617dbf6236b19a6e43daa57f331357c949957f76dda79065645"
+    ],
+    "NYSTHI <>+0+<> DeepNote": [
+      2,
+      "ec62ad61c01daa4ed244993f233bc86aae02cec2f1c2514b980c0deb42aa7517"
+    ],
+    "NYSTHI <>+0+<> EqualDivisionQuantizer": [
+      3,
+      "6947ef6b3e9b6cca954f17d601a656a16af116eb349cab36d5caa5eaee8cc3ed"
+    ],
+    "NYSTHI <>+0+<> Spectre": [
+      4,
+      "143caf9a288230c5f7103eb6f28e56d679c84d4e96c059925e4a3b5eb91c715f"
+    ],
+    "NYSTHI <>+0+<> QuadSimplerSlicerQuantizer": [
+      5,
+      "4cd3ac6c5797078138566e83a14c52c855b8a5159fc17e03112cadbcad60fb7d"
+    ],
+    "NYSTHI <>+0+<> 8AttackDecay": [
+      6,
+      "adeb460510259b67e04035b5765fcfbbdd2a99fd7c9f3d7f129ed362be16691f"
+    ],
+    "NYSTHI <>+0+<> ClockMultiplier": [
+      7,
+      "7c8b9e43707628650a87e9be2a52e0c3bf0c3990ea728b7b937d169b3f48a808"
+    ],
+    "NYSTHI <>+0+<> ConstAddMult": [
+      8,
+      "536f2af967ba629a0b4acdaf6cfa935eb38311cb1c068816bc532bff4cf65c87"
+    ],
+    "NYSTHI <>+0+<> XattoTime": [
+      9,
+      "a9405dccaed37955fa26fff22c53272fa61873de7fd1070fb6e42e818e560ea9"
+    ],
+    "NYSTHI <>+0+<> ScalaQuantizer": [
+      10,
+      "06254433da92afec5c0a2c6ac0871c83afa77588e4395137743235293ada6a0e"
+    ],
+    "NYSTHI <>+0+<> DissonantVerb": [
+      11,
+      "61170b2c5c704528611b1983c4b0e7f567d2825dd0cc3760c1a51df5f47e4a98"
+    ],
+    "NYSTHI <>+0+<> PlateVerb": [
+      12,
+      "ffa5458893d458b8999e526f0c4695909775bc25a6449c278e627febae3edbe2"
+    ],
+    "NYSTHI <>+0+<> 4DCBlock": [
+      13,
+      "4e1830a4f2bb78bf5eb5f9f9a403f61031cff7ef35b25fe297be2c04c6ca8f6c"
+    ],
+    "NYSTHI <>+0+<> TIMEX": [
+      14,
+      "1c274b854e9d37f87217971cc9786b73cad4e22ae8f0ae0c73ad714a1b3419e5"
+    ],
+    "NYSTHI <>+0+<> SingleVUMeter": [
+      15,
+      "06245ca00dd11862fd33af22bf1dc0922fe3309ab7179b8c355dbb01a4c1d63d"
+    ],
+    "NYSTHI <>+0+<> DualFeedbackEcho": [
+      16,
+      "91a0cc2124bbd51ec09cca559c500527300bbf03ff71cbe18bd983860e0a78b5"
+    ],
+    "NYSTHI <>+0+<> NYECHOEcoeco": [
+      17,
+      "38fc253fbf551f5abf15fb35514ee7d545813b2281db91c53363cbf2e8333496"
+    ],
+    "NYSTHI <>+0+<> DX7Envelope": [
+      18,
+      "78da5fa1d49802e7451ccf974cb8503018eeb4bfcf76115158509b40eacaf8b2"
+    ],
+    "NYSTHI <>+0+<> QuadPanner": [
+      19,
+      "9806fe4040f3cec5cdbf8c742deb739f5ec94d292cf5b34a9262ba8a80b81f2d"
+    ],
+    "NYSTHI <>+0+<> NYSTHIOMETER": [
+      20,
+      "9c04634b602efc2bbe362cf914187dc3edf2e146f427d6b7cd4881a9775a2c98"
+    ],
+    "NYSTHI <>+0+<> VectorMixer": [
+      21,
+      "409e6d2b4d5a98915b2286629cb1320e3d2b07628d8b1d6a46ae452c94e19b3a"
+    ],
+    "NYSTHI <>+0+<> SOU UTILS": [
+      22,
+      "0f0bd3e4188a0bdbacb8841b2e387b997b2f0b7b3acddb78a06e3b77d2f0864a"
+    ],
+    "NYSTHI <>+0+<> SoyModelSOU": [
+      23,
+      "6efd62bca57c2f936cb3d181dd8d11c9e07f6effcf8cbcc76aeb6cd623b1fc51"
+    ],
+    "NYSTHI <>+0+<> SQUONK": [
+      24,
+      "31c3df1b153343e0288491f29450db5afdee98ff6178a6c09084619eac8864fc"
+    ],
+    "NYSTHI <>+0+<> HotTuna": [
+      25,
+      "b17620e82fdda6bed29eb5ddadca6f20be9194a7e8f26ecd4b13fbc1034b5cfe"
+    ],
+    "NYSTHI <>+0+<> Dica33": [
+      26,
+      "3930246c3df5d05d95f58f145d8e046aff9e04704c811c9cdb014a83edda0f86"
+    ],
+    "NYSTHI <>+0+<> QuadSimpler": [
+      27,
+      "b406a2fd533f763b4f84e6261843fee304662e3a2a8a61558d90bb09f4afa0a6"
+    ],
+    "NYSTHI <>+0+<> complexSimpler": [
+      28,
+      "997831c0083fa3614c4eeb24f4ef577f7718c038b23e7e6aa9f7350a217f97f6"
+    ],
+    "NYSTHI <>+0+<> DelayAttackHoldDecay": [
+      29,
+      "b74d4b8dbad785e6916ff350b57dc14286baf5d744417a2325e182c2bd7eba3e"
+    ],
+    "NYSTHI <>+0+<> AttackDecay": [
+      30,
+      "43a8510fc97878bd4f97da7cb51ff11af1b91b3ed96579875a21dfb839d782b4"
+    ],
+    "NYSTHI <>+0+<> DualMeter": [
+      31,
+      "db935e9e36ca60dd3ba85fe1e2238e872c2eaa4f01f6bad3518c01dc9dd4248f"
+    ],
+    "NYSTHI <>+0+<> MultiTrack": [
+      32,
+      "487cff69b60ffffc299e63f30b0174d419a5982d96b60332b76a54db1d04d0db"
+    ],
+    "NYSTHI <>+0+<> MasterRecorder": [
+      33,
+      "cca38d790cb0b531203759c7a62ac496ae227b63256ab50706d3bb70c0f9d7d0"
+    ],
+    "NYSTHI <>+0+<> LFOMultiPhase": [
+      34,
+      "4cf7657ac996c537853c7eb8ab9711798a34253d43ad041ddedc30678138531c"
+    ],
+    "NYSTHI <>+0+<> NYEnvFollower": [
+      35,
+      "4186dde211bd580a4d5cd08bac224418385e291aff74c1e58586c703f37ea359"
+    ],
+    "NYSTHI <>+0+<> DualSignalDelayer": [
+      36,
+      "1b6b07c5ee83d56c7d572d4581e6e4766d42da67ffd141a9b16bfafda90555d2"
+    ],
+    "NYSTHI <>+0+<> NYStereoChorus": [
+      37,
+      "f7ff2947551c68754c113cd07a6fcd4bd13b4c915c0c662e8b5470d3d8628b29"
+    ],
+    "NYSTHI <>+0+<> Surveillance": [
+      38,
+      "2aa8dfa7b7c260d16b836323112e0ba43616bcd2971a977b71ca5309a3fb410c"
+    ],
+    "NYSTHI <>+0+<> NYStereoPhaser": [
+      39,
+      "bd16696c9e5b0a6a2851294800b1e64cdb819c6ab4cc3f45fb41b11f880788b5"
+    ],
+    "NYSTHI <>+0+<> Model277": [
+      40,
+      "b7212b2d3fa8a0cabd4dbf80c9c8ae7e9e03041e0fc764ffb99dd6df948838ee"
+    ],
+    "NYSTHI <>+0+<> TwistedMVerb": [
+      41,
+      "189dab6fb085c30a8dfb6166bf0614c7012f1a757e5ba61d35438914cd83b859"
+    ],
+    "NYSTHI <>+0+<> HiVerb": [
+      42,
+      "20c5affeb6203e80bfefec6475e512699a80470a35c257fc827b1a01eb3bd516"
+    ],
+    "NYSTHI <>+0+<> MVerb": [
+      43,
+      "152b50253d297f8dfdea66756d89d8394797c1356e8f6ddd73e07a2d9b3be37f"
+    ],
+    "NYSTHI <>+0+<> Logic": [
+      44,
+      "b18dc8c40268d890b5ef58a34764cf43037b11452f43fb48a73b05753a712e24"
+    ],
+    "DLwigglz <>+0+<> DLwigglz-r4xH4x": [
+      0,
+      "d9aa8b730e71094ccda6017f33cf844cabf7ddbb05e8b1095ffc81fd7198c7e7"
+    ],
+    "DLwigglz <>+0+<> DLwigglz-gl0bz": [
+      1,
+      "f027f64483393149b467876da54f005ced292bab6db30b9b68b0665e685845c2"
+    ]
+  },
+  "iterator": [
+    [
+      "Core",
+      "0.6.1",
+      "AudioInterface"
+    ],
+    [
+      "Core",
+      "0.6.1",
+      "MIDIToCVInterface"
+    ],
+    [
+      "Core",
+      "0.6.1",
+      "QuadMIDIToCVInterface"
+    ],
+    [
+      "Core",
+      "0.6.1",
+      "MIDICCToCVInterface"
+    ],
+    [
+      "Core",
+      "0.6.1",
+      "MIDITriggerToCVInterface"
+    ],
+    [
+      "Core",
+      "0.6.1",
+      "Blank"
+    ],
+    [
+      "Core",
+      "0.6.1",
+      "Notes"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-VCO"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-XCO"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Additator"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-FMOp"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-LFO"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-EightFO"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-DADSRH"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-DADSRHPlus"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-DGate"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Shaper"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-ShaperPlus"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-ADSR"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Follow"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Mix4"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Mix8"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-VCM"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Pan"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-XFade"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-VCA"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-VCAmp"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Analyzer"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-VU"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Detune"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Stack"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Reftone"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Bool"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-CVD"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-FlipFlop"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Manual"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Mult"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Noise"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Offset"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-SampleHold"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Sums"
+    ],
+    [
+      "Bogaudio",
+      "0.6.7",
+      "Bogaudio-Switch"
+    ],
+    [
+      "squinkylabs-plug1",
+      "0.6.5",
+      "squinkylabs-freqshifter"
+    ],
+    [
+      "squinkylabs-plug1",
+      "0.6.5",
+      "squinkylabs-vocalanimator"
+    ],
+    [
+      "squinkylabs-plug1",
+      "0.6.5",
+      "squinkylabs-vocalfilter"
+    ],
+    [
+      "squinkylabs-plug1",
+      "0.6.5",
+      "squinkylabs-coloredNoise"
+    ],
+    [
+      "squinkylabs-plug1",
+      "0.6.5",
+      "squinkylabs-tremolo"
+    ],
+    [
+      "squinkylabs-plug1",
+      "0.6.5",
+      "squinkylabs-booster"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "BPMLFO"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "BPMLFO2"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "DamianLillard"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "EverlastingGlottalStopper"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "HairPick"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "LissajousLFO"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "MrBlueSky"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "TheOneRingModulator"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "PhasedLockedLoop"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "PortlandWeather"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "QuadEuclideanRhythm"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "QuadGolombRulerRhythm"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "QuantussyCell"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "RouletteLFO"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "SeriouslySlowLFO"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "VoxInhumana"
+    ],
+    [
+      "FrozenWasteland",
+      "0.6.7",
+      "CDCSeriouslySlowLFO"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Tact"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Twelve-Key"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Clocked"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Phrase-Seq-16"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Phrase-Seq-32"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Gate-Seq-64"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Write-Seq-32"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Write-Seq-64"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Semi-Modular Synth"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Blank-Panel"
+    ],
+    [
+      "Valley",
+      "0.6.5",
+      "Topograph"
+    ],
+    [
+      "Valley",
+      "0.6.5",
+      "uGraph"
+    ],
+    [
+      "Valley",
+      "0.6.5",
+      "Dexter"
+    ],
+    [
+      "Valley",
+      "0.6.5",
+      "Plateau"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "MasterClockx4"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Seq_3ch_16step"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Seq_6ch_32step"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "TriadSeq2"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "SEQ_Envelope_8"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Maude221"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "ARP700"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "SynthDrums"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "XFade"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Mix_1x4_Stereo"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Mix_2x4_Stereo"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Mix_4x4_Stereo(2)"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Mix_9_3_4"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Mix_16_4_4"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Mix_24_4_4"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "StepDelay"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "PingPong_Widget"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Osc_3Ch_Widget"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "OSC_WaveMorph_3"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Dronez"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Morze"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Alienz"
+    ],
+    [
+      "mscHack",
+      "0.6.2",
+      "Compressor1"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "trSEQ"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "LEDSEQ"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "L3DS3Q"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "SLIDERSEQ"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "PLAYER"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "STEPS"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "METRO"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "EACH"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "FOUR"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "PEAK"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "MONO"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "STEREO"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "MASTER"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "SUB"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "CUBE"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "PATCH"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "LEDS"
+    ],
+    [
+      "cf",
+      "0.6.0",
+      "DAVE"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Debriatus"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Caudal"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Flame"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Ferox"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Flux"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "HyperPower"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Julste"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Lateralus"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Nopskate"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Noxious"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Noxious-Poly"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Rescomb"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Slap"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Spank"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Splie"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Stabile"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Tangents"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Tohe"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Trummor"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Trummor2"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Unstabile"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Vessek"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Vortex"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "UtilKnobs"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "UtilSend"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "UtilBypass"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "BlackPanelSmall"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "BlackPanel"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "BlackPanelBig"
+    ],
+    [
+      "VultModules",
+      "0.6.7",
+      "Version"
+    ],
+    [
+      "VCV-Parametra",
+      "0.6.0",
+      "Parametra"
+    ],
+    [
+      "VCV-Router",
+      "0.6.0",
+      "OctalRouter"
+    ],
+    [
+      "VCV-Router",
+      "0.6.0",
+      "Router1_4"
+    ],
+    [
+      "VCV-Router",
+      "0.6.0",
+      "Router4_1"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "VCO"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "VCO2"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "VCF"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "VCA"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "LFO"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "LFO2"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "Delay"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "ADSR"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "VCMixer"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "8vert"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "Unity"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "Mutes"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "Scope"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "SEQ3"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "SequentialSwitch1"
+    ],
+    [
+      "Fundamental",
+      "0.6.0",
+      "SequentialSwitch2"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "IdleSwitch"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "MomentaryOnButtons"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "BigMuteButton"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "ColorPanel"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "GateLength"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "SpecificValue"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "Reference"
+    ],
+    [
+      "VCV-PulseMatrix",
+      "0.6.0",
+      "PulseMatrix16"
+    ],
+    [
+      "VCV-PulseMatrix",
+      "0.6.0",
+      "PulseMatrix8"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "SineOSC"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "SawOSC"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "ADSR"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "VCA"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "QuadVCA"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "TriLFO"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "AtNuVrTr"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "BPMClock"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "SEQ16"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "Mixer8ch"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "MonoVUmeter"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "StereoVUmeter"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "Steps"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "LaunchGate"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "KillGate"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "Flow"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "SignalDelay"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "Multiple2_5"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "Merge2_5"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "TriggersMKI"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "TriggersMKII"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "BPMCalc"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "Cv2T"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "DelayPlusFx"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "DelayPlusStereoFx"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "PhaserFx"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "ReverbFx"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "ReverbStereoFx"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "SuperDriveFx"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "TremoloFx"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "TremoloStereoFx"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "WaveShaper"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "BlankPanel4"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "BlankPanel6"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "BlankPanel8"
+    ],
+    [
+      "AS",
+      "0.6.8",
+      "BlankPanelSpecial"
+    ],
+    [
+      "VCV-Console",
+      "0.6.0",
+      "Console8_3"
+    ],
+    [
+      "VultCompacts",
+      "0.6.3",
+      "Freak"
+    ],
+    [
+      "FrankBussFormula",
+      "0.6.0",
+      "FrankBussFormula"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "DOPPLAB"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "MasterRecorder2"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "DeepNote"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "EqualDivisionQuantizer"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "Spectre"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "QuadSimplerSlicerQuantizer"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "8AttackDecay"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "ClockMultiplier"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "ConstAddMult"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "XattoTime"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "ScalaQuantizer"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "DissonantVerb"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "PlateVerb"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "4DCBlock"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "TIMEX"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "SingleVUMeter"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "DualFeedbackEcho"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "NYECHOEcoeco"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "DX7Envelope"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "QuadPanner"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "NYSTHIOMETER"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "VectorMixer"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "SOU UTILS"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "SoyModelSOU"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "SQUONK"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "HotTuna"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "Dica33"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "QuadSimpler"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "complexSimpler"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "DelayAttackHoldDecay"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "AttackDecay"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "DualMeter"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "MultiTrack"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "MasterRecorder"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "LFOMultiPhase"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "NYEnvFollower"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "DualSignalDelayer"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "NYStereoChorus"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "Surveillance"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "NYStereoPhaser"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "Model277"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "TwistedMVerb"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "HiVerb"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "MVerb"
+    ],
+    [
+      "NYSTHI",
+      "0.6.7",
+      "Logic"
+    ],
+    [
+      "DLwigglz",
+      "0.6.2",
+      "DLwigglz-r4xH4x"
+    ],
+    [
+      "DLwigglz",
+      "0.6.2",
+      "DLwigglz-gl0bz"
+    ]
+  ],
+  "pluginCount": 20,
+  "moduleCount": 265
+}
