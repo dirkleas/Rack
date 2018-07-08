@@ -6,6 +6,18 @@
 
 This README includes instructions for building Rack from source. For information about the software, go to https://vcvrack.com/.
 
+---
+
+## VCV Rack Fork Notice
+
+This specific version is a **fork** of Rack from [Dirk Leas](https://github.com/dirkleas) includes some additional features not in the stadard version of Rack, including the following:
+
+1. support for generating a full `catalog.json` of metadata for your installed plugins, including module geometry, I/O counts, etc.
+1. renamed **Revert** toolbar/tooltip button now called **reOpen**, and removal of the confirmation when clicked
+1. support for "insert mode" when loading patches via a new `gPatchInsertMode` global variable that toggles clearing the current patch when opening/reOpening patches allow you to import subpatches into the current patch -- note that if you import a subpatch with a module in the exact same location as an existing module in the rack, the new module instance replaces the old one (including its wiring)
+
+---
+
 ## The [Issue Tracker](https://github.com/VCVRack/Rack/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) is the official developer's forum
 
 Bug reports, feature requests, questions, and discussions are welcome on the GitHub Issue Tracker for all repos under the VCVRack organization.
