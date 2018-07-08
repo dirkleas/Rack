@@ -4,6 +4,7 @@
 #include "osdialog.h"
 #include <string.h>
 #include <thread>
+#include "r4xh4x.hpp"
 
 
 namespace rack {
@@ -72,6 +73,13 @@ void RackScene::onHoverKey(EventHoverKey &e) {
 			case GLFW_KEY_Q: {
 				if (windowIsModPressed() && !windowIsShiftPressed()) {
 					windowClose();
+					e.consumed = true;
+				}
+			} break;
+			case GLFW_KEY_C: {
+				if (windowIsModPressed() && windowIsShiftPressed()) {
+					R4xH4x r4xh4x;
+					r4xh4x.catalog(true);
 					e.consumed = true;
 				}
 			} break;

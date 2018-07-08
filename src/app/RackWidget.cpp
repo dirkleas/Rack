@@ -7,6 +7,7 @@
 #include <map>
 #include <algorithm>
 #include "osdialog.h"
+#include "r4xh4x.hpp"
 
 
 namespace rack {
@@ -150,8 +151,12 @@ void RackWidget::load(std::string filename) {
 	json_error_t error;
 	json_t *rootJ = json_loadf(file, 0, &error);
 	if (rootJ) {
-		clear();
+		if (!gPatchInsertMode) clear();
 		fromJson(rootJ);
+		if (gPatchInsertMode) {
+			R4xH4x r4xh4x;
+			r4xh4x.normalizeLayout();
+		}
 		json_decref(rootJ);
 	}
 	else {
@@ -165,9 +170,9 @@ void RackWidget::load(std::string filename) {
 void RackWidget::revert() {
 	if (lastPath.empty())
 		return;
-	if (osdialog_message(OSDIALOG_INFO, OSDIALOG_OK_CANCEL, "Revert patch to the last saved state?")) {
+	// if (osdialog_message(OSDIALOG_INFO, OSDIALOG_OK_CANCEL, "Revert patch to the last saved state?")) {
 		load(lastPath);
-	}
+	// }
 }
 
 void RackWidget::disconnect() {

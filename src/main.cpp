@@ -14,6 +14,7 @@
 
 #include "osdialog.h"
 #include <unistd.h>
+#include "r4xh4x.hpp"
 
 
 using namespace rack;
@@ -26,16 +27,10 @@ int main(int argc, char* argv[]) {
 	// Parse command line arguments
 	int c;
 	opterr = 0;
-	while ((c = getopt(argc, argv, "dg:l:")) != -1) {
+	while ((c = getopt(argc, argv, "d")) != -1) {
 		switch (c) {
 			case 'd': {
 				devMode = true;
-			} break;
-			case 'g': {
-				assetGlobalDir = optarg;
-			} break;
-			case 'l': {
-				assetLocalDir = optarg;
 			} break;
 			default: break;
 		}
@@ -67,6 +62,9 @@ int main(int argc, char* argv[]) {
 	appInit(devMode);
 	settingsLoad(assetLocal("settings.json"));
 
+	R4xH4x r4xh4x;
+	r4xh4x.settingsLoad("r4xh4x.json");
+
 	if (patchFile.empty()) {
 		// To prevent launch crashes, if Rack crashes between now and 15 seconds from now, the "skipAutosaveOnLaunch" property will remain in settings.json, so that in the next launch, the broken autosave will not be loaded.
 		bool oldSkipAutosaveOnLaunch = gSkipAutosaveOnLaunch;
@@ -95,6 +93,7 @@ int main(int argc, char* argv[]) {
 	// Destroy namespaces
 	gRackWidget->save(assetLocal("autosave.vcv"));
 	settingsSave(assetLocal("settings.json"));
+	r4xh4x.settingsSave("r4xh4x.json");
 	appDestroy();
 	windowDestroy();
 	bridgeDestroy();

@@ -1,0 +1,174 @@
+{
+  "applicationName": "VCV Rack",
+  "applicationVersion": "0.6.1",
+  "apiHost": "https://api.vcvrack.com",
+  "pixelRatio": 2,
+  "xpos": 0,
+  "ypos": 22,
+  "width": 1440,
+  "height": 878,
+  "token": "",
+  "path": "/Users/dirkleas/Desktop/tmp/Rack",
+  "tags": [
+    "Amplifier/VCA",
+    "Arpeggiator",
+    "Attenuator",
+    "Blank",
+    "Chorus",
+    "Clock Modulator",
+    "Clock",
+    "Compressor",
+    "Controller",
+    "Delay",
+    "Digital",
+    "Distortion",
+    "Drum",
+    "Dual/Stereo",
+    "Dynamics",
+    "Effect",
+    "Envelope Follower",
+    "Envelope Generator",
+    "Equalizer",
+    "External",
+    "Filter/VCF",
+    "Flanger",
+    "Function Generator",
+    "Granular",
+    "LFO",
+    "Limiter",
+    "Logic",
+    "Low Pass Gate",
+    "MIDI",
+    "Mixer",
+    "Multiple",
+    "Noise",
+    "Oscillator/VCO",
+    "Panning",
+    "Phaser",
+    "Physical Modeling",
+    "Quad",
+    "Quantizer",
+    "Random",
+    "Recording",
+    "Reverb",
+    "Ring Modulator",
+    "Sample and Hold",
+    "Sampler",
+    "Sequencer",
+    "Slew Limiter",
+    "Switch",
+    "Synth Voice",
+    "Tuner",
+    "Utility",
+    "Visual",
+    "Vocoder",
+    "Waveshaper"
+  ],
+  "pluginCount": 1,
+  "plugins": [
+    {
+      "slug": "Core",
+      "path": "",
+      "version": "0.6.1",
+      "modelCount": 7,
+      "models": [
+        {
+          "slug": "AudioInterface",
+          "name": "Audio",
+          "author": "Core",
+          "tags": [
+            "External"
+          ],
+          "width": 150,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 8,
+          "outputCount": 8
+        },
+        {
+          "slug": "MIDIToCVInterface",
+          "name": "MIDI-1",
+          "author": "Core",
+          "tags": [
+            "MIDI",
+            "External"
+          ],
+          "width": 120,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 12
+        },
+        {
+          "slug": "QuadMIDIToCVInterface",
+          "name": "MIDI-4",
+          "author": "Core",
+          "tags": [
+            "MIDI",
+            "External",
+            "Quad"
+          ],
+          "width": 150,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 16
+        },
+        {
+          "slug": "MIDICCToCVInterface",
+          "name": "MIDI-CC",
+          "author": "Core",
+          "tags": [
+            "MIDI",
+            "External"
+          ],
+          "width": 150,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 16
+        },
+        {
+          "slug": "MIDITriggerToCVInterface",
+          "name": "MIDI-Trig",
+          "author": "Core",
+          "tags": [
+            "MIDI",
+            "External"
+          ],
+          "width": 150,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 16
+        },
+        {
+          "slug": "Blank",
+          "name": "Blank",
+          "author": "Core",
+          "tags": [
+            "Blank"
+          ],
+          "width": 150,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
+        },
+        {
+          "slug": "Notes",
+          "name": "Notes",
+          "author": "Core",
+          "tags": [
+            "Blank"
+          ],
+          "width": 240,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
+        }
+      ]
+    }
+  ]
+}

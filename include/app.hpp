@@ -547,6 +547,7 @@ extern std::string gApplicationVersion;
 extern std::string gApiHost;
 extern std::string gLatestVersion;
 extern bool gCheckVersion;
+extern bool gPatchInsertMode;
 
 // Easy access to "singleton" widgets
 extern RackScene *gRackScene;

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# generate faults.json from DLwigglz r4xH4x "patch" button generated patch.json
+#   dependency: jq (https://stedolan.github.io/jq/)
+
+echo Generating faults.json from DLwigglz r4xH4x [patch] patch.json...
+touch -a faults.json
+cat patch.json|jq '[.modules | map(del(.params, .pos)) | .[] | select(.plugin != "DLwigglz")]' > faults.new.json
+jq -s '.[0] + .[1]' faults.json faults.new.json > faults.json
+rm faults.new.json

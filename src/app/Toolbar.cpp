@@ -2,6 +2,7 @@
 #include "window.hpp"
 #include "engine.hpp"
 #include "asset.hpp"
+#include "r4xh4x.hpp"
 
 
 namespace rack {
@@ -72,10 +73,21 @@ struct SaveAsButton : TooltipIconButton {
 struct RevertButton : TooltipIconButton {
 	RevertButton() {
 		setSVG(SVG::load(assetGlobal("res/icons/noun_1084369_cc.svg")));
-		tooltipText = "Revert";
+		tooltipText = "quick reOpen (" WINDOW_MOD_KEY_NAME "+Shift+O)";
 	}
 	void onAction(EventAction &e) override {
 		gRackWidget->revert();
+	}
+};
+
+struct CatalogButton : TooltipIconButton {
+	CatalogButton() {
+		setSVG(SVG::load(assetGlobal("res/icons/noun_1066823_cc.svg")));
+		tooltipText = "Catalog (" WINDOW_MOD_KEY_NAME "+Shift+C)";
+	}
+	void onAction(EventAction &e) override {
+		R4xH4x r4xh4x;
+		r4xh4x.catalog(true);
 	}
 };
 
@@ -172,6 +184,7 @@ Toolbar::Toolbar() {
 	layout->addChild(new SaveAsButton());
 	layout->addChild(new RevertButton());
 	layout->addChild(new DisconnectCablesButton());
+	layout->addChild(new CatalogButton());
 
 	layout->addChild(new SampleRateButton());
 	layout->addChild(new PowerMeterButton());
