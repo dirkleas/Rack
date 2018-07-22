@@ -1,6 +1,6 @@
 {
   "applicationName": "VCV Rack",
-  "applicationVersion": "0.6.1",
+  "applicationVersion": "0.6.2b",
   "apiHost": "https://api.vcvrack.com",
   "pixelRatio": 2,
   "xpos": 0,
@@ -64,12 +64,12 @@
     "Vocoder",
     "Waveshaper"
   ],
-  "pluginCount": 20,
+  "pluginCount": 32,
   "plugins": [
     {
       "slug": "Core",
       "path": "",
-      "version": "0.6.1",
+      "version": "0.6.2b",
       "modelCount": 7,
       "models": [
         {
@@ -167,6 +167,39 @@
           "paramCount": 0,
           "inputCount": 0,
           "outputCount": 0
+        }
+      ]
+    },
+    {
+      "slug": "AudibleInstrumentsPreview",
+      "path": "./plugins/AudibleInstrumentsPreview",
+      "version": "0.6.1",
+      "modelCount": 2,
+      "models": [
+        {
+          "slug": "Plaits",
+          "name": "Macro Oscillator 2",
+          "author": "Audible Instruments",
+          "tags": [
+            "Oscillator/VCO",
+            "Waveshaper"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 9,
+          "inputCount": 8,
+          "outputCount": 2
+        },
+        {
+          "slug": "Marbles",
+          "name": "Random Sampler",
+          "author": "Audible Instruments",
+          "tags": [],
+          "width": 270,
+          "height": 380,
+          "paramCount": 15,
+          "inputCount": 9,
+          "outputCount": 7
         }
       ]
     },
@@ -643,8 +676,8 @@
     {
       "slug": "squinkylabs-plug1",
       "path": "./plugins/squinkylabs-plug1",
-      "version": "0.6.5",
-      "modelCount": 6,
+      "version": "0.6.6",
+      "modelCount": 7,
       "models": [
         {
           "slug": "squinkylabs-freqshifter",
@@ -729,6 +762,483 @@
           "paramCount": 1,
           "inputCount": 0,
           "outputCount": 0
+        },
+        {
+          "slug": "squinkylabs-lfn",
+          "name": "LFN - Random Voltages",
+          "author": "Squinky Labs",
+          "tags": [
+            "Effect",
+            "LFO"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 6,
+          "inputCount": 5,
+          "outputCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "Valley",
+      "path": "./plugins/Valley",
+      "version": "0.6.5",
+      "modelCount": 4,
+      "models": [
+        {
+          "slug": "Topograph",
+          "name": "Topograph",
+          "author": "Valley",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 240,
+          "height": 380,
+          "paramCount": 10,
+          "inputCount": 10,
+          "outputCount": 6
+        },
+        {
+          "slug": "uGraph",
+          "name": "uGraph",
+          "author": "Valley",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 150,
+          "height": 380,
+          "paramCount": 10,
+          "inputCount": 10,
+          "outputCount": 6
+        },
+        {
+          "slug": "Dexter",
+          "name": "Dexter",
+          "author": "Valley",
+          "tags": [
+            "Oscillator/VCO"
+          ],
+          "width": 690,
+          "height": 380,
+          "paramCount": 135,
+          "inputCount": 57,
+          "outputCount": 7
+        },
+        {
+          "slug": "Plateau",
+          "name": "Plateau",
+          "author": "Valley",
+          "tags": [
+            "Reverb"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 30,
+          "inputCount": 16,
+          "outputCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "Bidoo",
+      "path": "./plugins/Bidoo",
+      "version": "0.6.8",
+      "modelCount": 23,
+      "models": [
+        {
+          "slug": "dTrOY",
+          "name": "dTrOY sequencer",
+          "author": "Bidoo",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 510,
+          "height": 380,
+          "paramCount": 52,
+          "inputCount": 11,
+          "outputCount": 2
+        },
+        {
+          "slug": "bordL",
+          "name": "bordL sequencer",
+          "author": "Bidoo",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 510,
+          "height": 380,
+          "paramCount": 84,
+          "inputCount": 11,
+          "outputCount": 3
+        },
+        {
+          "slug": "µ",
+          "name": "µ synced pulse generator",
+          "author": "Bidoo",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 75,
+          "height": 380,
+          "paramCount": 15,
+          "inputCount": 10,
+          "outputCount": 5
+        },
+        {
+          "slug": "tOCAnTe",
+          "name": "tOCAnTe clock",
+          "author": "Bidoo",
+          "tags": [
+            "Clock"
+          ],
+          "width": 105,
+          "height": 380,
+          "paramCount": 6,
+          "inputCount": 0,
+          "outputCount": 6
+        },
+        {
+          "slug": "ChUTE",
+          "name": "ChUTE trigger",
+          "author": "Bidoo",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 135,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 4,
+          "outputCount": 3
+        },
+        {
+          "slug": "lATe",
+          "name": "lATe clock modulator",
+          "author": "Bidoo",
+          "tags": [
+            "Clock Modulator"
+          ],
+          "width": 45,
+          "height": 380,
+          "paramCount": 1,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "LoURdE",
+          "name": "LoURdE gate",
+          "author": "Bidoo",
+          "tags": [
+            "Logic"
+          ],
+          "width": 75,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 7,
+          "outputCount": 1
+        },
+        {
+          "slug": "ACnE",
+          "name": "ACnE mixer",
+          "author": "Bidoo",
+          "tags": [
+            "Mixer"
+          ],
+          "width": 510,
+          "height": 380,
+          "paramCount": 187,
+          "inputCount": 17,
+          "outputCount": 8
+        },
+        {
+          "slug": "OUAIve",
+          "name": "OUAIve player",
+          "author": "Bidoo",
+          "tags": [
+            "Sampler"
+          ],
+          "width": 135,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 5,
+          "outputCount": 2
+        },
+        {
+          "slug": "cANARd",
+          "name": "cANARd sampler",
+          "author": "Bidoo",
+          "tags": [
+            "Sampler"
+          ],
+          "width": 195,
+          "height": 380,
+          "paramCount": 10,
+          "inputCount": 12,
+          "outputCount": 3
+        },
+        {
+          "slug": "dUKe",
+          "name": "dUKe controller",
+          "author": "Bidoo",
+          "tags": [
+            "Controller"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 18,
+          "inputCount": 4,
+          "outputCount": 4
+        },
+        {
+          "slug": "MOiRE",
+          "name": "MOiRE controller",
+          "author": "Bidoo",
+          "tags": [
+            "Controller"
+          ],
+          "width": 225,
+          "height": 380,
+          "paramCount": 39,
+          "inputCount": 3,
+          "outputCount": 16
+        },
+        {
+          "slug": "ForK",
+          "name": "ForK oscillator",
+          "author": "Bidoo",
+          "tags": [
+            "Oscillator/VCO"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 10,
+          "inputCount": 9,
+          "outputCount": 1
+        },
+        {
+          "slug": "TiARE",
+          "name": "TiARE oscillator",
+          "author": "Bidoo",
+          "tags": [
+            "Oscillator/VCO"
+          ],
+          "width": 150,
+          "height": 380,
+          "paramCount": 5,
+          "inputCount": 5,
+          "outputCount": 4
+        },
+        {
+          "slug": "clACos",
+          "name": "clACos oscillator",
+          "author": "Bidoo",
+          "tags": [
+            "Oscillator/VCO"
+          ],
+          "width": 150,
+          "height": 380,
+          "paramCount": 9,
+          "inputCount": 15,
+          "outputCount": 1
+        },
+        {
+          "slug": "antN",
+          "name": "antN oscillator",
+          "author": "Bidoo",
+          "tags": [
+            "Oscillator/VCO"
+          ],
+          "width": 135,
+          "height": 380,
+          "paramCount": 2,
+          "inputCount": 0,
+          "outputCount": 2
+        },
+        {
+          "slug": "lIMbO",
+          "name": "lIMbO filter",
+          "author": "Bidoo",
+          "tags": [
+            "Filter/VCF"
+          ],
+          "width": 120,
+          "height": 380,
+          "paramCount": 5,
+          "inputCount": 5,
+          "outputCount": 2
+        },
+        {
+          "slug": "pErCO",
+          "name": "pErCO filter",
+          "author": "Bidoo",
+          "tags": [
+            "Filter/VCF"
+          ],
+          "width": 120,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 3
+        },
+        {
+          "slug": "baR",
+          "name": "bAR compressor",
+          "author": "Bidoo",
+          "tags": [
+            "Dynamics"
+          ],
+          "width": 135,
+          "height": 380,
+          "paramCount": 8,
+          "inputCount": 4,
+          "outputCount": 2
+        },
+        {
+          "slug": "ziNC",
+          "name": "ziNC vocoder",
+          "author": "Bidoo",
+          "tags": [
+            "Effect"
+          ],
+          "width": 195,
+          "height": 380,
+          "paramCount": 21,
+          "inputCount": 2,
+          "outputCount": 1
+        },
+        {
+          "slug": "dFUZE",
+          "name": "dFUZE reverberator",
+          "author": "Bidoo",
+          "tags": [
+            "Reverb"
+          ],
+          "width": 105,
+          "height": 380,
+          "paramCount": 7,
+          "inputCount": 7,
+          "outputCount": 2
+        },
+        {
+          "slug": "vOId",
+          "name": "vOId machine",
+          "author": "Bidoo",
+          "tags": [
+            "Blank"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
+        },
+        {
+          "slug": "Σ",
+          "name": "Σ multiprise :)",
+          "author": "Bidoo",
+          "tags": [
+            "Multiple"
+          ],
+          "width": 75,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 18,
+          "outputCount": 6
+        }
+      ]
+    },
+    {
+      "slug": "modular80",
+      "path": "./plugins/modular80",
+      "version": "0.6.3",
+      "modelCount": 3,
+      "models": [
+        {
+          "slug": "Logistiker",
+          "name": "Logistiker",
+          "author": "modular80",
+          "tags": [
+            "Random"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "Nosering",
+          "name": "Nosering",
+          "author": "modular80",
+          "tags": [
+            "Noise",
+            "Random"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 5,
+          "outputCount": 3
+        },
+        {
+          "slug": "Radio Music",
+          "name": "Radio Music",
+          "author": "modular80",
+          "tags": [
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "s-ol",
+      "path": "./plugins/s-ol",
+      "version": "0.6.1",
+      "modelCount": 3,
+      "models": [
+        {
+          "slug": "CircleVCO",
+          "name": "Circle VCO",
+          "author": "s-ol",
+          "tags": [
+            "Oscillator/VCO",
+            "Visual"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 1,
+          "inputCount": 1,
+          "outputCount": 3
+        },
+        {
+          "slug": "WrapComp",
+          "name": "Wrapping Comparator",
+          "author": "s-ol",
+          "tags": [
+            "Logic"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "Modulo",
+          "name": "Modulo",
+          "author": "s-ol",
+          "tags": [
+            "Logic"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 1,
+          "inputCount": 2,
+          "outputCount": 2
         }
       ]
     },
@@ -962,209 +1472,10 @@
       ]
     },
     {
-      "slug": "ImpromptuModular",
-      "path": "./plugins/ImpromptuModular",
-      "version": "0.6.7",
-      "modelCount": 10,
-      "models": [
-        {
-          "slug": "Tact",
-          "name": "CTRL - Tact",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Controller"
-          ],
-          "width": 255,
-          "height": 380,
-          "paramCount": 11,
-          "inputCount": 6,
-          "outputCount": 2
-        },
-        {
-          "slug": "Twelve-Key",
-          "name": "CTRL - Twelve-Key",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Controller"
-          ],
-          "width": 300,
-          "height": 380,
-          "paramCount": 14,
-          "inputCount": 3,
-          "outputCount": 3
-        },
-        {
-          "slug": "Clocked",
-          "name": "CLK - Clocked",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Clock"
-          ],
-          "width": 300,
-          "height": 380,
-          "paramCount": 17,
-          "inputCount": 9,
-          "outputCount": 7
-        },
-        {
-          "slug": "Phrase-Seq-16",
-          "name": "SEQ - Phrase-Seq-16",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Sequencer"
-          ],
-          "width": 450,
-          "height": 380,
-          "paramCount": 40,
-          "inputCount": 13,
-          "outputCount": 3
-        },
-        {
-          "slug": "Phrase-Seq-32",
-          "name": "SEQ - Phrase-Seq-32",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Sequencer"
-          ],
-          "width": 480,
-          "height": 380,
-          "paramCount": 70,
-          "inputCount": 13,
-          "outputCount": 6
-        },
-        {
-          "slug": "Gate-Seq-64",
-          "name": "SEQ - Gate-Seq-64",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Sequencer"
-          ],
-          "width": 360,
-          "height": 380,
-          "paramCount": 73,
-          "inputCount": 9,
-          "outputCount": 4
-        },
-        {
-          "slug": "Write-Seq-32",
-          "name": "SEQ - Write-Seq-32",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Sequencer"
-          ],
-          "width": 405,
-          "height": 380,
-          "paramCount": 25,
-          "inputCount": 8,
-          "outputCount": 6
-        },
-        {
-          "slug": "Write-Seq-64",
-          "name": "SEQ - Write-Seq-64",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Sequencer"
-          ],
-          "width": 405,
-          "height": 380,
-          "paramCount": 16,
-          "inputCount": 9,
-          "outputCount": 8
-        },
-        {
-          "slug": "Semi-Modular Synth",
-          "name": "MISC - Semi-Modular Synth",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Sequencer",
-            "Oscillator/VCO"
-          ],
-          "width": 840,
-          "height": 380,
-          "paramCount": 61,
-          "inputCount": 20,
-          "outputCount": 14
-        },
-        {
-          "slug": "Blank-Panel",
-          "name": "MISC - Blank-Panel",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Blank"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 0,
-          "inputCount": 0,
-          "outputCount": 0
-        }
-      ]
-    },
-    {
-      "slug": "Valley",
-      "path": "./plugins/ValleyRackFree",
-      "version": "0.6.5",
-      "modelCount": 4,
-      "models": [
-        {
-          "slug": "Topograph",
-          "name": "Topograph",
-          "author": "Valley",
-          "tags": [
-            "Sequencer"
-          ],
-          "width": 240,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 10,
-          "outputCount": 6
-        },
-        {
-          "slug": "uGraph",
-          "name": "uGraph",
-          "author": "Valley",
-          "tags": [
-            "Sequencer"
-          ],
-          "width": 150,
-          "height": 380,
-          "paramCount": 10,
-          "inputCount": 10,
-          "outputCount": 6
-        },
-        {
-          "slug": "Dexter",
-          "name": "Dexter",
-          "author": "Valley",
-          "tags": [
-            "Oscillator/VCO"
-          ],
-          "width": 690,
-          "height": 380,
-          "paramCount": 135,
-          "inputCount": 57,
-          "outputCount": 7
-        },
-        {
-          "slug": "Plateau",
-          "name": "Plateau",
-          "author": "Valley",
-          "tags": [
-            "Reverb"
-          ],
-          "width": 180,
-          "height": 380,
-          "paramCount": 30,
-          "inputCount": 16,
-          "outputCount": 2
-        }
-      ]
-    },
-    {
       "slug": "mscHack",
-      "path": "./plugins/VCV-Rack-Plugins",
+      "path": "./plugins/mscHack",
       "version": "0.6.2",
-      "modelCount": 23,
+      "modelCount": 24,
       "models": [
         {
           "slug": "MasterClockx4",
@@ -1482,6 +1793,20 @@
           "outputCount": 1
         },
         {
+          "slug": "Windz",
+          "name": "Windz module",
+          "author": "mscHack",
+          "tags": [
+            "Oscillator/VCO",
+            "Multiple"
+          ],
+          "width": 75,
+          "height": 380,
+          "paramCount": 1,
+          "inputCount": 1,
+          "outputCount": 2
+        },
+        {
           "slug": "Alienz",
           "name": "Alienz module",
           "author": "mscHack",
@@ -1507,6 +1832,825 @@
           "paramCount": 7,
           "inputCount": 3,
           "outputCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "moDllz",
+      "path": "./plugins/moDllz",
+      "version": "0.6.6",
+      "modelCount": 5,
+      "models": [
+        {
+          "slug": "MIDIPoly16",
+          "name": "MIDI Poly 16",
+          "author": "moDllz",
+          "tags": [
+            "MIDI",
+            "Arpeggiator",
+            "Sequencer",
+            "Controller",
+            "Multiple",
+            "External"
+          ],
+          "width": 600,
+          "height": 380,
+          "paramCount": 79,
+          "inputCount": 12,
+          "outputCount": 65
+        },
+        {
+          "slug": "TwinGlider",
+          "name": "TwinGlider Dual Portamento",
+          "author": "moDllz",
+          "tags": [
+            "Slew Limiter",
+            "Dual/Stereo",
+            "Envelope Follower"
+          ],
+          "width": 165,
+          "height": 380,
+          "paramCount": 12,
+          "inputCount": 10,
+          "outputCount": 12
+        },
+        {
+          "slug": "MIDIdualCV",
+          "name": "MIDI to dual CV interface",
+          "author": "moDllz",
+          "tags": [
+            "MIDI",
+            "Dual/Stereo",
+            "External"
+          ],
+          "width": 135,
+          "height": 380,
+          "paramCount": 12,
+          "inputCount": 0,
+          "outputCount": 15
+        },
+        {
+          "slug": "XBender",
+          "name": "Poly X Bender",
+          "author": "moDllz",
+          "tags": [
+            "Multiple",
+            "Effect"
+          ],
+          "width": 270,
+          "height": 380,
+          "paramCount": 23,
+          "inputCount": 17,
+          "outputCount": 9
+        },
+        {
+          "slug": "MIDI8MPE",
+          "name": "MIDI 8cv MPE",
+          "author": "moDllz",
+          "tags": [
+            "MIDI",
+            "External",
+            "Multiple"
+          ],
+          "width": 195,
+          "height": 380,
+          "paramCount": 12,
+          "inputCount": 0,
+          "outputCount": 46
+        }
+      ]
+    },
+    {
+      "slug": "AS-Drums-n-Filters",
+      "path": "./plugins/AS-Drums-n-Filters",
+      "version": "0.6.2",
+      "modelCount": 24,
+      "models": [
+        {
+          "slug": "Drums8x8Kicks",
+          "name": "HIP Kick",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "Drums8x8Snares",
+          "name": "HIP Snare",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "Drums8x8Hihats",
+          "name": "HIP Hihat",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "Drums8x8toms",
+          "name": "HIP Toms",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 2,
+          "outputCount": 1
+        },
+        {
+          "slug": "Drums8x8Percs",
+          "name": "HIP Percussions",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 2,
+          "outputCount": 1
+        },
+        {
+          "slug": "Drums9x9Kicks",
+          "name": "TEK Kick",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "Drums9x9Snares",
+          "name": "TEK Snare",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "Drums9x9Hihats",
+          "name": "TEK Hihat",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "Drums9x9Percs",
+          "name": "TEK Percussions",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 2,
+          "outputCount": 1
+        },
+        {
+          "slug": "DrumsSdSKicks",
+          "name": "RCK Kick",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "DrumsSdSSnares",
+          "name": "RCK Snare",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "DrumsSdSHihats",
+          "name": "RCK Hihat",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "DrumsSdStoms",
+          "name": "RCK Toms",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 2,
+          "outputCount": 1
+        },
+        {
+          "slug": "DrumsC64Kicks",
+          "name": "CMP Kick",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "DrumsC64Snares",
+          "name": "CMP Snare",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "DrumsC64Hihats",
+          "name": "CMP Hihat",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "DrumsC64Percs",
+          "name": "CMP Percussions",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 2,
+          "outputCount": 1
+        },
+        {
+          "slug": "VCFilter",
+          "name": "VC Filter",
+          "author": "AS",
+          "tags": [
+            "Filter/VCF"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 4,
+          "outputCount": 1
+        },
+        {
+          "slug": "VCFilterStereo",
+          "name": "VC Filter Stereo",
+          "author": "AS",
+          "tags": [
+            "Filter/VCF"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 5,
+          "outputCount": 2
+        },
+        {
+          "slug": "FixedFilterBank",
+          "name": "FixedFilterBank",
+          "author": "AS",
+          "tags": [
+            "Filter/VCF"
+          ],
+          "width": 150,
+          "height": 380,
+          "paramCount": 14,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "ParaEQ",
+          "name": "Parametric EQ",
+          "author": "AS",
+          "tags": [
+            "Filter/VCF"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 1,
+          "outputCount": 1
+        },
+        {
+          "slug": "BlankPanel4Dark",
+          "name": "BlankPanel 4 Dark",
+          "author": "AS",
+          "tags": [
+            "Blank"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
+        },
+        {
+          "slug": "BlankPanel6Dark",
+          "name": "BlankPanel 6 Dark",
+          "author": "AS",
+          "tags": [
+            "Blank"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
+        },
+        {
+          "slug": "BlankPanel8Dark",
+          "name": "BlankPanel 8 Dark",
+          "author": "AS",
+          "tags": [
+            "Blank"
+          ],
+          "width": 120,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
+        }
+      ]
+    },
+    {
+      "slug": "DHE-Modules",
+      "path": "./plugins/DHE-Modules",
+      "version": "0.6.1",
+      "modelCount": 7,
+      "models": [
+        {
+          "slug": "Booster Stage",
+          "name": "Booster Stage",
+          "author": "DHE-Modules",
+          "tags": [
+            "Envelope Generator"
+          ],
+          "width": 120,
+          "height": 380,
+          "paramCount": 10,
+          "inputCount": 6,
+          "outputCount": 3
+        },
+        {
+          "slug": "Cubic",
+          "name": "Cubic",
+          "author": "DHE-Modules",
+          "tags": [
+            "Waveshaper"
+          ],
+          "width": 75,
+          "height": 380,
+          "paramCount": 6,
+          "inputCount": 7,
+          "outputCount": 1
+        },
+        {
+          "slug": "Hostage",
+          "name": "Hostage",
+          "author": "DHE-Modules",
+          "tags": [
+            "Envelope Generator"
+          ],
+          "width": 75,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 4,
+          "outputCount": 3
+        },
+        {
+          "slug": "Stage",
+          "name": "Stage",
+          "author": "DHE-Modules",
+          "tags": [
+            "Envelope Generator"
+          ],
+          "width": 75,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 3
+        },
+        {
+          "slug": "Swave",
+          "name": "Swave",
+          "author": "DHE-Modules",
+          "tags": [
+            "Waveshaper"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 2,
+          "inputCount": 2,
+          "outputCount": 1
+        },
+        {
+          "slug": "Upstage",
+          "name": "Upstage",
+          "author": "DHE-Modules",
+          "tags": [
+            "Envelope Generator"
+          ],
+          "width": 75,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 3,
+          "outputCount": 2
+        },
+        {
+          "slug": "Xycloid",
+          "name": "Xycloid",
+          "author": "DHE-Modules",
+          "tags": [
+            "Function Generator",
+            "LFO"
+          ],
+          "width": 165,
+          "height": 380,
+          "paramCount": 11,
+          "inputCount": 5,
+          "outputCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "ImpromptuModular",
+      "path": "./plugins/ImpromptuModular",
+      "version": "0.6.8",
+      "modelCount": 11,
+      "models": [
+        {
+          "slug": "Tact",
+          "name": "CTRL - Tact",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Controller"
+          ],
+          "width": 255,
+          "height": 380,
+          "paramCount": 12,
+          "inputCount": 6,
+          "outputCount": 4
+        },
+        {
+          "slug": "Twelve-Key",
+          "name": "CTRL - Twelve-Key",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Controller"
+          ],
+          "width": 300,
+          "height": 380,
+          "paramCount": 14,
+          "inputCount": 3,
+          "outputCount": 3
+        },
+        {
+          "slug": "Clocked",
+          "name": "CLK - Clocked",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Clock"
+          ],
+          "width": 300,
+          "height": 380,
+          "paramCount": 17,
+          "inputCount": 9,
+          "outputCount": 7
+        },
+        {
+          "slug": "Phrase-Seq-16",
+          "name": "SEQ - Phrase-Seq-16",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 450,
+          "height": 380,
+          "paramCount": 40,
+          "inputCount": 13,
+          "outputCount": 3
+        },
+        {
+          "slug": "Phrase-Seq-32",
+          "name": "SEQ - Phrase-Seq-32",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 480,
+          "height": 380,
+          "paramCount": 70,
+          "inputCount": 13,
+          "outputCount": 6
+        },
+        {
+          "slug": "Gate-Seq-64",
+          "name": "SEQ - Gate-Seq-64",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 360,
+          "height": 380,
+          "paramCount": 73,
+          "inputCount": 9,
+          "outputCount": 4
+        },
+        {
+          "slug": "Write-Seq-32",
+          "name": "SEQ - Write-Seq-32",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 405,
+          "height": 380,
+          "paramCount": 25,
+          "inputCount": 8,
+          "outputCount": 6
+        },
+        {
+          "slug": "Write-Seq-64",
+          "name": "SEQ - Write-Seq-64",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 405,
+          "height": 380,
+          "paramCount": 16,
+          "inputCount": 9,
+          "outputCount": 8
+        },
+        {
+          "slug": "Big-Button-Seq",
+          "name": "SEQ - Big-Button-Seq",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 255,
+          "height": 380,
+          "paramCount": 9,
+          "inputCount": 10,
+          "outputCount": 6
+        },
+        {
+          "slug": "Semi-Modular Synth",
+          "name": "MISC - Semi-Modular Synth",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer",
+            "Oscillator/VCO"
+          ],
+          "width": 840,
+          "height": 380,
+          "paramCount": 61,
+          "inputCount": 20,
+          "outputCount": 14
+        },
+        {
+          "slug": "Blank-Panel",
+          "name": "MISC - Blank-Panel",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Blank"
+          ],
+          "width": 150,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
+        }
+      ]
+    },
+    {
+      "slug": "AS-Seqs-n-Tools",
+      "path": "./plugins/AS-Seqs-n-Tools",
+      "version": "0.6.1",
+      "modelCount": 10,
+      "models": [
+        {
+          "slug": "ReStep",
+          "name": "ReStep Sequencer",
+          "author": "AS",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 9,
+          "inputCount": 6,
+          "outputCount": 5
+        },
+        {
+          "slug": "ReCon",
+          "name": "ReCon ReStep SEQ Helper",
+          "author": "AS",
+          "tags": [
+            "Switch",
+            "Utility"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 1,
+          "outputCount": 3
+        },
+        {
+          "slug": "ReBit",
+          "name": "ReBit Trigger Seq/Clock Div",
+          "author": "AS",
+          "tags": [
+            "Sequencer",
+            "Clock Modulator"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 9,
+          "inputCount": 2,
+          "outputCount": 5
+        },
+        {
+          "slug": "ReBeat",
+          "name": "ReBeat Trigger Seq/Clock Div",
+          "author": "AS",
+          "tags": [
+            "Sequencer",
+            "Clock Modulator"
+          ],
+          "width": 285,
+          "height": 380,
+          "paramCount": 33,
+          "inputCount": 2,
+          "outputCount": 8
+        },
+        {
+          "slug": "ReGate",
+          "name": "ReGate Gate gen/mod",
+          "author": "AS",
+          "tags": [
+            "Dual/Stereo",
+            "Utility"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 6,
+          "outputCount": 2
+        },
+        {
+          "slug": "ReQ",
+          "name": "ReQ Quantizer",
+          "author": "AS",
+          "tags": [
+            "Quantizer"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 4,
+          "outputCount": 1
+        },
+        {
+          "slug": "ReKey",
+          "name": "ReKey 1V/oct-key keyboard",
+          "author": "AS",
+          "tags": [
+            "Controller"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 13,
+          "inputCount": 1,
+          "outputCount": 2
+        },
+        {
+          "slug": "ReNote",
+          "name": "ReNote Transposer",
+          "author": "AS",
+          "tags": [
+            "Quantizer"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 6,
+          "inputCount": 9,
+          "outputCount": 3
+        },
+        {
+          "slug": "ReFluke",
+          "name": "ReFluke S&H/Noise/Gate generator",
+          "author": "AS",
+          "tags": [
+            "Random",
+            "Sample and Hold",
+            "Noise"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 5,
+          "inputCount": 2,
+          "outputCount": 2
+        },
+        {
+          "slug": "aBy",
+          "name": "A-B-Y Switch",
+          "author": "AS",
+          "tags": [
+            "Switch",
+            "Utility"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 2,
+          "inputCount": 5,
+          "outputCount": 3
         }
       ]
     },
@@ -2179,6 +3323,202 @@
       ]
     },
     {
+      "slug": "JW-Modules",
+      "path": "./plugins/JW-Modules",
+      "version": "0.6.2",
+      "modelCount": 14,
+      "models": [
+        {
+          "slug": "0Cat",
+          "name": "0Cat",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 1,
+          "inputCount": 0,
+          "outputCount": 0
+        },
+        {
+          "slug": "BouncyBalls",
+          "name": "Bouncy Balls",
+          "author": "JW-Modules",
+          "tags": [
+            "Sequencer",
+            "Visual"
+          ],
+          "width": 720,
+          "height": 380,
+          "paramCount": 25,
+          "inputCount": 22,
+          "outputCount": 32
+        },
+        {
+          "slug": "FullScope",
+          "name": "Full Scope",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ],
+          "width": 255,
+          "height": 380,
+          "paramCount": 6,
+          "inputCount": 5,
+          "outputCount": 0
+        },
+        {
+          "slug": "GridSeq",
+          "name": "GridSeq",
+          "author": "JW-Modules",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 300,
+          "height": 380,
+          "paramCount": 45,
+          "inputCount": 10,
+          "outputCount": 2
+        },
+        {
+          "slug": "Quantizer",
+          "name": "Quantizer",
+          "author": "JW-Modules",
+          "tags": [
+            "Quantizer"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 2,
+          "inputCount": 3,
+          "outputCount": 1
+        },
+        {
+          "slug": "MinMax",
+          "name": "Min Max",
+          "author": "JW-Modules",
+          "tags": [
+            "Utility"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 1,
+          "inputCount": 1,
+          "outputCount": 0
+        },
+        {
+          "slug": "NoteSeq",
+          "name": "NoteSeq",
+          "author": "JW-Modules",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 720,
+          "height": 380,
+          "paramCount": 22,
+          "inputCount": 13,
+          "outputCount": 40
+        },
+        {
+          "slug": "SimpleClock",
+          "name": "Simple Clock",
+          "author": "JW-Modules",
+          "tags": [
+            "Clock",
+            "Random"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 0,
+          "outputCount": 6
+        },
+        {
+          "slug": "ThingThing",
+          "name": "Thing Thing",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ],
+          "width": 300,
+          "height": 380,
+          "paramCount": 2,
+          "inputCount": 6,
+          "outputCount": 0
+        },
+        {
+          "slug": "WavHead",
+          "name": "Wav Head",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 1,
+          "outputCount": 0
+        },
+        {
+          "slug": "XYPad",
+          "name": "XY Pad",
+          "author": "JW-Modules",
+          "tags": [
+            "LFO",
+            "Envelope Generator",
+            "Random",
+            "Oscillator/VCO",
+            "Sample and Hold"
+          ],
+          "width": 360,
+          "height": 380,
+          "paramCount": 9,
+          "inputCount": 2,
+          "outputCount": 5
+        },
+        {
+          "slug": "BlankPanel_SM",
+          "name": "BlankPanel (Small)",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ],
+          "width": 45,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
+        },
+        {
+          "slug": "BlankPanel_MD",
+          "name": "BlankPanel (Medium)",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
+        },
+        {
+          "slug": "BlankPanel_LG",
+          "name": "BlankPanel (Large)",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
+        }
+      ]
+    },
+    {
       "slug": "VCV-Parametra",
       "path": "./plugins/VCV-Parametra",
       "version": "0.6.0",
@@ -2250,8 +3590,8 @@
     {
       "slug": "Fundamental",
       "path": "./plugins/Fundamental",
-      "version": "0.6.0",
-      "modelCount": 16,
+      "version": "0.6.1",
+      "modelCount": 17,
       "models": [
         {
           "slug": "VCO",
@@ -2293,14 +3633,27 @@
           "outputCount": 2
         },
         {
+          "slug": "VCA-1",
+          "name": "VCA-1",
+          "author": "Fundamental",
+          "tags": [
+            "Amplifier/VCA"
+          ],
+          "width": 45,
+          "height": 380,
+          "paramCount": 2,
+          "inputCount": 2,
+          "outputCount": 1
+        },
+        {
           "slug": "VCA",
-          "name": "VCA",
+          "name": "VCA-2",
           "author": "Fundamental",
           "tags": [
             "Amplifier/VCA",
             "Dual/Stereo"
           ],
-          "width": 90,
+          "width": 75,
           "height": 380,
           "paramCount": 2,
           "inputCount": 6,
@@ -2468,102 +3821,303 @@
       ]
     },
     {
-      "slug": "Alikins",
-      "path": "./plugins/Alikins-rack-plugins",
-      "version": "0.6.1",
-      "modelCount": 7,
+      "slug": "AudibleInstruments",
+      "path": "./plugins/AudibleInstruments",
+      "version": "0.6.0",
+      "modelCount": 13,
       "models": [
         {
-          "slug": "IdleSwitch",
-          "name": "Idle Switch",
-          "author": "Alikins",
+          "slug": "Braids",
+          "name": "Macro Oscillator",
+          "author": "Audible Instruments",
           "tags": [
-            "Switch",
-            "Utility"
+            "Oscillator/VCO",
+            "Waveshaper"
           ],
-          "width": 120,
+          "width": 240,
           "height": 380,
-          "paramCount": 1,
+          "paramCount": 7,
           "inputCount": 5,
-          "outputCount": 6
+          "outputCount": 1
         },
         {
-          "slug": "MomentaryOnButtons",
-          "name": "Momentary On Buttons",
-          "author": "Alikins",
+          "slug": "Elements",
+          "name": "Modal Synthesizer",
+          "author": "Audible Instruments",
           "tags": [
-            "Utility"
+            "Physical Modeling"
           ],
-          "width": 60,
+          "width": 510,
           "height": 380,
-          "paramCount": 13,
-          "inputCount": 0,
-          "outputCount": 13
-        },
-        {
-          "slug": "BigMuteButton",
-          "name": "Big Mute Button",
-          "author": "Alikins",
-          "tags": [
-            "Utility"
-          ],
-          "width": 90,
-          "height": 380,
-          "paramCount": 1,
-          "inputCount": 2,
+          "paramCount": 28,
+          "inputCount": 16,
           "outputCount": 2
         },
         {
-          "slug": "ColorPanel",
-          "name": "Color Panel",
-          "author": "Alikins",
+          "slug": "Tides",
+          "name": "Tidal Modulator",
+          "author": "Audible Instruments",
           "tags": [
-            "Visual"
+            "LFO",
+            "Oscillator/VCO",
+            "Waveshaper",
+            "Function Generator"
           ],
-          "width": 90,
+          "width": 210,
           "height": 380,
-          "paramCount": 0,
-          "inputCount": 3,
-          "outputCount": 0
+          "paramCount": 7,
+          "inputCount": 9,
+          "outputCount": 4
         },
         {
-          "slug": "GateLength",
-          "name": "Gate Length",
-          "author": "Alikins",
+          "slug": "Clouds",
+          "name": "Texture Synthesizer",
+          "author": "Audible Instruments",
           "tags": [
-            "Utility"
+            "Granular",
+            "Reverb"
+          ],
+          "width": 270,
+          "height": 380,
+          "paramCount": 13,
+          "inputCount": 10,
+          "outputCount": 2
+        },
+        {
+          "slug": "Warps",
+          "name": "Meta Modulator",
+          "author": "Audible Instruments",
+          "tags": [
+            "Ring Modulator",
+            "Waveshaper"
           ],
           "width": 150,
           "height": 380,
           "paramCount": 5,
-          "inputCount": 10,
-          "outputCount": 5
+          "inputCount": 6,
+          "outputCount": 2
         },
         {
-          "slug": "SpecificValue",
-          "name": "Specific Values",
-          "author": "Alikins",
+          "slug": "Rings",
+          "name": "Resonator",
+          "author": "Audible Instruments",
           "tags": [
-            "Utility"
+            "Physical Modeling"
+          ],
+          "width": 210,
+          "height": 380,
+          "paramCount": 12,
+          "inputCount": 8,
+          "outputCount": 2
+        },
+        {
+          "slug": "Links",
+          "name": "Multiples",
+          "author": "Audible Instruments",
+          "tags": [
+            "Multiple",
+            "Mixer"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 6,
+          "outputCount": 6
+        },
+        {
+          "slug": "Kinks",
+          "name": "Utilities",
+          "author": "Audible Instruments",
+          "tags": [
+            "Utility",
+            "Noise"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 5,
+          "outputCount": 7
+        },
+        {
+          "slug": "Shades",
+          "name": "Mixer",
+          "author": "Audible Instruments",
+          "tags": [
+            "Mixer"
           ],
           "width": 90,
           "height": 380,
-          "paramCount": 1,
-          "inputCount": 1,
+          "paramCount": 6,
+          "inputCount": 3,
+          "outputCount": 3
+        },
+        {
+          "slug": "Branches",
+          "name": "Bernoulli Gate",
+          "author": "Audible Instruments",
+          "tags": [
+            "Random",
+            "Dual/Stereo"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 4,
+          "outputCount": 4
+        },
+        {
+          "slug": "Blinds",
+          "name": "Quad VC-polarizer",
+          "author": "Audible Instruments",
+          "tags": [
+            "Mixer",
+            "Attenuator"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 8,
+          "inputCount": 8,
+          "outputCount": 4
+        },
+        {
+          "slug": "Veils",
+          "name": "Quad VCA",
+          "author": "Audible Instruments",
+          "tags": [
+            "Mixer"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 8,
+          "inputCount": 8,
+          "outputCount": 4
+        },
+        {
+          "slug": "Frames",
+          "name": "Keyframer/Mixer",
+          "author": "Audible Instruments",
+          "tags": [
+            "Mixer",
+            "Attenuator",
+            "LFO"
+          ],
+          "width": 270,
+          "height": 380,
+          "paramCount": 9,
+          "inputCount": 6,
+          "outputCount": 6
+        }
+      ]
+    },
+    {
+      "slug": "LindenbergResearch",
+      "path": "./plugins/LindenbergResearch",
+      "version": "0.6.1",
+      "modelCount": 8,
+      "models": [
+        {
+          "slug": "LPFilter24dB",
+          "name": "24dB Lowpass Filter",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Filter/VCF"
+          ],
+          "width": 150,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 3,
           "outputCount": 1
         },
         {
-          "slug": "Reference",
-          "name": "Reference Voltages",
-          "author": "Alikins",
+          "slug": "MS20 VCF",
+          "name": "Valerie MS20 Filter",
+          "author": "Lindenberg Research",
           "tags": [
-            "Utility"
+            "Filter/VCF"
           ],
-          "width": 30,
+          "width": 180,
+          "height": 380,
+          "paramCount": 7,
+          "inputCount": 4,
+          "outputCount": 1
+        },
+        {
+          "slug": "VCF",
+          "name": "Alma Ladder Filter",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Filter/VCF"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 7,
+          "inputCount": 4,
+          "outputCount": 1
+        },
+        {
+          "slug": "ReShaper",
+          "name": "ReShaper Wavefolder",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Waveshaper"
+          ],
+          "width": 120,
+          "height": 380,
+          "paramCount": 2,
+          "inputCount": 2,
+          "outputCount": 1
+        },
+        {
+          "slug": "VCO",
+          "name": "Woldemar VCO",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Oscillator/VCO"
+          ],
+          "width": 210,
+          "height": 380,
+          "paramCount": 8,
+          "inputCount": 4,
+          "outputCount": 6
+        },
+        {
+          "slug": "BlankPanel 01",
+          "name": "Blank Panel 20TE",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Blank"
+          ],
+          "width": 270,
           "height": 380,
           "paramCount": 0,
           "inputCount": 0,
-          "outputCount": 7
+          "outputCount": 0
+        },
+        {
+          "slug": "BlankPanel 02",
+          "name": "Blank Panel 12TE",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Blank"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
+        },
+        {
+          "slug": "BlankPanel Small",
+          "name": "Blank Panel Small",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Blank"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
         }
       ]
     },
@@ -3103,7 +4657,7 @@
     {
       "slug": "VCV-Console",
       "path": "./plugins/VCV-Console",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "modelCount": 1,
       "models": [
         {
@@ -3118,6 +4672,106 @@
           "paramCount": 65,
           "inputCount": 70,
           "outputCount": 16
+        }
+      ]
+    },
+    {
+      "slug": "Alikins",
+      "path": "./plugins/Alikins",
+      "version": "0.6.1",
+      "modelCount": 7,
+      "models": [
+        {
+          "slug": "IdleSwitch",
+          "name": "Idle Switch",
+          "author": "Alikins",
+          "tags": [
+            "Switch",
+            "Utility"
+          ],
+          "width": 120,
+          "height": 380,
+          "paramCount": 1,
+          "inputCount": 5,
+          "outputCount": 6
+        },
+        {
+          "slug": "MomentaryOnButtons",
+          "name": "Momentary On Buttons",
+          "author": "Alikins",
+          "tags": [
+            "Utility"
+          ],
+          "width": 60,
+          "height": 380,
+          "paramCount": 13,
+          "inputCount": 0,
+          "outputCount": 13
+        },
+        {
+          "slug": "BigMuteButton",
+          "name": "Big Mute Button",
+          "author": "Alikins",
+          "tags": [
+            "Utility"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 1,
+          "inputCount": 2,
+          "outputCount": 2
+        },
+        {
+          "slug": "ColorPanel",
+          "name": "Color Panel",
+          "author": "Alikins",
+          "tags": [
+            "Visual"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 3,
+          "outputCount": 0
+        },
+        {
+          "slug": "GateLength",
+          "name": "Gate Length",
+          "author": "Alikins",
+          "tags": [
+            "Utility"
+          ],
+          "width": 150,
+          "height": 380,
+          "paramCount": 5,
+          "inputCount": 10,
+          "outputCount": 5
+        },
+        {
+          "slug": "SpecificValue",
+          "name": "Specific Values",
+          "author": "Alikins",
+          "tags": [
+            "Utility"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 1,
+          "inputCount": 1,
+          "outputCount": 1
+        },
+        {
+          "slug": "Reference",
+          "name": "Reference Voltages",
+          "author": "Alikins",
+          "tags": [
+            "Utility"
+          ],
+          "width": 30,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 7
         }
       ]
     },
@@ -3146,7 +4800,7 @@
     {
       "slug": "FrankBussFormula",
       "path": "./plugins/FrankBussFormula",
-      "version": "0.6.0",
+      "version": "0.6.2",
       "modelCount": 1,
       "models": [
         {
@@ -3158,8 +4812,8 @@
           ],
           "width": 270,
           "height": 380,
-          "paramCount": 0,
-          "inputCount": 3,
+          "paramCount": 5,
+          "inputCount": 4,
           "outputCount": 1
         }
       ]
@@ -3794,6 +5448,290 @@
           "paramCount": 0,
           "inputCount": 14,
           "outputCount": 8
+        }
+      ]
+    },
+    {
+      "slug": "HetrickCV",
+      "path": "./plugins/HetrickCV",
+      "version": "0.6.0",
+      "modelCount": 21,
+      "models": [
+        {
+          "slug": "2To4",
+          "name": "2 To 4 Mix Matrix",
+          "author": "HetrickCV",
+          "tags": [
+            "Mixer"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 2,
+          "outputCount": 4
+        },
+        {
+          "slug": "AnalogToDigital",
+          "name": "Analog to Digital",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 2,
+          "outputCount": 8
+        },
+        {
+          "slug": "ASR",
+          "name": "ASR",
+          "author": "HetrickCV",
+          "tags": [
+            "Sequencer"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 2,
+          "outputCount": 4
+        },
+        {
+          "slug": "Bitshift",
+          "name": "Bitshift",
+          "author": "HetrickCV",
+          "tags": [
+            "Distortion",
+            "Effect"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 2,
+          "outputCount": 1
+        },
+        {
+          "slug": "BlankPanel",
+          "name": "Blank Panel",
+          "author": "HetrickCV",
+          "tags": [],
+          "width": 90,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 0,
+          "outputCount": 0
+        },
+        {
+          "slug": "Boolean3",
+          "name": "Boolean Logic",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 3,
+          "outputCount": 6
+        },
+        {
+          "slug": "Comparator",
+          "name": "Comparator",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 2,
+          "inputCount": 2,
+          "outputCount": 5
+        },
+        {
+          "slug": "Contrast",
+          "name": "Contrast",
+          "author": "HetrickCV",
+          "tags": [
+            "Effect"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 2,
+          "outputCount": 1
+        },
+        {
+          "slug": "Crackle",
+          "name": "Crackle",
+          "author": "HetrickCV",
+          "tags": [
+            "Noise"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 2,
+          "inputCount": 1,
+          "outputCount": 1
+        },
+        {
+          "slug": "Delta",
+          "name": "Delta",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 2,
+          "inputCount": 2,
+          "outputCount": 6
+        },
+        {
+          "slug": "DigitalToAnalog",
+          "name": "Digital to Analog",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 4,
+          "inputCount": 9,
+          "outputCount": 1
+        },
+        {
+          "slug": "Dust",
+          "name": "Dust",
+          "author": "HetrickCV",
+          "tags": [
+            "Noise",
+            "Granular"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 2,
+          "inputCount": 1,
+          "outputCount": 1
+        },
+        {
+          "slug": "Exponent",
+          "name": "Exponent",
+          "author": "HetrickCV",
+          "tags": [
+            "Waveshaper"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 2,
+          "outputCount": 1
+        },
+        {
+          "slug": "FlipFlop",
+          "name": "Flip-Flop",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 2,
+          "outputCount": 4
+        },
+        {
+          "slug": "FlipPan",
+          "name": "Flip Pan",
+          "author": "HetrickCV",
+          "tags": [
+            "Panning"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 2
+        },
+        {
+          "slug": "Gate Junction",
+          "name": "Gate Junction",
+          "author": "HetrickCV",
+          "tags": [
+            "Switch",
+            "Logic"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 16,
+          "inputCount": 8,
+          "outputCount": 8
+        },
+        {
+          "slug": "Logic Combine",
+          "name": "OR Logic (Gate Combiner)",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ],
+          "width": 120,
+          "height": 380,
+          "paramCount": 0,
+          "inputCount": 8,
+          "outputCount": 3
+        },
+        {
+          "slug": "RandomGates",
+          "name": "Random Gates",
+          "author": "HetrickCV",
+          "tags": [
+            "Random"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 3,
+          "outputCount": 8
+        },
+        {
+          "slug": "Rotator",
+          "name": "Rotator",
+          "author": "HetrickCV",
+          "tags": [
+            "Switch"
+          ],
+          "width": 180,
+          "height": 380,
+          "paramCount": 2,
+          "inputCount": 10,
+          "outputCount": 8
+        },
+        {
+          "slug": "Scanner",
+          "name": "Scanner",
+          "author": "HetrickCV",
+          "tags": [
+            "Mixer"
+          ],
+          "width": 270,
+          "height": 380,
+          "paramCount": 6,
+          "inputCount": 13,
+          "outputCount": 9
+        },
+        {
+          "slug": "Waveshaper",
+          "name": "Waveshaper",
+          "author": "HetrickCV",
+          "tags": [
+            "Waveshaper",
+            "Distortion",
+            "Effect"
+          ],
+          "width": 90,
+          "height": 380,
+          "paramCount": 3,
+          "inputCount": 2,
+          "outputCount": 1
         }
       ]
     },

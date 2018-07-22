@@ -1,6 +1,6 @@
 {
   "applicationName": "VCV Rack",
-  "applicationVersion": "0.6.1",
+  "applicationVersion": "0.6.2b",
   "apiHost": "https://api.vcvrack.com",
   "pixelRatio": 2,
   "xpos": 0,
@@ -64,12 +64,12 @@
     "Vocoder",
     "Waveshaper"
   ],
-  "pluginCount": 20,
+  "pluginCount": 32,
   "plugins": [
     {
       "slug": "Core",
       "path": "",
-      "version": "0.6.1",
+      "version": "0.6.2b",
       "modelCount": 7,
       "models": [
         {
@@ -132,6 +132,29 @@
           "tags": [
             "Blank"
           ]
+        }
+      ]
+    },
+    {
+      "slug": "AudibleInstrumentsPreview",
+      "path": "./plugins/AudibleInstrumentsPreview",
+      "version": "0.6.1",
+      "modelCount": 2,
+      "models": [
+        {
+          "slug": "Plaits",
+          "name": "Macro Oscillator 2",
+          "author": "Audible Instruments",
+          "tags": [
+            "Oscillator/VCO",
+            "Waveshaper"
+          ]
+        },
+        {
+          "slug": "Marbles",
+          "name": "Random Sampler",
+          "author": "Audible Instruments",
+          "tags": []
         }
       ]
     },
@@ -433,8 +456,8 @@
     {
       "slug": "squinkylabs-plug1",
       "path": "./plugins/squinkylabs-plug1",
-      "version": "0.6.5",
-      "modelCount": 6,
+      "version": "0.6.6",
+      "modelCount": 7,
       "models": [
         {
           "slug": "squinkylabs-freqshifter",
@@ -488,6 +511,313 @@
           "author": "Squinky Labs",
           "tags": [
             "Utility"
+          ]
+        },
+        {
+          "slug": "squinkylabs-lfn",
+          "name": "LFN - Random Voltages",
+          "author": "Squinky Labs",
+          "tags": [
+            "Effect",
+            "LFO"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "Valley",
+      "path": "./plugins/Valley",
+      "version": "0.6.5",
+      "modelCount": 4,
+      "models": [
+        {
+          "slug": "Topograph",
+          "name": "Topograph",
+          "author": "Valley",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "uGraph",
+          "name": "uGraph",
+          "author": "Valley",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "Dexter",
+          "name": "Dexter",
+          "author": "Valley",
+          "tags": [
+            "Oscillator/VCO"
+          ]
+        },
+        {
+          "slug": "Plateau",
+          "name": "Plateau",
+          "author": "Valley",
+          "tags": [
+            "Reverb"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "Bidoo",
+      "path": "./plugins/Bidoo",
+      "version": "0.6.8",
+      "modelCount": 23,
+      "models": [
+        {
+          "slug": "dTrOY",
+          "name": "dTrOY sequencer",
+          "author": "Bidoo",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "bordL",
+          "name": "bordL sequencer",
+          "author": "Bidoo",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "µ",
+          "name": "µ synced pulse generator",
+          "author": "Bidoo",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "tOCAnTe",
+          "name": "tOCAnTe clock",
+          "author": "Bidoo",
+          "tags": [
+            "Clock"
+          ]
+        },
+        {
+          "slug": "ChUTE",
+          "name": "ChUTE trigger",
+          "author": "Bidoo",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "lATe",
+          "name": "lATe clock modulator",
+          "author": "Bidoo",
+          "tags": [
+            "Clock Modulator"
+          ]
+        },
+        {
+          "slug": "LoURdE",
+          "name": "LoURdE gate",
+          "author": "Bidoo",
+          "tags": [
+            "Logic"
+          ]
+        },
+        {
+          "slug": "ACnE",
+          "name": "ACnE mixer",
+          "author": "Bidoo",
+          "tags": [
+            "Mixer"
+          ]
+        },
+        {
+          "slug": "OUAIve",
+          "name": "OUAIve player",
+          "author": "Bidoo",
+          "tags": [
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "cANARd",
+          "name": "cANARd sampler",
+          "author": "Bidoo",
+          "tags": [
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "dUKe",
+          "name": "dUKe controller",
+          "author": "Bidoo",
+          "tags": [
+            "Controller"
+          ]
+        },
+        {
+          "slug": "MOiRE",
+          "name": "MOiRE controller",
+          "author": "Bidoo",
+          "tags": [
+            "Controller"
+          ]
+        },
+        {
+          "slug": "ForK",
+          "name": "ForK oscillator",
+          "author": "Bidoo",
+          "tags": [
+            "Oscillator/VCO"
+          ]
+        },
+        {
+          "slug": "TiARE",
+          "name": "TiARE oscillator",
+          "author": "Bidoo",
+          "tags": [
+            "Oscillator/VCO"
+          ]
+        },
+        {
+          "slug": "clACos",
+          "name": "clACos oscillator",
+          "author": "Bidoo",
+          "tags": [
+            "Oscillator/VCO"
+          ]
+        },
+        {
+          "slug": "antN",
+          "name": "antN oscillator",
+          "author": "Bidoo",
+          "tags": [
+            "Oscillator/VCO"
+          ]
+        },
+        {
+          "slug": "lIMbO",
+          "name": "lIMbO filter",
+          "author": "Bidoo",
+          "tags": [
+            "Filter/VCF"
+          ]
+        },
+        {
+          "slug": "pErCO",
+          "name": "pErCO filter",
+          "author": "Bidoo",
+          "tags": [
+            "Filter/VCF"
+          ]
+        },
+        {
+          "slug": "baR",
+          "name": "bAR compressor",
+          "author": "Bidoo",
+          "tags": [
+            "Dynamics"
+          ]
+        },
+        {
+          "slug": "ziNC",
+          "name": "ziNC vocoder",
+          "author": "Bidoo",
+          "tags": [
+            "Effect"
+          ]
+        },
+        {
+          "slug": "dFUZE",
+          "name": "dFUZE reverberator",
+          "author": "Bidoo",
+          "tags": [
+            "Reverb"
+          ]
+        },
+        {
+          "slug": "vOId",
+          "name": "vOId machine",
+          "author": "Bidoo",
+          "tags": [
+            "Blank"
+          ]
+        },
+        {
+          "slug": "Σ",
+          "name": "Σ multiprise :)",
+          "author": "Bidoo",
+          "tags": [
+            "Multiple"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "modular80",
+      "path": "./plugins/modular80",
+      "version": "0.6.3",
+      "modelCount": 3,
+      "models": [
+        {
+          "slug": "Logistiker",
+          "name": "Logistiker",
+          "author": "modular80",
+          "tags": [
+            "Random"
+          ]
+        },
+        {
+          "slug": "Nosering",
+          "name": "Nosering",
+          "author": "modular80",
+          "tags": [
+            "Noise",
+            "Random"
+          ]
+        },
+        {
+          "slug": "Radio Music",
+          "name": "Radio Music",
+          "author": "modular80",
+          "tags": [
+            "Sampler"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "s-ol",
+      "path": "./plugins/s-ol",
+      "version": "0.6.1",
+      "modelCount": 3,
+      "models": [
+        {
+          "slug": "CircleVCO",
+          "name": "Circle VCO",
+          "author": "s-ol",
+          "tags": [
+            "Oscillator/VCO",
+            "Visual"
+          ]
+        },
+        {
+          "slug": "WrapComp",
+          "name": "Wrapping Comparator",
+          "author": "s-ol",
+          "tags": [
+            "Logic"
+          ]
+        },
+        {
+          "slug": "Modulo",
+          "name": "Modulo",
+          "author": "s-ol",
+          "tags": [
+            "Logic"
           ]
         }
       ]
@@ -637,139 +967,10 @@
       ]
     },
     {
-      "slug": "ImpromptuModular",
-      "path": "./plugins/ImpromptuModular",
-      "version": "0.6.7",
-      "modelCount": 10,
-      "models": [
-        {
-          "slug": "Tact",
-          "name": "CTRL - Tact",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Controller"
-          ]
-        },
-        {
-          "slug": "Twelve-Key",
-          "name": "CTRL - Twelve-Key",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Controller"
-          ]
-        },
-        {
-          "slug": "Clocked",
-          "name": "CLK - Clocked",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Clock"
-          ]
-        },
-        {
-          "slug": "Phrase-Seq-16",
-          "name": "SEQ - Phrase-Seq-16",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Sequencer"
-          ]
-        },
-        {
-          "slug": "Phrase-Seq-32",
-          "name": "SEQ - Phrase-Seq-32",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Sequencer"
-          ]
-        },
-        {
-          "slug": "Gate-Seq-64",
-          "name": "SEQ - Gate-Seq-64",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Sequencer"
-          ]
-        },
-        {
-          "slug": "Write-Seq-32",
-          "name": "SEQ - Write-Seq-32",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Sequencer"
-          ]
-        },
-        {
-          "slug": "Write-Seq-64",
-          "name": "SEQ - Write-Seq-64",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Sequencer"
-          ]
-        },
-        {
-          "slug": "Semi-Modular Synth",
-          "name": "MISC - Semi-Modular Synth",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Sequencer",
-            "Oscillator/VCO"
-          ]
-        },
-        {
-          "slug": "Blank-Panel",
-          "name": "MISC - Blank-Panel",
-          "author": "Impromptu Modular",
-          "tags": [
-            "Blank"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "Valley",
-      "path": "./plugins/ValleyRackFree",
-      "version": "0.6.5",
-      "modelCount": 4,
-      "models": [
-        {
-          "slug": "Topograph",
-          "name": "Topograph",
-          "author": "Valley",
-          "tags": [
-            "Sequencer"
-          ]
-        },
-        {
-          "slug": "uGraph",
-          "name": "uGraph",
-          "author": "Valley",
-          "tags": [
-            "Sequencer"
-          ]
-        },
-        {
-          "slug": "Dexter",
-          "name": "Dexter",
-          "author": "Valley",
-          "tags": [
-            "Oscillator/VCO"
-          ]
-        },
-        {
-          "slug": "Plateau",
-          "name": "Plateau",
-          "author": "Valley",
-          "tags": [
-            "Reverb"
-          ]
-        }
-      ]
-    },
-    {
       "slug": "mscHack",
-      "path": "./plugins/VCV-Rack-Plugins",
+      "path": "./plugins/mscHack",
       "version": "0.6.2",
-      "modelCount": 23,
+      "modelCount": 24,
       "models": [
         {
           "slug": "MasterClockx4",
@@ -982,6 +1183,15 @@
           ]
         },
         {
+          "slug": "Windz",
+          "name": "Windz module",
+          "author": "mscHack",
+          "tags": [
+            "Oscillator/VCO",
+            "Multiple"
+          ]
+        },
+        {
           "slug": "Alienz",
           "name": "Alienz module",
           "author": "mscHack",
@@ -996,6 +1206,540 @@
           "author": "mscHack",
           "tags": [
             "Dynamics"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "moDllz",
+      "path": "./plugins/moDllz",
+      "version": "0.6.6",
+      "modelCount": 5,
+      "models": [
+        {
+          "slug": "MIDIPoly16",
+          "name": "MIDI Poly 16",
+          "author": "moDllz",
+          "tags": [
+            "MIDI",
+            "Arpeggiator",
+            "Sequencer",
+            "Controller",
+            "Multiple",
+            "External"
+          ]
+        },
+        {
+          "slug": "TwinGlider",
+          "name": "TwinGlider Dual Portamento",
+          "author": "moDllz",
+          "tags": [
+            "Slew Limiter",
+            "Dual/Stereo",
+            "Envelope Follower"
+          ]
+        },
+        {
+          "slug": "MIDIdualCV",
+          "name": "MIDI to dual CV interface",
+          "author": "moDllz",
+          "tags": [
+            "MIDI",
+            "Dual/Stereo",
+            "External"
+          ]
+        },
+        {
+          "slug": "XBender",
+          "name": "Poly X Bender",
+          "author": "moDllz",
+          "tags": [
+            "Multiple",
+            "Effect"
+          ]
+        },
+        {
+          "slug": "MIDI8MPE",
+          "name": "MIDI 8cv MPE",
+          "author": "moDllz",
+          "tags": [
+            "MIDI",
+            "External",
+            "Multiple"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "AS-Drums-n-Filters",
+      "path": "./plugins/AS-Drums-n-Filters",
+      "version": "0.6.2",
+      "modelCount": 24,
+      "models": [
+        {
+          "slug": "Drums8x8Kicks",
+          "name": "HIP Kick",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "Drums8x8Snares",
+          "name": "HIP Snare",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "Drums8x8Hihats",
+          "name": "HIP Hihat",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "Drums8x8toms",
+          "name": "HIP Toms",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "Drums8x8Percs",
+          "name": "HIP Percussions",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "Drums9x9Kicks",
+          "name": "TEK Kick",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "Drums9x9Snares",
+          "name": "TEK Snare",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "Drums9x9Hihats",
+          "name": "TEK Hihat",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "Drums9x9Percs",
+          "name": "TEK Percussions",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "DrumsSdSKicks",
+          "name": "RCK Kick",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "DrumsSdSSnares",
+          "name": "RCK Snare",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "DrumsSdSHihats",
+          "name": "RCK Hihat",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "DrumsSdStoms",
+          "name": "RCK Toms",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "DrumsC64Kicks",
+          "name": "CMP Kick",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "DrumsC64Snares",
+          "name": "CMP Snare",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "DrumsC64Hihats",
+          "name": "CMP Hihat",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "DrumsC64Percs",
+          "name": "CMP Percussions",
+          "author": "AS",
+          "tags": [
+            "Drum",
+            "Sampler"
+          ]
+        },
+        {
+          "slug": "VCFilter",
+          "name": "VC Filter",
+          "author": "AS",
+          "tags": [
+            "Filter/VCF"
+          ]
+        },
+        {
+          "slug": "VCFilterStereo",
+          "name": "VC Filter Stereo",
+          "author": "AS",
+          "tags": [
+            "Filter/VCF"
+          ]
+        },
+        {
+          "slug": "FixedFilterBank",
+          "name": "FixedFilterBank",
+          "author": "AS",
+          "tags": [
+            "Filter/VCF"
+          ]
+        },
+        {
+          "slug": "ParaEQ",
+          "name": "Parametric EQ",
+          "author": "AS",
+          "tags": [
+            "Filter/VCF"
+          ]
+        },
+        {
+          "slug": "BlankPanel4Dark",
+          "name": "BlankPanel 4 Dark",
+          "author": "AS",
+          "tags": [
+            "Blank"
+          ]
+        },
+        {
+          "slug": "BlankPanel6Dark",
+          "name": "BlankPanel 6 Dark",
+          "author": "AS",
+          "tags": [
+            "Blank"
+          ]
+        },
+        {
+          "slug": "BlankPanel8Dark",
+          "name": "BlankPanel 8 Dark",
+          "author": "AS",
+          "tags": [
+            "Blank"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "DHE-Modules",
+      "path": "./plugins/DHE-Modules",
+      "version": "0.6.1",
+      "modelCount": 7,
+      "models": [
+        {
+          "slug": "Booster Stage",
+          "name": "Booster Stage",
+          "author": "DHE-Modules",
+          "tags": [
+            "Envelope Generator"
+          ]
+        },
+        {
+          "slug": "Cubic",
+          "name": "Cubic",
+          "author": "DHE-Modules",
+          "tags": [
+            "Waveshaper"
+          ]
+        },
+        {
+          "slug": "Hostage",
+          "name": "Hostage",
+          "author": "DHE-Modules",
+          "tags": [
+            "Envelope Generator"
+          ]
+        },
+        {
+          "slug": "Stage",
+          "name": "Stage",
+          "author": "DHE-Modules",
+          "tags": [
+            "Envelope Generator"
+          ]
+        },
+        {
+          "slug": "Swave",
+          "name": "Swave",
+          "author": "DHE-Modules",
+          "tags": [
+            "Waveshaper"
+          ]
+        },
+        {
+          "slug": "Upstage",
+          "name": "Upstage",
+          "author": "DHE-Modules",
+          "tags": [
+            "Envelope Generator"
+          ]
+        },
+        {
+          "slug": "Xycloid",
+          "name": "Xycloid",
+          "author": "DHE-Modules",
+          "tags": [
+            "Function Generator",
+            "LFO"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ImpromptuModular",
+      "path": "./plugins/ImpromptuModular",
+      "version": "0.6.8",
+      "modelCount": 11,
+      "models": [
+        {
+          "slug": "Tact",
+          "name": "CTRL - Tact",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Controller"
+          ]
+        },
+        {
+          "slug": "Twelve-Key",
+          "name": "CTRL - Twelve-Key",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Controller"
+          ]
+        },
+        {
+          "slug": "Clocked",
+          "name": "CLK - Clocked",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Clock"
+          ]
+        },
+        {
+          "slug": "Phrase-Seq-16",
+          "name": "SEQ - Phrase-Seq-16",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "Phrase-Seq-32",
+          "name": "SEQ - Phrase-Seq-32",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "Gate-Seq-64",
+          "name": "SEQ - Gate-Seq-64",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "Write-Seq-32",
+          "name": "SEQ - Write-Seq-32",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "Write-Seq-64",
+          "name": "SEQ - Write-Seq-64",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "Big-Button-Seq",
+          "name": "SEQ - Big-Button-Seq",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "Semi-Modular Synth",
+          "name": "MISC - Semi-Modular Synth",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Sequencer",
+            "Oscillator/VCO"
+          ]
+        },
+        {
+          "slug": "Blank-Panel",
+          "name": "MISC - Blank-Panel",
+          "author": "Impromptu Modular",
+          "tags": [
+            "Blank"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "AS-Seqs-n-Tools",
+      "path": "./plugins/AS-Seqs-n-Tools",
+      "version": "0.6.1",
+      "modelCount": 10,
+      "models": [
+        {
+          "slug": "ReStep",
+          "name": "ReStep Sequencer",
+          "author": "AS",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "ReCon",
+          "name": "ReCon ReStep SEQ Helper",
+          "author": "AS",
+          "tags": [
+            "Switch",
+            "Utility"
+          ]
+        },
+        {
+          "slug": "ReBit",
+          "name": "ReBit Trigger Seq/Clock Div",
+          "author": "AS",
+          "tags": [
+            "Sequencer",
+            "Clock Modulator"
+          ]
+        },
+        {
+          "slug": "ReBeat",
+          "name": "ReBeat Trigger Seq/Clock Div",
+          "author": "AS",
+          "tags": [
+            "Sequencer",
+            "Clock Modulator"
+          ]
+        },
+        {
+          "slug": "ReGate",
+          "name": "ReGate Gate gen/mod",
+          "author": "AS",
+          "tags": [
+            "Dual/Stereo",
+            "Utility"
+          ]
+        },
+        {
+          "slug": "ReQ",
+          "name": "ReQ Quantizer",
+          "author": "AS",
+          "tags": [
+            "Quantizer"
+          ]
+        },
+        {
+          "slug": "ReKey",
+          "name": "ReKey 1V/oct-key keyboard",
+          "author": "AS",
+          "tags": [
+            "Controller"
+          ]
+        },
+        {
+          "slug": "ReNote",
+          "name": "ReNote Transposer",
+          "author": "AS",
+          "tags": [
+            "Quantizer"
+          ]
+        },
+        {
+          "slug": "ReFluke",
+          "name": "ReFluke S&H/Noise/Gate generator",
+          "author": "AS",
+          "tags": [
+            "Random",
+            "Sample and Hold",
+            "Noise"
+          ]
+        },
+        {
+          "slug": "aBy",
+          "name": "A-B-Y Switch",
+          "author": "AS",
+          "tags": [
+            "Switch",
+            "Utility"
           ]
         }
       ]
@@ -1429,6 +2173,132 @@
       ]
     },
     {
+      "slug": "JW-Modules",
+      "path": "./plugins/JW-Modules",
+      "version": "0.6.2",
+      "modelCount": 14,
+      "models": [
+        {
+          "slug": "0Cat",
+          "name": "0Cat",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ]
+        },
+        {
+          "slug": "BouncyBalls",
+          "name": "Bouncy Balls",
+          "author": "JW-Modules",
+          "tags": [
+            "Sequencer",
+            "Visual"
+          ]
+        },
+        {
+          "slug": "FullScope",
+          "name": "Full Scope",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ]
+        },
+        {
+          "slug": "GridSeq",
+          "name": "GridSeq",
+          "author": "JW-Modules",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "Quantizer",
+          "name": "Quantizer",
+          "author": "JW-Modules",
+          "tags": [
+            "Quantizer"
+          ]
+        },
+        {
+          "slug": "MinMax",
+          "name": "Min Max",
+          "author": "JW-Modules",
+          "tags": [
+            "Utility"
+          ]
+        },
+        {
+          "slug": "NoteSeq",
+          "name": "NoteSeq",
+          "author": "JW-Modules",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "SimpleClock",
+          "name": "Simple Clock",
+          "author": "JW-Modules",
+          "tags": [
+            "Clock",
+            "Random"
+          ]
+        },
+        {
+          "slug": "ThingThing",
+          "name": "Thing Thing",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ]
+        },
+        {
+          "slug": "WavHead",
+          "name": "Wav Head",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ]
+        },
+        {
+          "slug": "XYPad",
+          "name": "XY Pad",
+          "author": "JW-Modules",
+          "tags": [
+            "LFO",
+            "Envelope Generator",
+            "Random",
+            "Oscillator/VCO",
+            "Sample and Hold"
+          ]
+        },
+        {
+          "slug": "BlankPanel_SM",
+          "name": "BlankPanel (Small)",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ]
+        },
+        {
+          "slug": "BlankPanel_MD",
+          "name": "BlankPanel (Medium)",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ]
+        },
+        {
+          "slug": "BlankPanel_LG",
+          "name": "BlankPanel (Large)",
+          "author": "JW-Modules",
+          "tags": [
+            "Visual"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "VCV-Parametra",
       "path": "./plugins/VCV-Parametra",
       "version": "0.6.0",
@@ -1480,8 +2350,8 @@
     {
       "slug": "Fundamental",
       "path": "./plugins/Fundamental",
-      "version": "0.6.0",
-      "modelCount": 16,
+      "version": "0.6.1",
+      "modelCount": 17,
       "models": [
         {
           "slug": "VCO",
@@ -1508,8 +2378,16 @@
           ]
         },
         {
+          "slug": "VCA-1",
+          "name": "VCA-1",
+          "author": "Fundamental",
+          "tags": [
+            "Amplifier/VCA"
+          ]
+        },
+        {
           "slug": "VCA",
-          "name": "VCA",
+          "name": "VCA-2",
           "author": "Fundamental",
           "tags": [
             "Amplifier/VCA",
@@ -1618,66 +2496,197 @@
       ]
     },
     {
-      "slug": "Alikins",
-      "path": "./plugins/Alikins-rack-plugins",
-      "version": "0.6.1",
-      "modelCount": 7,
+      "slug": "AudibleInstruments",
+      "path": "./plugins/AudibleInstruments",
+      "version": "0.6.0",
+      "modelCount": 13,
       "models": [
         {
-          "slug": "IdleSwitch",
-          "name": "Idle Switch",
-          "author": "Alikins",
+          "slug": "Braids",
+          "name": "Macro Oscillator",
+          "author": "Audible Instruments",
           "tags": [
-            "Switch",
-            "Utility"
+            "Oscillator/VCO",
+            "Waveshaper"
           ]
         },
         {
-          "slug": "MomentaryOnButtons",
-          "name": "Momentary On Buttons",
-          "author": "Alikins",
+          "slug": "Elements",
+          "name": "Modal Synthesizer",
+          "author": "Audible Instruments",
           "tags": [
-            "Utility"
+            "Physical Modeling"
           ]
         },
         {
-          "slug": "BigMuteButton",
-          "name": "Big Mute Button",
-          "author": "Alikins",
+          "slug": "Tides",
+          "name": "Tidal Modulator",
+          "author": "Audible Instruments",
           "tags": [
-            "Utility"
+            "LFO",
+            "Oscillator/VCO",
+            "Waveshaper",
+            "Function Generator"
           ]
         },
         {
-          "slug": "ColorPanel",
-          "name": "Color Panel",
-          "author": "Alikins",
+          "slug": "Clouds",
+          "name": "Texture Synthesizer",
+          "author": "Audible Instruments",
           "tags": [
-            "Visual"
+            "Granular",
+            "Reverb"
           ]
         },
         {
-          "slug": "GateLength",
-          "name": "Gate Length",
-          "author": "Alikins",
+          "slug": "Warps",
+          "name": "Meta Modulator",
+          "author": "Audible Instruments",
           "tags": [
-            "Utility"
+            "Ring Modulator",
+            "Waveshaper"
           ]
         },
         {
-          "slug": "SpecificValue",
-          "name": "Specific Values",
-          "author": "Alikins",
+          "slug": "Rings",
+          "name": "Resonator",
+          "author": "Audible Instruments",
           "tags": [
-            "Utility"
+            "Physical Modeling"
           ]
         },
         {
-          "slug": "Reference",
-          "name": "Reference Voltages",
-          "author": "Alikins",
+          "slug": "Links",
+          "name": "Multiples",
+          "author": "Audible Instruments",
           "tags": [
-            "Utility"
+            "Multiple",
+            "Mixer"
+          ]
+        },
+        {
+          "slug": "Kinks",
+          "name": "Utilities",
+          "author": "Audible Instruments",
+          "tags": [
+            "Utility",
+            "Noise"
+          ]
+        },
+        {
+          "slug": "Shades",
+          "name": "Mixer",
+          "author": "Audible Instruments",
+          "tags": [
+            "Mixer"
+          ]
+        },
+        {
+          "slug": "Branches",
+          "name": "Bernoulli Gate",
+          "author": "Audible Instruments",
+          "tags": [
+            "Random",
+            "Dual/Stereo"
+          ]
+        },
+        {
+          "slug": "Blinds",
+          "name": "Quad VC-polarizer",
+          "author": "Audible Instruments",
+          "tags": [
+            "Mixer",
+            "Attenuator"
+          ]
+        },
+        {
+          "slug": "Veils",
+          "name": "Quad VCA",
+          "author": "Audible Instruments",
+          "tags": [
+            "Mixer"
+          ]
+        },
+        {
+          "slug": "Frames",
+          "name": "Keyframer/Mixer",
+          "author": "Audible Instruments",
+          "tags": [
+            "Mixer",
+            "Attenuator",
+            "LFO"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "LindenbergResearch",
+      "path": "./plugins/LindenbergResearch",
+      "version": "0.6.1",
+      "modelCount": 8,
+      "models": [
+        {
+          "slug": "LPFilter24dB",
+          "name": "24dB Lowpass Filter",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Filter/VCF"
+          ]
+        },
+        {
+          "slug": "MS20 VCF",
+          "name": "Valerie MS20 Filter",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Filter/VCF"
+          ]
+        },
+        {
+          "slug": "VCF",
+          "name": "Alma Ladder Filter",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Filter/VCF"
+          ]
+        },
+        {
+          "slug": "ReShaper",
+          "name": "ReShaper Wavefolder",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Waveshaper"
+          ]
+        },
+        {
+          "slug": "VCO",
+          "name": "Woldemar VCO",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Oscillator/VCO"
+          ]
+        },
+        {
+          "slug": "BlankPanel 01",
+          "name": "Blank Panel 20TE",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Blank"
+          ]
+        },
+        {
+          "slug": "BlankPanel 02",
+          "name": "Blank Panel 12TE",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Blank"
+          ]
+        },
+        {
+          "slug": "BlankPanel Small",
+          "name": "Blank Panel Small",
+          "author": "Lindenberg Research",
+          "tags": [
+            "Blank"
           ]
         }
       ]
@@ -2028,7 +3037,7 @@
     {
       "slug": "VCV-Console",
       "path": "./plugins/VCV-Console",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "modelCount": 1,
       "models": [
         {
@@ -2037,6 +3046,71 @@
           "author": "VCV",
           "tags": [
             "Mixer"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "Alikins",
+      "path": "./plugins/Alikins",
+      "version": "0.6.1",
+      "modelCount": 7,
+      "models": [
+        {
+          "slug": "IdleSwitch",
+          "name": "Idle Switch",
+          "author": "Alikins",
+          "tags": [
+            "Switch",
+            "Utility"
+          ]
+        },
+        {
+          "slug": "MomentaryOnButtons",
+          "name": "Momentary On Buttons",
+          "author": "Alikins",
+          "tags": [
+            "Utility"
+          ]
+        },
+        {
+          "slug": "BigMuteButton",
+          "name": "Big Mute Button",
+          "author": "Alikins",
+          "tags": [
+            "Utility"
+          ]
+        },
+        {
+          "slug": "ColorPanel",
+          "name": "Color Panel",
+          "author": "Alikins",
+          "tags": [
+            "Visual"
+          ]
+        },
+        {
+          "slug": "GateLength",
+          "name": "Gate Length",
+          "author": "Alikins",
+          "tags": [
+            "Utility"
+          ]
+        },
+        {
+          "slug": "SpecificValue",
+          "name": "Specific Values",
+          "author": "Alikins",
+          "tags": [
+            "Utility"
+          ]
+        },
+        {
+          "slug": "Reference",
+          "name": "Reference Voltages",
+          "author": "Alikins",
+          "tags": [
+            "Utility"
           ]
         }
       ]
@@ -2061,7 +3135,7 @@
     {
       "slug": "FrankBussFormula",
       "path": "./plugins/FrankBussFormula",
-      "version": "0.6.0",
+      "version": "0.6.2",
       "modelCount": 1,
       "models": [
         {
@@ -2478,6 +3552,185 @@
           "author": "NYSTHI",
           "tags": [
             "Logic"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "HetrickCV",
+      "path": "./plugins/HetrickCV",
+      "version": "0.6.0",
+      "modelCount": 21,
+      "models": [
+        {
+          "slug": "2To4",
+          "name": "2 To 4 Mix Matrix",
+          "author": "HetrickCV",
+          "tags": [
+            "Mixer"
+          ]
+        },
+        {
+          "slug": "AnalogToDigital",
+          "name": "Analog to Digital",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ]
+        },
+        {
+          "slug": "ASR",
+          "name": "ASR",
+          "author": "HetrickCV",
+          "tags": [
+            "Sequencer"
+          ]
+        },
+        {
+          "slug": "Bitshift",
+          "name": "Bitshift",
+          "author": "HetrickCV",
+          "tags": [
+            "Distortion",
+            "Effect"
+          ]
+        },
+        {
+          "slug": "BlankPanel",
+          "name": "Blank Panel",
+          "author": "HetrickCV",
+          "tags": []
+        },
+        {
+          "slug": "Boolean3",
+          "name": "Boolean Logic",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ]
+        },
+        {
+          "slug": "Comparator",
+          "name": "Comparator",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ]
+        },
+        {
+          "slug": "Contrast",
+          "name": "Contrast",
+          "author": "HetrickCV",
+          "tags": [
+            "Effect"
+          ]
+        },
+        {
+          "slug": "Crackle",
+          "name": "Crackle",
+          "author": "HetrickCV",
+          "tags": [
+            "Noise"
+          ]
+        },
+        {
+          "slug": "Delta",
+          "name": "Delta",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ]
+        },
+        {
+          "slug": "DigitalToAnalog",
+          "name": "Digital to Analog",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ]
+        },
+        {
+          "slug": "Dust",
+          "name": "Dust",
+          "author": "HetrickCV",
+          "tags": [
+            "Noise",
+            "Granular"
+          ]
+        },
+        {
+          "slug": "Exponent",
+          "name": "Exponent",
+          "author": "HetrickCV",
+          "tags": [
+            "Waveshaper"
+          ]
+        },
+        {
+          "slug": "FlipFlop",
+          "name": "Flip-Flop",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ]
+        },
+        {
+          "slug": "FlipPan",
+          "name": "Flip Pan",
+          "author": "HetrickCV",
+          "tags": [
+            "Panning"
+          ]
+        },
+        {
+          "slug": "Gate Junction",
+          "name": "Gate Junction",
+          "author": "HetrickCV",
+          "tags": [
+            "Switch",
+            "Logic"
+          ]
+        },
+        {
+          "slug": "Logic Combine",
+          "name": "OR Logic (Gate Combiner)",
+          "author": "HetrickCV",
+          "tags": [
+            "Logic"
+          ]
+        },
+        {
+          "slug": "RandomGates",
+          "name": "Random Gates",
+          "author": "HetrickCV",
+          "tags": [
+            "Random"
+          ]
+        },
+        {
+          "slug": "Rotator",
+          "name": "Rotator",
+          "author": "HetrickCV",
+          "tags": [
+            "Switch"
+          ]
+        },
+        {
+          "slug": "Scanner",
+          "name": "Scanner",
+          "author": "HetrickCV",
+          "tags": [
+            "Mixer"
+          ]
+        },
+        {
+          "slug": "Waveshaper",
+          "name": "Waveshaper",
+          "author": "HetrickCV",
+          "tags": [
+            "Waveshaper",
+            "Distortion",
+            "Effect"
           ]
         }
       ]

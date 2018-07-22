@@ -1,8 +1,8 @@
 {
   "sep": " <>+0+<> ",
   "rackdir": "/Users/dirkleas/Desktop/h4x/_queue_/vcv/Rack",
-  "catalog": "catalog.partial.json",
-  "timestamp": "20180708182929",
+  "catalog": "catalog.json",
+  "timestamp": "20180710220514",
   "plugins": {
     "Core": [
       0,
@@ -16,73 +16,93 @@
       2,
       "19cdf913d4c7868bc70406eab551cdfac326b4a4f71a187501136dae9f7d48f3"
     ],
-    "FrozenWasteland": [
+    "Valley": [
       3,
+      "3657a18f62821504ccb9e10f0c5eae7fdd8d2976c4f2269bacb93faf1d47f4e0"
+    ],
+    "FrozenWasteland": [
+      4,
       "ae13485f8823b88ce9d91cdce71cdea7a0f365149c67e9a110919b53bf5b5933"
     ],
+    "mscHack": [
+      5,
+      "82d820e123c90b34eea03735e942dda32722d3a513559bd8e94fb1ad61bbe67b"
+    ],
+    "moDllz": [
+      6,
+      "448378820f9a96320eb20b5bf3175e2889d117fd804ad4f772694a7f99978c3b"
+    ],
+    "AS-Drums-n-Filters": [
+      7,
+      "ca59d7a0a5ad2692820ba5bcf2d67b754d2ddc0de764382122fd6c77cdaa1325"
+    ],
+    "DHE-Modules": [
+      8,
+      "cbded1a742c88aa7d97a788ddaef0101cff490f1b1c78223b8e8753b263b9737"
+    ],
     "ImpromptuModular": [
-      4,
+      9,
       "bd1333014bd9cf61a7873560eefd832728bdb1c62ebd826315a66ab96dfec06f"
     ],
-    "Valley": [
-      5,
-      null
-    ],
-    "mscHack": [
-      6,
-      null
+    "AS-Seqs-n-Tools": [
+      10,
+      "e6e516a803beafb7332f9ac22d1a71d1e31ab7cefecd154561cdf901427c8fd2"
     ],
     "cf": [
-      7,
+      11,
       "560ea70e285162d17ce5aaf10ae6591d0b1d1456ae0e9abb5931b1fa1b258983"
     ],
     "VultModules": [
-      8,
+      12,
       "0b4550ee7a367fb6ecf7a0f3ea29ae77b3c94d7530f5cf9291b3a2ea6f8e8925"
     ],
     "VCV-Parametra": [
-      9,
+      13,
       "3b7328e94a36977943bee140ed3d03ac6539072b9d0998f344a59484f501a16f"
     ],
     "VCV-Router": [
-      10,
+      14,
       "f2767fe56108c9bbf9457e7ab4f156e0e8f29a0fcd0068230b8f36e488752b23"
     ],
     "Fundamental": [
-      11,
-      "3ccd933c53841ac51daa9e67d9ab398e81987ff4e2d4d1bcc56f2ff281b461f1"
-    ],
-    "Alikins": [
-      12,
-      null
+      15,
+      "7a0cc64909d56b0cc1ad359cdcf8020acaead843c19f643662c9acbdc26fa5c9"
     ],
     "VCV-PulseMatrix": [
-      13,
+      16,
       "9ec07339759a160f6be71ec83d958450d8c2902c3acce4ea030b5773267af59b"
     ],
     "AS": [
-      14,
+      17,
       "f96f91c877b691ad6e30dd31004ee4824aed5928e4acef9e70bd663ab380bf48"
     ],
     "VCV-Console": [
-      15,
-      "26ff1735f9ca0620c9278e32c25ad2e7fba145e7aaae820ea4e44cd1cd3f70d0"
+      18,
+      "eadcd74beb4a752ddf0b1b166903e4fccf4020de6b10aa9b6a449a9a7e9f0bec"
+    ],
+    "Alikins": [
+      19,
+      "d5a02e7740cf1c747937ea7eb6613208afdc1ed6df8f73d7e4d0195158ebd134"
     ],
     "VultCompacts": [
-      16,
+      20,
       "d19467cb6bdad68ad3b1b68cd5be0e6602c1ec1aa5a051c04a62823289012383"
     ],
     "FrankBussFormula": [
-      17,
-      "2d762ba0fd5fe9b83c308a6fb8f10b871fdd1c9cadb60b7f6e1b750a4911f101"
+      21,
+      "c830d87351910bedfb65f211290b7a9dd5be83f725e3dee309daf20d2676dd68"
     ],
     "NYSTHI": [
-      18,
+      22,
       "be8104e8d0f85beb5bca0136e491f9c2fc046f04d0e9a92e9ddd1abbbe2d1c05"
     ],
+    "HetrickCV": [
+      23,
+      "add5c36c83a0ca810f94cdaf27922900840b8fa83d1c51bd47d18dd4bad7e026"
+    ],
     "DLwigglz": [
-      19,
-      "fe883950c57fb85fad7973b9b8ab2a33007089c3c38d9155b98ca945765d02b3"
+      24,
+      "feacf62c9557bc0de6c09918bac91af07ca7a22ad51c8fe99009d371f8535a4b"
     ]
   },
   "modules": {
@@ -278,6 +298,22 @@
       5,
       "3e292f2ed7c546885e3271f4972839084516a1734ada5bfba5950ff4d2336f66"
     ],
+    "Valley <>+0+<> Topograph": [
+      0,
+      "2c603e8bdcf9a2d1ef6d8ac360c5de426bbcff1836d770c413592e505898db1b"
+    ],
+    "Valley <>+0+<> uGraph": [
+      1,
+      "73b6b37a9d003ff53dbb120445e6f0de69ddc2f8c1ed2e9324069aa98671f4f8"
+    ],
+    "Valley <>+0+<> Dexter": [
+      2,
+      "f388a8ff6f47fe0cfab47cc5464746c92cb74702383bd9bac9c2e0c6b7f84a5c"
+    ],
+    "Valley <>+0+<> Plateau": [
+      3,
+      "dfbab921edb406290e925428e76a543bf70fd82514137006e2dbd7d39796189b"
+    ],
     "FrozenWasteland <>+0+<> BPMLFO": [
       0,
       "3d7b416753659d07c908dd4ea5d84e0b8b36d403fb3b092feaf727181daeaf7e"
@@ -345,62 +381,6 @@
     "FrozenWasteland <>+0+<> CDCSeriouslySlowLFO": [
       16,
       "63805afefb902aba92d4d865a21389c8cd47fda3129991ec9402ef7b99c65a56"
-    ],
-    "ImpromptuModular <>+0+<> Tact": [
-      0,
-      "e9eb737b97c5c9142c5693bccbce88e2c8d240508e2db0c39245e944f2e46d22"
-    ],
-    "ImpromptuModular <>+0+<> Twelve-Key": [
-      1,
-      "944cc723b747c71325ec3fbd82208c1b30020093684c0c7359d4c8c7c3e42695"
-    ],
-    "ImpromptuModular <>+0+<> Clocked": [
-      2,
-      "182f6ff6463822c3c7f6f5da4649005159b3198a1ba13223475f392c3077ef04"
-    ],
-    "ImpromptuModular <>+0+<> Phrase-Seq-16": [
-      3,
-      "87b183197c326564509adef4a7f3b5e8979afe7eba69f0e175ff201a31651974"
-    ],
-    "ImpromptuModular <>+0+<> Phrase-Seq-32": [
-      4,
-      "839213b0587a2f7cbb6dc8807b33bd42250d4f54c3d2b89626b750d09dae7c21"
-    ],
-    "ImpromptuModular <>+0+<> Gate-Seq-64": [
-      5,
-      "fc813bd8e9b5890033aa3fef0bcc2806f2f41213a5313b36d8019c4b34823654"
-    ],
-    "ImpromptuModular <>+0+<> Write-Seq-32": [
-      6,
-      "307fc92e66108cb5fec85e9e6b7a44ca7d69cb13096aaca720fa828a1c34a4d1"
-    ],
-    "ImpromptuModular <>+0+<> Write-Seq-64": [
-      7,
-      "c43257b0f9478ea7f85a44c30605a648469f33563d8479ebbf49082a479ce35e"
-    ],
-    "ImpromptuModular <>+0+<> Semi-Modular Synth": [
-      8,
-      "84ecdaf676f1108dbfe154f90bf53a5b70fbb5aeb7f8e7c307818dccdbb8545b"
-    ],
-    "ImpromptuModular <>+0+<> Blank-Panel": [
-      9,
-      "8f970d7040570d6a81f06ed9cd4b4e19bc291d05012de7fbf9d4ecc41ca9abae"
-    ],
-    "Valley <>+0+<> Topograph": [
-      0,
-      "2c603e8bdcf9a2d1ef6d8ac360c5de426bbcff1836d770c413592e505898db1b"
-    ],
-    "Valley <>+0+<> uGraph": [
-      1,
-      "73b6b37a9d003ff53dbb120445e6f0de69ddc2f8c1ed2e9324069aa98671f4f8"
-    ],
-    "Valley <>+0+<> Dexter": [
-      2,
-      "f388a8ff6f47fe0cfab47cc5464746c92cb74702383bd9bac9c2e0c6b7f84a5c"
-    ],
-    "Valley <>+0+<> Plateau": [
-      3,
-      "dfbab921edb406290e925428e76a543bf70fd82514137006e2dbd7d39796189b"
     ],
     "mscHack <>+0+<> MasterClockx4": [
       0,
@@ -493,6 +473,230 @@
     "mscHack <>+0+<> Compressor1": [
       22,
       "45323d830e4f103dcc4dd29449a2dec4631ab1c7a4ce28823b05e5fdcbe3e5de"
+    ],
+    "moDllz <>+0+<> MIDIPoly16": [
+      0,
+      "d7d66621631def7dbd92c24d38f358208263e03c02761c84fdb09588cf8cf093"
+    ],
+    "moDllz <>+0+<> TwinGlider": [
+      1,
+      "26c033a46b9a6156836626da28fb9bec35d617008ff2303401fdadf0ca779005"
+    ],
+    "moDllz <>+0+<> MIDIdualCV": [
+      2,
+      "ebb3476477d19257e2991fc9230298714facb469b2d3c86f6d4f929aaa3fd05e"
+    ],
+    "moDllz <>+0+<> XBender": [
+      3,
+      "2915d21e5fc58387a7b0beecb81998c6f70590aee90dd04860b7d8a75ac548c1"
+    ],
+    "moDllz <>+0+<> MIDI8MPE": [
+      4,
+      "e4191c2b1c3a6c623e8984582da26fb518218d0e91b26fb29687152fbabd80ff"
+    ],
+    "AS-Drums-n-Filters <>+0+<> Drums8x8Kicks": [
+      0,
+      "cffa63e8553423f08db059bb3c2ec539d11b3b6f87485f26f6a7020f7204be35"
+    ],
+    "AS-Drums-n-Filters <>+0+<> Drums8x8Snares": [
+      1,
+      "389855af065817ec07374e2754af84c433451b00c6873ee2c87865170f7b7c08"
+    ],
+    "AS-Drums-n-Filters <>+0+<> Drums8x8Hihats": [
+      2,
+      "b45685a0caf93fd11055b1499e554228113daaf9d07d97387ab1bace246cc855"
+    ],
+    "AS-Drums-n-Filters <>+0+<> Drums8x8toms": [
+      3,
+      "8ad4edf98d3da1e4103a866bb19f9ce6065f5e6fe8a35ed91cf5f061f3ddfe19"
+    ],
+    "AS-Drums-n-Filters <>+0+<> Drums8x8Percs": [
+      4,
+      "2487a38b77edadc7be2b0fc4442fd32c6da67e0eb97c03550cb739db44c05ecc"
+    ],
+    "AS-Drums-n-Filters <>+0+<> Drums9x9Kicks": [
+      5,
+      "5fe7909d98f779862e729c5ff2f18de6d4b8a37299b3ec3a8dfb4dfa893520c6"
+    ],
+    "AS-Drums-n-Filters <>+0+<> Drums9x9Snares": [
+      6,
+      "be33e66c37442541699e4c5c3b6d1435c2357b8498e0f53c97765098c4efa5c8"
+    ],
+    "AS-Drums-n-Filters <>+0+<> Drums9x9Hihats": [
+      7,
+      "74068d5614a1f817f301ad89937dfefc31c8b123cf1e9ecf86d5e13832b5b0c9"
+    ],
+    "AS-Drums-n-Filters <>+0+<> Drums9x9Percs": [
+      8,
+      "2d484c49ef1eb80f984b97e986da44c9982de42e0c3967f135245ab0c9ae792e"
+    ],
+    "AS-Drums-n-Filters <>+0+<> DrumsSdSKicks": [
+      9,
+      "1362059b4de77dd5a2a9d46f2287fe0db727401f2400fc0f36d7a95ba0d00742"
+    ],
+    "AS-Drums-n-Filters <>+0+<> DrumsSdSSnares": [
+      10,
+      "eaef13f20aa7f12ffd1894480461dce40fd4b8fef7b536a81c93d275bb88076a"
+    ],
+    "AS-Drums-n-Filters <>+0+<> DrumsSdSHihats": [
+      11,
+      "cd9756c12da7654514e59b5902f8ffe8b26a281fea43e80a0bcb30548b7c10d2"
+    ],
+    "AS-Drums-n-Filters <>+0+<> DrumsSdStoms": [
+      12,
+      "acca93f04215ade168c299642d8de2a0990a6d6f607464667e3fc5e381610fa8"
+    ],
+    "AS-Drums-n-Filters <>+0+<> DrumsC64Kicks": [
+      13,
+      "5398856b204177fb70a3091a5e6a40ab0712b5a2a62e836d36d77b4ca31daece"
+    ],
+    "AS-Drums-n-Filters <>+0+<> DrumsC64Snares": [
+      14,
+      "8c3df82aabfda9d468a91d7a0e20a19b096f931fbc1e75adbcfbd676c53838a0"
+    ],
+    "AS-Drums-n-Filters <>+0+<> DrumsC64Hihats": [
+      15,
+      "1fe17da4d88df2fbc31f49521ce81009887ce226062871f8938db269d04aff00"
+    ],
+    "AS-Drums-n-Filters <>+0+<> DrumsC64Percs": [
+      16,
+      "012382676174746808bf203a369b862d81156cba49e817a457da7de3944a3461"
+    ],
+    "AS-Drums-n-Filters <>+0+<> VCFilter": [
+      17,
+      "c37b54b9c0d2b5b295d778096994ca1aaa8b23b85c7b0c799a93b870ec94dedc"
+    ],
+    "AS-Drums-n-Filters <>+0+<> VCFilterStereo": [
+      18,
+      "f1432325ea919041e91f5618ec487ba0559b97c23baca7c2e204f47ccd20fa81"
+    ],
+    "AS-Drums-n-Filters <>+0+<> FixedFilterBank": [
+      19,
+      "6208226531c094b274bd2edc91161ec01401d7f8b82a59c8f4e06848b70f4ebc"
+    ],
+    "AS-Drums-n-Filters <>+0+<> ParaEQ": [
+      20,
+      "ffdc04e467a38d5f96286cb146dcc40d913646112de97e06958a3d7b6d44b3d2"
+    ],
+    "AS-Drums-n-Filters <>+0+<> BlankPanel4Dark": [
+      21,
+      "a567900b52f9c932ec770a4aac03ea2b69eb3c31944c13be2ba2bef09ec6fd57"
+    ],
+    "AS-Drums-n-Filters <>+0+<> BlankPanel6Dark": [
+      22,
+      "99cdb632b92cf25caa921e849b19424219ad3033f2f5b6ed3a81632f4bdda4bc"
+    ],
+    "AS-Drums-n-Filters <>+0+<> BlankPanel8Dark": [
+      23,
+      "7ad7117b1f895228e775194acb505bfb4596a4c0b37f6216f27be92f1d5de8eb"
+    ],
+    "DHE-Modules <>+0+<> Booster Stage": [
+      0,
+      "2f0e989985991eeddc8efc895cf6ce68ac1fd14baf3dd15d4bd5021bf77f793b"
+    ],
+    "DHE-Modules <>+0+<> Cubic": [
+      1,
+      "9b8baf026749feadbcf068465a19f4336ce804424cba8b9c8adde8549f8b9e2a"
+    ],
+    "DHE-Modules <>+0+<> Hostage": [
+      2,
+      "89c92adaeb37a9afe5b8a9097880dd5db9d4c49d56a22dc4b0f907dcfbef6677"
+    ],
+    "DHE-Modules <>+0+<> Stage": [
+      3,
+      "bf92d3b4bfc0aa451afb0ecdf0ca61f17c0e29cce1af421fab053a96b8d8913a"
+    ],
+    "DHE-Modules <>+0+<> Swave": [
+      4,
+      "898d75974121cf3f18a232e222bff3fcd1c29a521ecc842d266928133f4b81e5"
+    ],
+    "DHE-Modules <>+0+<> Upstage": [
+      5,
+      "846a1cef903e4337e5e31cb2b68e6015e95cdad1613cd3be75d2dca177dcb58b"
+    ],
+    "DHE-Modules <>+0+<> Xycloid": [
+      6,
+      "bffc92cc7b9b9be9c6850d1f763528b6860d405b117a89320699a1d618fc1671"
+    ],
+    "ImpromptuModular <>+0+<> Tact": [
+      0,
+      "e9eb737b97c5c9142c5693bccbce88e2c8d240508e2db0c39245e944f2e46d22"
+    ],
+    "ImpromptuModular <>+0+<> Twelve-Key": [
+      1,
+      "944cc723b747c71325ec3fbd82208c1b30020093684c0c7359d4c8c7c3e42695"
+    ],
+    "ImpromptuModular <>+0+<> Clocked": [
+      2,
+      "182f6ff6463822c3c7f6f5da4649005159b3198a1ba13223475f392c3077ef04"
+    ],
+    "ImpromptuModular <>+0+<> Phrase-Seq-16": [
+      3,
+      "87b183197c326564509adef4a7f3b5e8979afe7eba69f0e175ff201a31651974"
+    ],
+    "ImpromptuModular <>+0+<> Phrase-Seq-32": [
+      4,
+      "839213b0587a2f7cbb6dc8807b33bd42250d4f54c3d2b89626b750d09dae7c21"
+    ],
+    "ImpromptuModular <>+0+<> Gate-Seq-64": [
+      5,
+      "fc813bd8e9b5890033aa3fef0bcc2806f2f41213a5313b36d8019c4b34823654"
+    ],
+    "ImpromptuModular <>+0+<> Write-Seq-32": [
+      6,
+      "307fc92e66108cb5fec85e9e6b7a44ca7d69cb13096aaca720fa828a1c34a4d1"
+    ],
+    "ImpromptuModular <>+0+<> Write-Seq-64": [
+      7,
+      "c43257b0f9478ea7f85a44c30605a648469f33563d8479ebbf49082a479ce35e"
+    ],
+    "ImpromptuModular <>+0+<> Semi-Modular Synth": [
+      8,
+      "84ecdaf676f1108dbfe154f90bf53a5b70fbb5aeb7f8e7c307818dccdbb8545b"
+    ],
+    "ImpromptuModular <>+0+<> Blank-Panel": [
+      9,
+      "8f970d7040570d6a81f06ed9cd4b4e19bc291d05012de7fbf9d4ecc41ca9abae"
+    ],
+    "AS-Seqs-n-Tools <>+0+<> ReStep": [
+      0,
+      "113a880b5f341ff06e2246505218381ac6ee3fb964bc8f964a57fd58f2c3e840"
+    ],
+    "AS-Seqs-n-Tools <>+0+<> ReCon": [
+      1,
+      "77aedddba77e908f44a6b924f41f346f60bcf89d15d9a4510f3b8f6e9b6cac4c"
+    ],
+    "AS-Seqs-n-Tools <>+0+<> ReBit": [
+      2,
+      "24e700067b8ccdd47910553b18ceb7a8ee5c98fc0d4aa3fa6351c4817fc0c35a"
+    ],
+    "AS-Seqs-n-Tools <>+0+<> ReBeat": [
+      3,
+      "34768e61011e9d14db908fde1c99b8274f56044a54caa1d8e6bea88fbb372499"
+    ],
+    "AS-Seqs-n-Tools <>+0+<> ReGate": [
+      4,
+      "077bc098ad88c7f408bbab283b1d3f20fbdd4cce6c229efe8acd969f28d92cc8"
+    ],
+    "AS-Seqs-n-Tools <>+0+<> ReQ": [
+      5,
+      "954a529a15f020c6e1d15fd1dbde9c730a037ec865a485abc56e4c89c6ff1bc5"
+    ],
+    "AS-Seqs-n-Tools <>+0+<> ReKey": [
+      6,
+      "f4dff92daca04dddf6db789af7dfb51bd03b6c60bdb5718b601e07a4b1c1e920"
+    ],
+    "AS-Seqs-n-Tools <>+0+<> ReNote": [
+      7,
+      "04d02ae39fdfaebfdd056930d3ec3afb2901956caaa9c0ec3ebdace1ad60290a"
+    ],
+    "AS-Seqs-n-Tools <>+0+<> ReFluke": [
+      8,
+      "cd56def87f59d1f9e62df56f3a646cb8fe10cb9c58198b4559356b8966076f71"
+    ],
+    "AS-Seqs-n-Tools <>+0+<> aBy": [
+      9,
+      "c3d811a79016e8810ac4c94d3818454a01202cb065d1dce6c7c8fd237af442f3"
     ],
     "cf <>+0+<> trSEQ": [
       0,
@@ -766,34 +970,6 @@
       15,
       "004a758c6cf1bbdc5cbda2bfeaace5f56dc6c0101f0d2c63ebecd5a3ded7e2e9"
     ],
-    "Alikins <>+0+<> IdleSwitch": [
-      0,
-      "6d50a8ce735f1650caf23e3f37a0f0d0096fffd9cb04a3ae43b6787852dedc65"
-    ],
-    "Alikins <>+0+<> MomentaryOnButtons": [
-      1,
-      "df27f9c23d20b10c11dc5fdcabc7a8553eb2cb9a76208d23c92c27d3befc1425"
-    ],
-    "Alikins <>+0+<> BigMuteButton": [
-      2,
-      "93f18b2f590b73409ba92672d9e40db111c46a06889fe2f27a3bfbd9246b1535"
-    ],
-    "Alikins <>+0+<> ColorPanel": [
-      3,
-      "ce9179ec04c8ffd4d1c3b79405affe6267de2471588e1653940238c1ade2109b"
-    ],
-    "Alikins <>+0+<> GateLength": [
-      4,
-      "1f462c3f276343e38f73ff3f0781f2f36d72baf249f7ec6621f53030bd26627f"
-    ],
-    "Alikins <>+0+<> SpecificValue": [
-      5,
-      "fdf685f34becce50747514c956315c1e803610701d54ca3408f846718c62bc03"
-    ],
-    "Alikins <>+0+<> Reference": [
-      6,
-      "c8a546e1888e32bf8e657dc5f70888bb48e9bb82e31464a05a73c43a0939054a"
-    ],
     "VCV-PulseMatrix <>+0+<> PulseMatrix16": [
       0,
       "ecc00cc1b122a965e7501797664f8532af88d4d6535b6ee8cb1427b631f31482"
@@ -948,7 +1124,35 @@
     ],
     "VCV-Console <>+0+<> Console8_3": [
       0,
-      "e4db135a7cd3678129bf081961f9571b44a70617325f7a4266e2afff88fdb3d7"
+      "bd12dd51b956a15f07aa774db6bfe84125f71bdb4aaf2f151453d588f084dc72"
+    ],
+    "Alikins <>+0+<> IdleSwitch": [
+      0,
+      "6d50a8ce735f1650caf23e3f37a0f0d0096fffd9cb04a3ae43b6787852dedc65"
+    ],
+    "Alikins <>+0+<> MomentaryOnButtons": [
+      1,
+      "df27f9c23d20b10c11dc5fdcabc7a8553eb2cb9a76208d23c92c27d3befc1425"
+    ],
+    "Alikins <>+0+<> BigMuteButton": [
+      2,
+      "93f18b2f590b73409ba92672d9e40db111c46a06889fe2f27a3bfbd9246b1535"
+    ],
+    "Alikins <>+0+<> ColorPanel": [
+      3,
+      "ce9179ec04c8ffd4d1c3b79405affe6267de2471588e1653940238c1ade2109b"
+    ],
+    "Alikins <>+0+<> GateLength": [
+      4,
+      "1f462c3f276343e38f73ff3f0781f2f36d72baf249f7ec6621f53030bd26627f"
+    ],
+    "Alikins <>+0+<> SpecificValue": [
+      5,
+      "fdf685f34becce50747514c956315c1e803610701d54ca3408f846718c62bc03"
+    ],
+    "Alikins <>+0+<> Reference": [
+      6,
+      "c8a546e1888e32bf8e657dc5f70888bb48e9bb82e31464a05a73c43a0939054a"
     ],
     "VultCompacts <>+0+<> Freak": [
       0,
@@ -956,7 +1160,7 @@
     ],
     "FrankBussFormula <>+0+<> FrankBussFormula": [
       0,
-      "4ba734c0c8847b4a79429d311043ec307745a9a59b40fb411b1c11ffc5ebf880"
+      "8c4f8625e0dee15286266b1b7739939fb7471ee08c9b67dad1e6734f4ffc9ec8"
     ],
     "NYSTHI <>+0+<> DOPPLAB": [
       0,
@@ -1137,6 +1341,90 @@
     "NYSTHI <>+0+<> Logic": [
       44,
       "b18dc8c40268d890b5ef58a34764cf43037b11452f43fb48a73b05753a712e24"
+    ],
+    "HetrickCV <>+0+<> 2To4": [
+      0,
+      "71eb0f477dbcd51f81955a722d02adc74be21ac109c3961958a59d39f638a19e"
+    ],
+    "HetrickCV <>+0+<> AnalogToDigital": [
+      1,
+      "a8ac2dde95741a29ae72b4e9f5a0badf55e62c18e0cd7c17e7583de8c03df329"
+    ],
+    "HetrickCV <>+0+<> ASR": [
+      2,
+      "bd80e4cf5134ba5f71ffcbe22314ee87fbbc36316c9a5b633ec95007101d77b8"
+    ],
+    "HetrickCV <>+0+<> Bitshift": [
+      3,
+      "42572af0eb66dca7f57b5f3bcb4d14752eeca4da86dde9ead078b95ad93bffca"
+    ],
+    "HetrickCV <>+0+<> BlankPanel": [
+      4,
+      "1db88920dab04e77e3a25ed42d305de73ff5c8d6d99b6fd5b578a8faa1a8bcf6"
+    ],
+    "HetrickCV <>+0+<> Boolean3": [
+      5,
+      "ebf55b7a2b5013315f734d73015ccad1500d1850f4b73b5301c74ec14ff35622"
+    ],
+    "HetrickCV <>+0+<> Comparator": [
+      6,
+      "b980315eb943eb10f86c17c1f628d1747168708887f16cdd07da847253982dde"
+    ],
+    "HetrickCV <>+0+<> Contrast": [
+      7,
+      "361983e683011f8ac22b27c2f1d0b53bda4f52031554726f797f6ad0f0f0d678"
+    ],
+    "HetrickCV <>+0+<> Crackle": [
+      8,
+      "0d7b4f4df04a7f562ae20df2ad40e6259059d716bc058cef07e4b8dd5066849c"
+    ],
+    "HetrickCV <>+0+<> Delta": [
+      9,
+      "d904bd0a9fe0cf4d50ce541e29efb1266fe28649032c8f948d1d0215e89499d1"
+    ],
+    "HetrickCV <>+0+<> DigitalToAnalog": [
+      10,
+      "c512c06585832c5ece13bb3437137ff33cf310ed10a8e68044125d64ea496068"
+    ],
+    "HetrickCV <>+0+<> Dust": [
+      11,
+      "cc221f7ee813cc9e1326ac46e1a50d42975f34a0ce6ad7c7339f74d24a340b8b"
+    ],
+    "HetrickCV <>+0+<> Exponent": [
+      12,
+      "a18665837a6b9cc6816e8f58aeaa28c415290d3e46350a03e1b10eb210cd17de"
+    ],
+    "HetrickCV <>+0+<> FlipFlop": [
+      13,
+      "88eb5f130062887d76eeb14385a8e603fb9c1d83b8cd9b78da4d6d45328e5981"
+    ],
+    "HetrickCV <>+0+<> FlipPan": [
+      14,
+      "8dfe3a502d0c78f16e08437407006e9e341a85e7f79c140dfb2536b401ac23c3"
+    ],
+    "HetrickCV <>+0+<> Gate Junction": [
+      15,
+      "2404c895ace34424d4ae4d10ec3d0672c22cf26c297a4e083a96d76631cc0b6e"
+    ],
+    "HetrickCV <>+0+<> Logic Combine": [
+      16,
+      "3ab20281676fe0d2b7c8bef7649569ecb297a9dc592b1f775b53ee4a42223655"
+    ],
+    "HetrickCV <>+0+<> RandomGates": [
+      17,
+      "5c027eb4db33151f6c731561fdf48fd529ceaffd8fe56015c41a509ca0ad0862"
+    ],
+    "HetrickCV <>+0+<> Rotator": [
+      18,
+      "f8b0123561098073f9d8aa86385875d32897ff56e893c246f8c76571da32fda9"
+    ],
+    "HetrickCV <>+0+<> Scanner": [
+      19,
+      "4799f06e0b96a4f142484cd899076398fcab31a65f933700ef5bd0944c1a9555"
+    ],
+    "HetrickCV <>+0+<> Waveshaper": [
+      20,
+      "ebb4081695ccaded1f9a13289b910328a17ddc02f0b35ea59c8059638b0c1880"
     ],
     "DLwigglz <>+0+<> DLwigglz-r4xH4x": [
       0,
@@ -1389,6 +1677,26 @@
       "squinkylabs-booster"
     ],
     [
+      "Valley",
+      "0.6.5",
+      "Topograph"
+    ],
+    [
+      "Valley",
+      "0.6.5",
+      "uGraph"
+    ],
+    [
+      "Valley",
+      "0.6.5",
+      "Dexter"
+    ],
+    [
+      "Valley",
+      "0.6.5",
+      "Plateau"
+    ],
+    [
       "FrozenWasteland",
       "0.6.7",
       "BPMLFO"
@@ -1472,76 +1780,6 @@
       "FrozenWasteland",
       "0.6.7",
       "CDCSeriouslySlowLFO"
-    ],
-    [
-      "ImpromptuModular",
-      "0.6.7",
-      "Tact"
-    ],
-    [
-      "ImpromptuModular",
-      "0.6.7",
-      "Twelve-Key"
-    ],
-    [
-      "ImpromptuModular",
-      "0.6.7",
-      "Clocked"
-    ],
-    [
-      "ImpromptuModular",
-      "0.6.7",
-      "Phrase-Seq-16"
-    ],
-    [
-      "ImpromptuModular",
-      "0.6.7",
-      "Phrase-Seq-32"
-    ],
-    [
-      "ImpromptuModular",
-      "0.6.7",
-      "Gate-Seq-64"
-    ],
-    [
-      "ImpromptuModular",
-      "0.6.7",
-      "Write-Seq-32"
-    ],
-    [
-      "ImpromptuModular",
-      "0.6.7",
-      "Write-Seq-64"
-    ],
-    [
-      "ImpromptuModular",
-      "0.6.7",
-      "Semi-Modular Synth"
-    ],
-    [
-      "ImpromptuModular",
-      "0.6.7",
-      "Blank-Panel"
-    ],
-    [
-      "Valley",
-      "0.6.5",
-      "Topograph"
-    ],
-    [
-      "Valley",
-      "0.6.5",
-      "uGraph"
-    ],
-    [
-      "Valley",
-      "0.6.5",
-      "Dexter"
-    ],
-    [
-      "Valley",
-      "0.6.5",
-      "Plateau"
     ],
     [
       "mscHack",
@@ -1657,6 +1895,286 @@
       "mscHack",
       "0.6.2",
       "Compressor1"
+    ],
+    [
+      "moDllz",
+      "0.6.4",
+      "MIDIPoly16"
+    ],
+    [
+      "moDllz",
+      "0.6.4",
+      "TwinGlider"
+    ],
+    [
+      "moDllz",
+      "0.6.4",
+      "MIDIdualCV"
+    ],
+    [
+      "moDllz",
+      "0.6.4",
+      "XBender"
+    ],
+    [
+      "moDllz",
+      "0.6.4",
+      "MIDI8MPE"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "Drums8x8Kicks"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "Drums8x8Snares"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "Drums8x8Hihats"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "Drums8x8toms"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "Drums8x8Percs"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "Drums9x9Kicks"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "Drums9x9Snares"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "Drums9x9Hihats"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "Drums9x9Percs"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "DrumsSdSKicks"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "DrumsSdSSnares"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "DrumsSdSHihats"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "DrumsSdStoms"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "DrumsC64Kicks"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "DrumsC64Snares"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "DrumsC64Hihats"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "DrumsC64Percs"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "VCFilter"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "VCFilterStereo"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "FixedFilterBank"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "ParaEQ"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "BlankPanel4Dark"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "BlankPanel6Dark"
+    ],
+    [
+      "AS-Drums-n-Filters",
+      "0.6.2",
+      "BlankPanel8Dark"
+    ],
+    [
+      "DHE-Modules",
+      "0.6.1",
+      "Booster Stage"
+    ],
+    [
+      "DHE-Modules",
+      "0.6.1",
+      "Cubic"
+    ],
+    [
+      "DHE-Modules",
+      "0.6.1",
+      "Hostage"
+    ],
+    [
+      "DHE-Modules",
+      "0.6.1",
+      "Stage"
+    ],
+    [
+      "DHE-Modules",
+      "0.6.1",
+      "Swave"
+    ],
+    [
+      "DHE-Modules",
+      "0.6.1",
+      "Upstage"
+    ],
+    [
+      "DHE-Modules",
+      "0.6.1",
+      "Xycloid"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Tact"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Twelve-Key"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Clocked"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Phrase-Seq-16"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Phrase-Seq-32"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Gate-Seq-64"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Write-Seq-32"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Write-Seq-64"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Semi-Modular Synth"
+    ],
+    [
+      "ImpromptuModular",
+      "0.6.7",
+      "Blank-Panel"
+    ],
+    [
+      "AS-Seqs-n-Tools",
+      "0.6.1",
+      "ReStep"
+    ],
+    [
+      "AS-Seqs-n-Tools",
+      "0.6.1",
+      "ReCon"
+    ],
+    [
+      "AS-Seqs-n-Tools",
+      "0.6.1",
+      "ReBit"
+    ],
+    [
+      "AS-Seqs-n-Tools",
+      "0.6.1",
+      "ReBeat"
+    ],
+    [
+      "AS-Seqs-n-Tools",
+      "0.6.1",
+      "ReGate"
+    ],
+    [
+      "AS-Seqs-n-Tools",
+      "0.6.1",
+      "ReQ"
+    ],
+    [
+      "AS-Seqs-n-Tools",
+      "0.6.1",
+      "ReKey"
+    ],
+    [
+      "AS-Seqs-n-Tools",
+      "0.6.1",
+      "ReNote"
+    ],
+    [
+      "AS-Seqs-n-Tools",
+      "0.6.1",
+      "ReFluke"
+    ],
+    [
+      "AS-Seqs-n-Tools",
+      "0.6.1",
+      "aBy"
     ],
     [
       "cf",
@@ -1999,41 +2517,6 @@
       "SequentialSwitch2"
     ],
     [
-      "Alikins",
-      "0.6.1",
-      "IdleSwitch"
-    ],
-    [
-      "Alikins",
-      "0.6.1",
-      "MomentaryOnButtons"
-    ],
-    [
-      "Alikins",
-      "0.6.1",
-      "BigMuteButton"
-    ],
-    [
-      "Alikins",
-      "0.6.1",
-      "ColorPanel"
-    ],
-    [
-      "Alikins",
-      "0.6.1",
-      "GateLength"
-    ],
-    [
-      "Alikins",
-      "0.6.1",
-      "SpecificValue"
-    ],
-    [
-      "Alikins",
-      "0.6.1",
-      "Reference"
-    ],
-    [
       "VCV-PulseMatrix",
       "0.6.0",
       "PulseMatrix16"
@@ -2225,8 +2708,43 @@
     ],
     [
       "VCV-Console",
-      "0.6.0",
+      "0.6.1",
       "Console8_3"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "IdleSwitch"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "MomentaryOnButtons"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "BigMuteButton"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "ColorPanel"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "GateLength"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "SpecificValue"
+    ],
+    [
+      "Alikins",
+      "0.6.1",
+      "Reference"
     ],
     [
       "VultCompacts",
@@ -2235,7 +2753,7 @@
     ],
     [
       "FrankBussFormula",
-      "0.6.0",
+      "0.6.1",
       "FrankBussFormula"
     ],
     [
@@ -2464,6 +2982,111 @@
       "Logic"
     ],
     [
+      "HetrickCV",
+      "0.6.0",
+      "2To4"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "AnalogToDigital"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "ASR"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Bitshift"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "BlankPanel"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Boolean3"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Comparator"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Contrast"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Crackle"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Delta"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "DigitalToAnalog"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Dust"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Exponent"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "FlipFlop"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "FlipPan"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Gate Junction"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Logic Combine"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "RandomGates"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Rotator"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Scanner"
+    ],
+    [
+      "HetrickCV",
+      "0.6.0",
+      "Waveshaper"
+    ],
+    [
       "DLwigglz",
       "0.6.2",
       "DLwigglz-r4xH4x"
@@ -2474,6 +3097,6 @@
       "DLwigglz-gl0bz"
     ]
   ],
-  "pluginCount": 20,
-  "moduleCount": 265
+  "pluginCount": 25,
+  "moduleCount": 332
 }

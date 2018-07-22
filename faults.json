@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "plugin": "Valley",
+    "version": "0.6.5",
+    "model": "Topograph",
+    "data": {
+      "sequencerMode": 0,
+      "triggerOutputMode": 0,
+      "accOutputMode": 0,
+      "extClockResolution": 2,
+      "chaosKnobMode": 0,
+      "runMode": 0,
+      "panelStyle": 0,
+      "running": 0
+    },
+    "width": 240,
+    "height": 380,
+    "paramCount": 10,
+    "inputCount": 10,
+    "outputCount": 6
+  },
+  {
+    "plugin": "Valley",
+    "version": "0.6.5",
+    "model": "uGraph",
+    "data": {
+      "sequencerMode": 0,
+      "triggerOutputMode": 0,
+      "accOutputMode": 0,
+      "extClockResolution": 0,
+      "chaosKnobMode": 0,
+      "runMode": 0,
+      "panelStyle": 0,
+      "running": 0
+    },
+    "width": 150,
+    "height": 380,
+    "paramCount": 10,
+    "inputCount": 10,
+    "outputCount": 6
+  }
+]
